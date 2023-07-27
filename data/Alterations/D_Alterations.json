@@ -425,7 +425,7 @@
             "Icon": "/Game/Assets/2DArt/UI/Alterations/Alteration_Leather.Alteration_Leather",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
             "Stats": {
-                "(Value=\"BaseLeatherHarvestedFromAnimals_+%\")": 25
+                "(Value=\"BaseLeatherHarvestedFromAnimals_+%\")": 20
             }
         },
         {
@@ -434,39 +434,7 @@
             "Icon": "/Game/Assets/2DArt/UI/Alterations/Alteration_Leather.Alteration_Leather",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_2.Icon_Alteration_2",
             "Stats": {
-                "(Value=\"BaseLeatherHarvestedFromAnimals_+%\")": 50
-            }
-        },
-        {
-            "Name": "Meat_Yeild_1",
-            "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"Meat_Yeild_1-DisplayName\", \"Carnivore 1\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/ITEM_Missing.ITEM_Missing",
-            "Stats": {
-                "(Value=\"BaseMeatHarvestedFromAnimals_+%\")": 20
-            }
-        },
-        {
-            "Name": "Meat_Yeild_2",
-            "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"Meat_Yeild_2-DisplayName\", \"Carnivore 2\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/ITEM_Missing.ITEM_Missing",
-            "Stats": {
-                "(Value=\"BaseMeatHarvestedFromAnimals_+%\")": 40
-            }
-        },
-        {
-            "Name": "Meat_Yeild_1",
-            "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"Meat_Yeild_1-DisplayName\", \"Carnivore 1\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/ITEM_Missing.ITEM_Missing",
-            "Stats": {
-                "(Value=\"BaseMeatHarvestedFromAnimals_+%\")": 25
-            }
-        },
-        {
-            "Name": "Meat_Yeild_2",
-            "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"Meat_Yeild_2-DisplayName\", \"Carnivore 2\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/ITEM_Missing.ITEM_Missing",
-            "Stats": {
-                "(Value=\"BaseMeatHarvestedFromAnimals_+%\")": 50
+                "(Value=\"BaseLeatherHarvestedFromAnimals_+%\")": 40
             }
         },
         {
@@ -1337,6 +1305,17 @@
                 "(Value=\"BaseChanceToCatchRareFish_+%\")": 80,
                 "(Value=\"BaseCaughtFreshwaterFishQuality_+%\")": 10,
                 "(Value=\"BaseCaughtFishLength_+%\")": 20
+            }
+        },
+        {
+            "Name": "Feather_Lure",
+            "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"Feather_Lure-DisplayName\", \"Feather Lure\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Fishing/ITEM_Feather_Lure.ITEM_Feather_Lure",
+            "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_2.Icon_Alteration_2",
+            "Stats": {
+                "(Value=\"BaseCaughtFishLength_+%\")": 25,
+                "(Value=\"BaseCaughtFishWeight_+%\")": 25,
+                "(Value=\"BaseFishingCaptureZoneSize_+%\")": 20
             }
         },
         {

@@ -11,8 +11,8 @@
             "RequiredGear": 5,
             "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Cloth_5-Description\", \"Cloth Armor Set\")",
             "StatsGranted": {
-                "(Value=\"BaseMovementSpeed_+%\")": 10,
-                "(Value=\"BaseExposureResistance_+%\")": 5
+                "(Value=\"BaseExposureResistance_+%\")": 5,
+                "(Value=\"BaseMovementSpeed_+%\")": 10
             }
         },
         {
@@ -22,7 +22,9 @@
             "StatsGranted": {
                 "(Value=\"BaseMaximumHealth_+\")": 50,
                 "(Value=\"BaseMaximumStamina_+\")": 50,
-                "(Value=\"BaseExposureResistance_+%\")": 15
+                "(Value=\"BaseExposureResistance_+%\")": 15,
+                "(Value=\"BaseHealthRegen_+%\")": 5,
+                "(Value=\"BaseStaminaRegen_+%\")": 5
             }
         },
         {
@@ -40,9 +42,9 @@
             "RequiredGear": 5,
             "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Ghillie_5-Description\", \"Ghillie Armor Set\")",
             "StatsGranted": {
-                "(Value=\"BaseAnimalThreatModifier_+%\")": -35,
                 "(Value=\"BaseCrouchSpeed_+%\")": 15,
-                "(Value=\"BaseStaminaRegen_+%\")": 15
+                "(Value=\"BaseStaminaRegen_+%\")": 15,
+                "(Value=\"BaseAnimalThreatModifier_+%\")": -35
             }
         },
         {
@@ -50,11 +52,12 @@
             "RequiredGear": 5,
             "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Carbon_5-Description\", \"Naneo Armor Set\")",
             "StatsGranted": {
-                "(Value=\"BaseWeightCapacity_+%\")": 20,
-                "(Value=\"BaseCollisionDamageResistance_+%\")": 15,
                 "(Value=\"BaseMovementSpeed_+%\")": 15,
                 "(Value=\"BaseExposureResistance_+%\")": 15,
                 "(Value=\"BaseMaximumHealth_+\")": 200,
+                "(Value=\"BaseWeightCapacity_+%\")": 20,
+                "(Value=\"BaseCollisionDamageResistance_+%\")": 15,
+                "(Value=\"BaseStaminaRegen_+%\")": 20,
                 "(Value=\"BaseMaximumStamina_+\")": 200
             }
         },
@@ -68,7 +71,9 @@
                 "(Value=\"BaseMovementSpeed_+%\")": 25,
                 "(Value=\"BaseExposureResistance_+%\")": 25,
                 "(Value=\"BaseMaximumHealth_+\")": 250,
-                "(Value=\"BaseMaximumStamina_+\")": 250
+                "(Value=\"BaseMaximumStamina_+\")": 250,
+                "(Value=\"BaseHealthRegen_+%\")": 25,
+                "(Value=\"BaseStaminaRegen_+%\")": 25
             }
         },
         {
@@ -79,9 +84,10 @@
                 "(Value=\"BaseMaximumHealth_+\")": 100,
                 "(Value=\"BaseMaximumStamina_+\")": 100,
                 "(Value=\"BaseColdResistance_%\")": 25,
-                "(Value=\"BaseArcticMovementSpeed_+%\")": 15,
                 "(Value=\"BaseExposureResistance_+%\")": 25,
                 "(Value=\"BaseAnimalThreatModifier_+%\")": -25,
+                "(Value=\"BaseArcticMovementSpeed_+%\")": 15,
+                "(Value=\"BaseArcticAnimalThreatModifier_+%\")": -25,
                 "(Value=\"BaseArcticExposureResistance_+%\")": 25
             }
         },
@@ -90,12 +96,13 @@
             "RequiredGear": 5,
             "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Hunter_5-Description\", \"Hunter Armor Set\")",
             "StatsGranted": {
-                "(Value=\"BaseCrouchSpeed_+%\")": 25,
                 "(Value=\"BaseMovementSpeed_+%\")": 10,
-                "(Value=\"BaseAnimalThreatModifier_+%\")": -20,
                 "(Value=\"BaseExposureResistance_+%\")": 15,
                 "(Value=\"BaseJumpingStaminaActionCost_+%\")": -75,
-                "(Value=\"BaseMaximumStamina_+\")": 150
+                "(Value=\"BaseMaximumStamina_+\")": 150,
+                "(Value=\"BaseCrouchSpeed_+%\")": 25,
+                "(Value=\"BaseAnimalThreatModifier_+%\")": -25,
+                "(Value=\"BaseStaminaRegen_+%\")": 5
             }
         },
         {
@@ -130,11 +137,13 @@
             "RequiredGear": 5,
             "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Carbon_Alpha_5-Description\", \"ST-700 Armor Set\")",
             "StatsGranted": {
-                "(Value=\"BaseAnimalThreatModifier_+%\")": -35,
                 "(Value=\"BaseHealthRegenPerMinute_+\")": 60,
                 "(Value=\"BaseMaximumHealth_+\")": 200,
                 "(Value=\"BaseMaximumStamina_+\")": 200,
-                "(Value=\"BaseStealthDamage_+%\")": 75
+                "(Value=\"BaseStealthDamage_+%\")": 75,
+                "(Value=\"BaseAnimalThreatModifier_+%\")": -35,
+                "(Value=\"BaseCrouchSpeed_+%\")": 15,
+                "(Value=\"BaseStealthDamage_+%\")": 15
             }
         },
         {
@@ -143,10 +152,10 @@
             "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"Carbon_Beta_5-Description\", \"CX-400 Armor Set\")",
             "StatsGranted": {
                 "(Value=\"BaseWeightCapacity_+%\")": 75,
-                "(Value=\"BaseChanceToFellTreeInstantly_%\")": 5,
-                "(Value=\"BaseChanceToMineVoxelInstantly_+%\")": 5,
                 "(Value=\"BaseMaximumHealth_+\")": 200,
                 "(Value=\"BaseMaximumStamina_+\")": 200,
+                "(Value=\"BaseChanceToFellTreeInstantly_%\")": 5,
+                "(Value=\"BaseChanceToMineVoxelInstantly_+%\")": 5,
                 "(Value=\"BaseMiningRewards_%\")": 50,
                 "(Value=\"BaseFellingRewards_%\")": 50
             }
@@ -160,7 +169,9 @@
                 "(Value=\"BaseMaximumStamina_+\")": 100,
                 "(Value=\"BaseExposureResistance_+%\")": 15,
                 "(Value=\"BaseWoundResistance_%\")": 90,
-                "(Value=\"BaseHealthRegenPerMinute_+\")": 20
+                "(Value=\"BaseHealthRegenPerMinute_+\")": 20,
+                "(Value=\"BaseHealthRegen_+%\")": 10,
+                "(Value=\"BaseStaminaRegen_+%\")": 10
             }
         },
         {
@@ -172,9 +183,9 @@
                 "(Value=\"BaseMaximumStamina_+\")": 100,
                 "(Value=\"BaseHeatResistance_%\")": 25,
                 "(Value=\"BaseWeightCapacity_+%\")": 25,
-                "(Value=\"BaseDesertExposureResistance_+%\")": 30,
                 "(Value=\"BaseMovementSpeed_+%\")": 25,
                 "(Value=\"BasePoisonDamageResistance_+%\")": 50,
+                "(Value=\"BaseDesertExposureResistance_+%\")": 30,
                 "(Value=\"BaseWaterConsumption_+%\")": -25
             }
         },

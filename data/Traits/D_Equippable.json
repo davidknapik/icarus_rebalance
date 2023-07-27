@@ -81,20 +81,19 @@
             "Name": "Module_FallDamage",
             "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
             "GrantedStats": {
-                "(Value=\"BaseFallDamageResistance_%\")": 25,
                 "(Value=\"BaseChanceToResistSprain_%\")": 50,
                 "(Value=\"BaseSprainModifierDuration_+%\")": -50,
-                "(Value=\"BaseExposureResistance_+%\")": 15
-            }
+                "(Value=\"BaseExposureResistance_+%\")": 15,
+                "(Value=\"BaseFallDamageResistance_%\")": 25            }
         },
         {
             "Name": "Module_Consumption",
             "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
             "GrantedStats": {
+                "(Value=\"BaseColdResistance_%\")": 10,
                 "(Value=\"BaseOxygenConsumption_+%\")": -30,
                 "(Value=\"BaseFoodConsumption_+%\")": -30,
-                "(Value=\"BaseWaterConsumption_+%\")": -30,
-                "(Value=\"BaseColdResistance_%\")": 10
+                "(Value=\"BaseWaterConsumption_+%\")": -30
             }
         },
         {
@@ -117,25 +116,25 @@
             "Name": "Module_Fire_Damage_Resistence",
             "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
             "GrantedStats": {
-                "(Value=\"BaseFireDamageResistance_%\")": 50,
-                "(Value=\"BaseHeatResistance_%\")": 25
+                "(Value=\"BaseHeatResistance_%\")": 25,
+                "(Value=\"BaseFireDamageResistance_%\")": 50
             }
         },
         {
             "Name": "Module_Posion_Damage_Resitance",
             "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
             "GrantedStats": {
-                "(Value=\"BasePoisonDamageResistance_%\")": 50,
                 "(Value=\"BaseMaximumStamina_+\")": 50,
-                "(Value=\"BaseColdResistance_%\")": 25
+                "(Value=\"BaseColdResistance_%\")": 25,
+                "(Value=\"BasePoisonDamageResistance_%\")": 50
             }
         },
         {
             "Name": "Module_Carry_Weight",
             "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
             "GrantedStats": {
-                "(Value=\"BaseWeightCapacity_+\")": 35,
-                "(Value=\"BaseOverencumberedPenalty_+%\")": -15
+                "(Value=\"BaseOverencumberedPenalty_+%\")": -15,
+                "(Value=\"BaseWeightCapacity_+\")": 35
             }
         },
         {
@@ -151,11 +150,11 @@
             "Name": "Mining_Backpack",
             "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
             "GrantedStats": {
-                "(Value=\"BaseOreCarryWeight_+%\")": -45,
-                "(Value=\"BaseWoodCarryWeight_+%\")": -45,
                 "(Value=\"BaseStoneCarryWeight_+%\")": -45,
                 "(Value=\"BasePickaxeItemWear_+%\")": -30,
                 "(Value=\"BaseAxeItemWear_+%\")": -30,
+                "(Value=\"BaseOreCarryWeight_+%\")": -45,
+                "(Value=\"BaseWoodCarryWeight_+%\")": -45,
                 "(Value=\"BaseBackpackSlots_+\")": 6
             }
         },
@@ -163,9 +162,10 @@
             "Name": "Basic_Quiver",
             "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
             "GrantedStats": {
-                "(Value=\"BaseBowReloadSpeed_+%\")": 25,
                 "(Value=\"BaseBowItemWear_+%\")": -50,
                 "(Value=\"BaseBowEquipSpeed_+%\")": 50,
+                "(Value=\"BaseBowReloadSpeed_+%\")": 25,
+                "(Value=\"BaseArrowProjectileSpeed_+%\")": 10,
                 "(Value=\"BaseBowAimDownSightsSpeed_+%\")": 30,
                 "(Value=\"BaseBackpackSlots_+\")": 6
             }
@@ -231,12 +231,12 @@
             "Name": "Larkwell_Backpack_Alpha",
             "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
             "GrantedStats": {
-                "(Value=\"BaseShotgunAmmoCapacity_+%\")": 25,
-                "(Value=\"BaseShotgunReloadSpeed_+%\")": 30,
-                "(Value=\"BaseShotgunProjectileDamage_+%\")": 50,
                 "(Value=\"BaseRifleAmmoCapacity_+%\")": 25,
                 "(Value=\"BaseRifleReloadSpeed_+%\")": 30,
-                "(Value=\"BaseRifleProjectileDamage_+%\")": 50
+                "(Value=\"BaseRifleProjectileDamage_+%\")": 50,
+                "(Value=\"BaseShotgunAmmoCapacity_+%\")": 25,
+                "(Value=\"BaseShotgunReloadSpeed_+%\")": 30,
+                "(Value=\"BaseShotgunProjectileDamage_+%\")": 50
             }
         },
         {
@@ -244,11 +244,11 @@
             "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
             "GrantedStats": {
                 "(Value=\"GrantedAuraWeightReduction_?\")": 1,
-                "(Value=\"BaseBackpackSlots_+\")": 24,
                 "(Value=\"BaseOreCarryWeight_+%\")": -50,
                 "(Value=\"BaseWoodCarryWeight_+%\")": -50,
                 "(Value=\"BaseExoticCarryWeight_+%\")": -50,
-				"(Value=\"BaseStoneCarryWeight_+%\")": -50
+                "(Value=\"BaseStoneCarryWeight_+%\")": -50,
+                "(Value=\"BaseBackpackSlots_+\")": 24
             }
         },
         {

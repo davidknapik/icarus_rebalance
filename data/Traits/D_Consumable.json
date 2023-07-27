@@ -7,7 +7,8 @@
                 "RowName": "None",
                 "DataTableName": "D_ModifierStates"
             },
-            "ModifierLifetime": 10
+            "ModifierLifetime": 10,
+            "ModifierEffectiveness": 100
         },
         "DescriptionText": "None",
         "Byproducts": []
@@ -419,24 +420,24 @@
             "Stats": {
                 "(Value=\"BaseOxygenRecovery_+\")": 500
             },
-	    "Modifier": {
             "Modifier": {
+                "Modifier": {
                     "RowName": "Meta_Oxygen_Gel"
-            },
-            "ModifierLifetime": 3600
-		}
+                },
+                "ModifierLifetime": 3600
+            }
         },
         {
             "Name": "Meta_Stamina_Gel",
             "Stats": {
                 "(Value=\"BaseStaminaRecovery_+\")": 500
             },
-			"Modifier": {
+            "Modifier": {
                 "Modifier": {
                     "RowName": "Meta_Stamina_Gel"
                 },
                 "ModifierLifetime": 3600
-			}
+            }
         },
         {
             "Name": "Paste_Oxygen_Consumption",

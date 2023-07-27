@@ -49,10 +49,10 @@
                 "RowName": "Building_Stone"
             },
             "Stats": {
+                "(Value=\"BaseMeleeDamageResistance_%\")": 95,
                 "(Value=\"BaseBuildingInsulation_+\")": 15,
                 "(Value=\"BaseTreeCollisionDamageResistance_%\")": 100,
-                "(Value=\"BaseWindDamageResistance_%\")": 100,
-                "(Value=\"BaseMeleeDamageResistance_%\")": 95
+                "(Value=\"BaseWindDamageResistance_%\")": 100
             }
         },
         {
@@ -61,10 +61,10 @@
                 "RowName": "Building_Concrete"
             },
             "Stats": {
-                "(Value=\"BaseBuildingInsulation_+\")": 25,
-                "(Value=\"BaseTreeCollisionDamageResistance_%\")": 100,
                 "(Value=\"BaseWindDamageResistance_%\")": 100,
-                "(Value=\"BaseMeleeDamageResistance_%\")": 100
+                "(Value=\"BaseMeleeDamageResistance_%\")": 100,
+                "(Value=\"BaseBuildingInsulation_+\")": 25,
+                "(Value=\"BaseTreeCollisionDamageResistance_%\")": 100
             }
         },
         {
@@ -84,10 +84,10 @@
                 "RowName": "Building_Aluminium"
             },
             "Stats": {
-                "(Value=\"BaseBuildingInsulation_+\")": 2,
-                "(Value=\"BaseTreeCollisionDamageResistance_%\")": 100,
                 "(Value=\"BaseWindDamageResistance_%\")": 100,
-                "(Value=\"BaseMeleeDamageResistance_%\")": 100
+                "(Value=\"BaseMeleeDamageResistance_%\")": 100,
+                "(Value=\"BaseBuildingInsulation_+\")": 15,
+                "(Value=\"BaseTreeCollisionDamageResistance_%\")": 100
             }
         },
         {

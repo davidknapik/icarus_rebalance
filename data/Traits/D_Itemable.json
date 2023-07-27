@@ -1269,6 +1269,14 @@
             "Weight": 500
         },
         {
+            "Name": "Item_Carcass_Swamp_Roat",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Swamp_Roat-DisplayName\", \"Swamp Roat Carcass\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/ITEM_AnimalCarcass_Roat.ITEM_AnimalCarcass_Roat",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Swamp_Roat-Description\", \"A specimen of local wildlife, rare in the terraformed zone.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Swamp_Roat-FlavorText\", \"One of the rare endemic lifeforms able to survive in the failed terraforming zone, the roat endured the savage shift in Icarus\\'s climate, due to its uniquely flexible respiratory system.\")",
+            "Weight": 500
+        },
+        {
             "Name": "Item_Carcass_Wulv",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Wulv-DisplayName\", \"Wulv Carcass\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/ITEM_AnimalCarcass_Wulv.ITEM_AnimalCarcass_Wulv",
@@ -1991,7 +1999,7 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Flatbread-Description\", \"Longlasting and healthful.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Flatbread-FlavorText\", \"Simple to bake and easy to store, boosts health and stamina regen.\")",
             "Weight": 25,
-            "MaxStack": 200
+            "MaxStack": 100
         },
         {
             "Name": "Item_Dough_Bread",
@@ -2065,7 +2073,7 @@
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Projectiles/ITEM_Ammo_Pistol_Round_Explosive.ITEM_Ammo_Pistol_Round_Explosive",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Pistol_Round_Explosive-Description\", \"Explosive 9mm ammunition.\")",
             "Weight": 10,
-            "MaxStack": 100
+            "MaxStack": 200
         },
         {
             "Name": "Item_Pistol_Round_Incendiary",
@@ -2073,7 +2081,7 @@
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Projectiles/ITEM_Ammo_Pistol_Round_Incendiary.ITEM_Ammo_Pistol_Round_Incendiary",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Pistol_Round_Incendiary-Description\", \"9mm ammunition which can ignite flammable targets.\")",
             "Weight": 10,
-            "MaxStack": 100
+            "MaxStack": 200
         },
         {
             "Name": "Item_Pistol_Round_Armor_Piercing",
@@ -2081,7 +2089,7 @@
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Projectiles/ITEM_Ammo_Pistol_Round_Armor_Piercing.ITEM_Ammo_Pistol_Round_Armor_Piercing",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Pistol_Round_Armor_Piercing-Description\", \"9mm ammunition which can pierce the toughest surfaces.\")",
             "Weight": 10,
-            "MaxStack": 100
+            "MaxStack": 200
         },
         {
             "Name": "Item_Carcass_PolarBear",
@@ -2150,7 +2158,7 @@
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Projectiles/ITEM_Ammo_Rifle_Round_Explosive.ITEM_Ammo_Rifle_Round_Explosive",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Rifle_Round_Explosive-Description\", \"Explosive 7.62mm ammunition.\")",
             "Weight": 10,
-            "MaxStack": 100
+            "MaxStack": 200
         },
         {
             "Name": "Item_Rifle_Round_Incendiary",
@@ -2492,7 +2500,7 @@
         {
             "Name": "Item_Metal_Oxite_Dissolver",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Metal_Oxite_Dissolver-DisplayName\", \"Metal Oxite Dissolver\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Metal_Oxite_Dissolver.ITEM_Metal_Oxite_Dissolver",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Metal_Oxite_Dissolver.T_ITEM_Metal_Oxite_Dissolver",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Metal_Oxite_Dissolver-Description\", \"A faster and more efficient, biofuel-powered oxidizer with greater storage.\")",
             "Weight": 8000
         },
@@ -3599,7 +3607,7 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_WaterBomb-Description\", \"A thrown device for fire fighting.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_WaterBomb-FlavorText\", \"Woven from fiber, the water bomb allows fire suppression from a safe distance.\")",
             "Weight": 50,
-            "MaxStack": 5
+            "MaxStack": 25
         },
         {
             "Name": "Item_Coconut",
@@ -4318,7 +4326,7 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Sandworm_Scale-Description\", \"A titan\\'s cast-off armor.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Sandworm_Scale-FlavorText\", \"When held in the hand, fresh from the worm\\'s body, the scale gently vibrated. Slowly, this motion drained away, leaving only a flake of light, hugely strong armor.\")",
             "Weight": 1000,
-            "MaxStack": 200
+            "MaxStack": 100
         },
         {
             "Name": "Item_Platinum_Sickle",
@@ -5739,7 +5747,7 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Bait-Description\", \"A highly \\'fragrant\\' animal lure.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Bait-FlavorText\", \"You\\'d hate it.\")",
             "Weight": 50,
-            "MaxStack": 5
+            "MaxStack": 25
         },
         {
             "Name": "Item_Poisoned_Bait",
@@ -5748,7 +5756,7 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Poisoned_Bait-Description\", \"A poison-laced animal lure.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Poisoned_Bait-FlavorText\", \"Keep away from pets and children.\")",
             "Weight": 50,
-            "MaxStack": 5
+            "MaxStack": 25
         },
         {
             "Name": "Item_Wood_Cupboard_Small",
@@ -6451,7 +6459,7 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Caveworm_Scale-Description\", \"A tough, durable scale\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Caveworm_Scale-FlavorText\", \"An item with endless uses\")",
             "Weight": 1000,
-            "MaxStack": 250
+            "MaxStack": 100
         },
         {
             "Name": "Item_Poison_Sack",
@@ -6460,7 +6468,7 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Poison_Sack-Description\", \"A slightly squishy organ harvested from native creatures\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Poison_Sack-FlavorText\", \"Handle with care\")",
             "Weight": 1000,
-            "MaxStack": 250
+            "MaxStack": 100
         },
         {
             "Name": "Faction_Mission_Mammoth_Sample",
@@ -6935,7 +6943,7 @@
             "Name": "Item_Meta_Repair_Item_Pack",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Repair_Item_Pack-DisplayName\", \"Workshop Repair Kit Bundle\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ITEM_Meta_Repair_Tool_Pack.ITEM_Meta_Repair_Tool_Pack",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Repair_Item_Pack-Description\", \"Use to collect 5x Workshop Repair Kits and few valuable T4 workbenches and consumables.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Repair_Item_Pack-Description\", \"Use to collect 5x Workshop Repair Kits that can repair most Workshop Items at a Repair Bench.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Meta_Repair_Item_Pack-FlavorText\", \"For the clumsy prospector on the go.\")",
             "Weight": 500
         },
@@ -8430,7 +8438,7 @@
         {
             "Name": "Item_Mission_Communication_Blueprint_T2",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Communication_Blueprint_T2-DisplayName\", \"Prototype UDA Communication Upgrade\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/QuestItems/ITEM_Bio_Needle.ITEM_Bio_Needle",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/T_ITEM_CommunicatorUpgrade.T_ITEM_CommunicatorUpgrade",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Communication_Blueprint_T2-Description\", \"A USB drive with the plans for an Upgraded Communication Device\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Communication_Blueprint_T2-FlavorText\", \"Once downloaded to the suit, there is no need for this item.\")",
             "Weight": 250
@@ -8694,6 +8702,14 @@
             "Weight": 10000
         },
         {
+            "Name": "Item_Carcass_Daisy",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Daisy-DisplayName\", \"\\\"Daisy\\\" Carcass\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_BlueBack.T_ITEM_AnimalCarcass_BlueBack",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Daisy-Description\", \"The dead remains of the Blueback known as Daisy\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Daisy-FlavorText\", \"Poor Creature\")",
+            "Weight": 10000
+        },
+        {
             "Name": "Item_ProspectorID",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_ProspectorID-DisplayName\", \"Prospector Identification\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Modules/ITEM_Module_Generic_2.ITEM_Module_Generic_2",
@@ -8715,7 +8731,7 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Shepherds_Pie-Description\", \"An all rounder, this will keep you going.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Shepherds_Pie-FlavorText\", \"A hearty meal.\")",
             "Weight": 500,
-            "MaxStack": 10
+            "MaxStack": 50
         },
         {
             "Name": "Item_Cooked_Soy_Bean",
@@ -8724,7 +8740,7 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Cooked_Soy_Bean-Description\", \"Filling and healthy.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Cooked_Soy_Bean-FlavorText\", \"Boosts health and health regeneration.\")",
             "Weight": 500,
-            "MaxStack": 10
+            "MaxStack": 50
         },
         {
             "Name": "Item_Carcass_Spider",
@@ -8740,7 +8756,7 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Health_Enhancement_Tonic-Description\", \"Providing a large amount of health and boosting maximum health and health regen for a short time.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Health_Enhancement_Tonic-FlavorText\", \"When it comes to survival, prospectors on Icarus try everything.\")",
             "Weight": 250,
-            "MaxStack": 10
+            "MaxStack": 50
         },
         {
             "Name": "Item_Stamina_Enhancement_Tonic",
@@ -8749,7 +8765,7 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Stamina_Enhancement_Tonic-Description\", \"Providing a large amount of stamina and boosting maximum stamina and stamina regen for a short time.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Stamina_Enhancement_Tonic-FlavorText\", \"Like the energy drinks of old, sometimes you need a little pick me up.\")",
             "Weight": 250,
-            "MaxStack": 10
+            "MaxStack": 50
         },
         {
             "Name": "Item_Sustenence_Enhancement_Tonic",
@@ -8758,7 +8774,7 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Sustenence_Enhancement_Tonic-Description\", \"Providing a large amount of food, water and oxygen, and reducing their consumption for a short time.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Sustenence_Enhancement_Tonic-FlavorText\", \"Perfect for the prospector on the go.\")",
             "Weight": 250,
-            "MaxStack": 10
+            "MaxStack": 50
         },
         {
             "Name": "Item_Strength_Enhancement_Tonic",
@@ -8767,21 +8783,7 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Strength_Enhancement_Tonic-Description\", \"Provides a large boost to melee damage, throwing speed and physical resistance, for a short time.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Strength_Enhancement_Tonic-FlavorText\", \"For when you want to get up close and personal.\")",
             "Weight": 250,
-            "MaxStack": 10
-        },
-        {
-            "Name": "Item_Carcass_Snow_Striker",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Snow_Striker-DisplayName\", \"Snow Stalker Carcass\")",
-            "Description": "INVTEXT(\"[DNT] Snow Striker Carcass\")",
-            "FlavorText": "INVTEXT(\"[DNT] Snow Striker Carcass\")",
-            "Weight": 8000
-        },
-        {
-            "Name": "Item_Carcass_Desert_Striker",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Desert_Striker-DisplayName\", \"Arid Striker Carcass\")",
-            "Description": "INVTEXT(\"[DNT] Snow Striker Carcass\")",
-            "FlavorText": "INVTEXT(\"[DNT] Snow Striker Carcass\")",
-            "Weight": 8000
+            "MaxStack": 50
         },
         {
             "Name": "Item_Dynamic_Mission_Beacon",
@@ -8838,7 +8840,7 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_Chunks-Description\", \"A pile of roughly diced fish.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_Chunks-FlavorText\", \"Not the most appetizing...\")",
             "Weight": 50,
-            "MaxStack": 20
+            "MaxStack": 50
         },
         {
             "Name": "Item_Basic_Fishing_Rod",
@@ -8927,7 +8929,7 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Saltwater_Fish_Fillet-Description\", \"A neatly trimmed fillet ready for cooking.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Saltwater_Fish_Fillet-FlavorText\", \"Nicely done.\")",
             "Weight": 250,
-            "MaxStack": 25
+            "MaxStack": 50
         },
         {
             "Name": "Item_Freshwater_Fish_Fillet",
@@ -8936,7 +8938,7 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Freshwater_Fish_Fillet-Description\", \"A neatly trimmed fillet ready for cooking.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Freshwater_Fish_Fillet-FlavorText\", \"Nicely done.\")",
             "Weight": 250,
-            "MaxStack": 25
+            "MaxStack": 50
         },
         {
             "Name": "Item_Fiber_Fishing_Lure",
@@ -9832,7 +9834,7 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Dried_Tomato-Description\", \"A snack with an intense sweet and savory flavor\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Dried_Tomato-FlavorText\", \"Another great snack from your Drying Rack.\")",
             "Weight": 100,
-            "MaxStack": 20
+            "MaxStack": 50
         },
         {
             "Name": "Item_Dried_Avocado",
@@ -9841,7 +9843,7 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Dried_Avocado-Description\", \"A snack with a chewy texture and concentrated flavor\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Dried_Avocado-FlavorText\", \"Another great snack from your Drying Rack.\")",
             "Weight": 100,
-            "MaxStack": 20
+            "MaxStack": 50
         },
         {
             "Name": "Item_Dried_Rhubarb",
@@ -9850,7 +9852,7 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Dried_Rhubarb-Description\", \"A healthy snack with a rather tart flavor.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Dried_Rhubarb-FlavorText\", \"Another great snack from your Drying Rack.\")",
             "Weight": 100,
-            "MaxStack": 20
+            "MaxStack": 50
         },
         {
             "Name": "Item_Cooked_Rhubarb",
@@ -9859,7 +9861,7 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Cooked_Rhubarb-Description\", \"This snack is lightly cooked in a pan with sugar or honey\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Cooked_Rhubarb-FlavorText\", \"Just avoid the leaves.\")",
             "Weight": 500,
-            "MaxStack": 10
+            "MaxStack": 50
         },
         {
             "Name": "Item_Cooked_Kumara",
@@ -9868,7 +9870,7 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Cooked_Kumara-Description\", \"This meal has a caramelized exterior and soft and fluffy interior.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Cooked_Kumara-FlavorText\", \"Tastier than a staple food but just as easy.\")",
             "Weight": 500,
-            "MaxStack": 10
+            "MaxStack": 50
         },
         {
             "Name": "Item_Stuffed_Avocado",
@@ -9877,7 +9879,7 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Stuffed_Avocado-Description\", \"This avocado has been halved and filled with a savory mixture.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Stuffed_Avocado-FlavorText\", \"Another great meal from your Cooking Bench.\")",
             "Weight": 500,
-            "MaxStack": 10
+            "MaxStack": 50
         },
         {
             "Name": "Item_Mixed_Berries",
@@ -9886,7 +9888,7 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Mixed_Berries-Description\", \"A tasty combination of berries to keep you going.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Mixed_Berries-FlavorText\", \"Another great meal from your Cooking Bench.\")",
             "Weight": 500,
-            "MaxStack": 10
+            "MaxStack": 50
         },
         {
             "Name": "Item_Rhubarb_Stew",
@@ -9895,7 +9897,7 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Rhubarb_Stew-Description\", \"A sweet and tangy snack.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Rhubarb_Stew-FlavorText\", \"Another great meal from your Potbelly Stove.\")",
             "Weight": 500,
-            "MaxStack": 10
+            "MaxStack": 50
         },
         {
             "Name": "Item_Fried_Chunky_Vegetables",
@@ -9904,7 +9906,7 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Fried_Chunky_Vegetables-Description\", \"These veges are deep-fried until crispy and golden.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Fried_Chunky_Vegetables-FlavorText\", \"Another great meal from your Potbelly Stove.\")",
             "Weight": 500,
-            "MaxStack": 10
+            "MaxStack": 50
         },
         {
             "Name": "Item_Pickled_Avocado",
@@ -9913,7 +9915,7 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Pickled_Avocado-Description\", \"Avocado that has been marinated resulting in a tangy and slightly sour flavor.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Pickled_Avocado-FlavorText\", \"A handy snack made at your Kitchen Bench.\")",
             "Weight": 500,
-            "MaxStack": 20
+            "MaxStack": 50
         },
         {
             "Name": "Item_Strawberry_Jam",
@@ -9922,7 +9924,7 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Strawberry_Jam-Description\", \"A sweet and fruity spread.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Strawberry_Jam-FlavorText\", \"A handy snack made at your Kitchen Bench.\")",
             "Weight": 500,
-            "MaxStack": 20
+            "MaxStack": 50
         },
         {
             "Name": "Item_Shepherds_Roll",
@@ -9931,7 +9933,7 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Shepherds_Roll-Description\", \"A savory pastry baked until golden.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Shepherds_Roll-FlavorText\", \"A delicious meal made on your Biofuel Stove.\")",
             "Weight": 500,
-            "MaxStack": 10
+            "MaxStack": 50
         },
         {
             "Name": "Item_Savory_Roll",
@@ -9940,7 +9942,7 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Savory_Roll-Description\", \"A hearty pastry baked to perfection.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Savory_Roll-FlavorText\", \"A delicious meal made on your Biofuel Stove.\")",
             "Weight": 500,
-            "MaxStack": 10
+            "MaxStack": 50
         },
         {
             "Name": "Item_Vegetable_Roll",
@@ -9949,7 +9951,7 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Vegetable_Roll-Description\", \"An easy choice packed with veges.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Vegetable_Roll-FlavorText\", \"A delicious meal made on your Biofuel Stove.\")",
             "Weight": 500,
-            "MaxStack": 10
+            "MaxStack": 50
         },
         {
             "Name": "Item_Fruit_Muffin",
@@ -9958,7 +9960,7 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Fruit_Muffin-Description\", \"The perfect breakfast snack.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Fruit_Muffin-FlavorText\", \"A delicious meal made on your Biofuel Stove.\")",
             "Weight": 500,
-            "MaxStack": 10
+            "MaxStack": 50
         },
         {
             "Name": "Item_Piranha_Statue_Wood",
@@ -10407,7 +10409,7 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Fried_Fish_Chunks-Description\", \"An easy snack for the hungry prospector who\\'s short on time.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Fried_Fish_Chunks-FlavorText\", \"Not as fancy as a fillet, but just as filling.\")",
             "Weight": 100,
-            "MaxStack": 10
+            "MaxStack": 50
         },
         {
             "Name": "Item_Fish_Chunk_Stew",
@@ -10416,7 +10418,7 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_Chunk_Stew-Description\", \"A hearty and flavorful soup made with tender chunks of fish and vegetables in a rich and savory broth.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_Chunk_Stew-FlavorText\", \"Chop \\'em up, cook \\'em up, eat \\'em up.\")",
             "Weight": 150,
-            "MaxStack": 10
+            "MaxStack": 50
         },
         {
             "Name": "Item_Dried_Freshwater_Fillet",
@@ -10425,7 +10427,7 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Dried_Freshwater_Fillet-Description\", \"A savory snack made by drying and preserving tender fillets of freshwater fish.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Dried_Freshwater_Fillet-FlavorText\", \"Can be dried using a Drying Rack. Rather chewy.\")",
             "Weight": 250,
-            "MaxStack": 10
+            "MaxStack": 50
         },
         {
             "Name": "Item_Dried_Saltwater_Fillet",
@@ -10434,7 +10436,7 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Dried_Saltwater_Fillet-Description\", \"A flavorful snack made by drying and preserving tender fillets of saltwater fish.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Dried_Saltwater_Fillet-FlavorText\", \"Can be dried using a Drying Rack. Rather chewy.\")",
             "Weight": 250,
-            "MaxStack": 10
+            "MaxStack": 50
         },
         {
             "Name": "Item_Freshwater_Fillet_Curry",
@@ -10443,7 +10445,7 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Freshwater_Fillet_Curry-Description\", \"A spicy and aromatic dish made with tender pieces of fish cooked in a rich and creamy sauce with a blend of herbs and spices.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Freshwater_Fillet_Curry-FlavorText\", \"Spend the time on the sauce and reap the rewards.\")",
             "Weight": 300,
-            "MaxStack": 10
+            "MaxStack": 50
         },
         {
             "Name": "Item_Saltwater_Fillet_Sashimi",
@@ -10452,7 +10454,7 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Saltwater_Fillet_Sashimi-Description\", \"A delicacy consisting of raw, thinly sliced saltwater fish.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Saltwater_Fillet_Sashimi-FlavorText\", \"Can be made at a Cooking Bench. Simple, but delicious.\")",
             "Weight": 300,
-            "MaxStack": 10
+            "MaxStack": 50
         },
         {
             "Name": "Item_Pickled_Freshwater_Fillet",
@@ -10461,7 +10463,7 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Pickled_Freshwater_Fillet-Description\", \"A tangy dish made by preserving tender fillets of freshwater fish in a flavorful mixture.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Pickled_Freshwater_Fillet-FlavorText\", \"Not for everyone, but a delicious long lasting treat for those that enjoy it.\")",
             "Weight": 500,
-            "MaxStack": 20
+            "MaxStack": 50
         },
         {
             "Name": "Item_Crumbed_Saltwater_Fillet",
@@ -10470,7 +10472,7 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Crumbed_Saltwater_Fillet-Description\", \"A crispy and savory dish made by coating tender fillets of fish in breadcrumbs and frying until golden brown.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Crumbed_Saltwater_Fillet-FlavorText\", \"Crispy on the outside, fishy on the inside.\")",
             "Weight": 500,
-            "MaxStack": 10
+            "MaxStack": 50
         },
         {
             "Name": "Item_Fish_Fillet_Pie",
@@ -10479,7 +10481,7 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_Fillet_Pie-Description\", \"A comforting and hearty dish made with a creamy filling of mixed fish and vegetables.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Fish_Fillet_Pie-FlavorText\", \"Stuffed to the brim with fish.\")",
             "Weight": 500,
-            "MaxStack": 10
+            "MaxStack": 50
         },
         {
             "Name": "Item_Ammo_Casing",
@@ -10624,7 +10626,7 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Grilled_Freshwater_Fillet-Description\", \"Recently filleted fish grilled over an open fire.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Grilled_Freshwater_Fillet-FlavorText\", \"Tasty for very little preparation.\")",
             "Weight": 50,
-            "MaxStack": 20
+            "MaxStack": 50
         },
         {
             "Name": "Item_Grilled_Saltwater_Fillet",
@@ -10633,7 +10635,7 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Grilled_Saltwater_Fillet-Description\", \"Recently filleted fish grilled over an open fire.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Grilled_Saltwater_Fillet-FlavorText\", \"Tasty for very little preparation.\")",
             "Weight": 50,
-            "MaxStack": 20
+            "MaxStack": 50
         },
         {
             "Name": "Item_Painting_Wood",
@@ -10701,13 +10703,21 @@
             "Weight": 8000
         },
         {
+            "Name": "Item_Armored_Scorpion",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Armored_Scorpion-DisplayName\", \"Armored Scorpion Carcass\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/ITEM_AnimalCarcass_Scorpion.ITEM_AnimalCarcass_Scorpion",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Armored_Scorpion-Description\", \"One of the most dangerous creatures in the clad in thick projectile resistance carapace.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Armored_Scorpion-FlavorText\", \"This smooth plating could still be useful\")",
+            "Weight": 8000
+        },
+        {
             "Name": "Item_Platinum_Sheath",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Platinum_Sheath-DisplayName\", \"Platinum Sheath\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/T_ITEM_Platinum_Sheath.T_ITEM_Platinum_Sheath",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Platinum_Sheath-Description\", \"A small sheath of platinum which can be used in a variety of electronics and machinery. \")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Platinum_Sheath-FlavorText\", \"Remarkably strong when shaped.\")",
             "Weight": 250,
-            "MaxStack": 25
+            "MaxStack": 50
         },
         {
             "Name": "Item_Titanium_Plate",
@@ -10716,7 +10726,7 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Titanium_Plate-Description\", \"A small plate of titanium which can be used in a variety of electronics and machinery. \")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Titanium_Plate-FlavorText\", \"Remarkably strong when shaped.\")",
             "Weight": 250,
-            "MaxStack": 25
+            "MaxStack": 50
         },
         {
             "Name": "Item_Bone_Head",
@@ -10806,7 +10816,7 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Obsidian_Throwing_Spear-Description\", \"An aerodynamic spear created with a sharpened point of Obsidian.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Obsidian_Throwing_Spear-FlavorText\", \"Made using volcanic glass created from the bowels of the planet, that has cooled rapidly with minimal crystal growth.\")",
             "Weight": 500,
-            "MaxStack": 20
+            "MaxStack": 25
         },
         {
             "Name": "Item_Obsidian_Sickle",
@@ -10867,7 +10877,7 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Cold_Steel_Ingot-Description\", \"Formed by melding a Steel Ingot with Super Cooled Ice.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Cold_Steel_Ingot-FlavorText\", \"Do not allow direct contact with skin.\")",
             "Weight": 400,
-            "MaxStack": 20
+            "MaxStack": 50
         },
         {
             "Name": "Item_Cold_Steel_Axe",
@@ -10917,7 +10927,7 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Cold_Steel_Throwing_Spear-Description\", \"An aerodynamic spear crafted using Cold Steel, unique to Icarus.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Cold_Steel_Throwing_Spear-FlavorText\", \"One of the few tools that are only available on Icarus, due to the nature of the materials required.\")",
             "Weight": 500,
-            "MaxStack": 20
+            "MaxStack": 25
         },
         {
             "Name": "Item_Cold_Steel_Sickle",
@@ -10986,7 +10996,7 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Refined_Iron_Wood-Description\", \"A distilled essense of the Miasma that can be found on creatures in heavily exotic-affected areas.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Refined_Iron_Wood-FlavorText\", \"Exotics have been shown to warp and twist DNA on a molecular level, it would seem no living thing is safe.\")",
             "Weight": 300,
-            "MaxStack": 50
+            "MaxStack": 200
         },
         {
             "Name": "Item_Iron_Wood_Axe",
@@ -11030,7 +11040,7 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Iron_Wood_Throwing_Spear-Description\", \"A toxin-coated Throwing Spear, carefully crafted using Miasma harvested from Icarus wildlife.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Iron_Wood_Throwing_Spear-FlavorText\", \"The miasma coating this tool emits an almost unbearable stench.\")",
             "Weight": 500,
-            "MaxStack": 20
+            "MaxStack": 25
         },
         {
             "Name": "Item_Iron_Wood_Sickle",
@@ -11929,6 +11939,19 @@
             "Name": "Item_Carcass_Swamp_Slug",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Swamp_Slug-DisplayName\", \"Viscid Carcass\")",
             "Weight": 20000
+        },
+        {
+            "Name": "Item_Carcass_Lava_Slug",
+            "DisplayName": "INVTEXT(\"[DNT] Lava Slug Carcass\")",
+            "Weight": 20000
+        },
+        {
+            "Name": "Item_Mission_Prototype_Printed_Crate",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Prototype_Printed_Crate-DisplayName\", \"MXC \\'Preservation\\' Crate\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Mission_Prototype_Printed_Crate.T_ITEM_Mission_Prototype_Printed_Crate",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Prototype_Printed_Crate-Description\", \"A 3D Printed Crate with an internal battery for keeping contents preserved.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_Prototype_Printed_Crate-FlavorText\", \"Quicker than making your own\")",
+            "Weight": 2000
         }
     ]
 }

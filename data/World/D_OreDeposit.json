@@ -30,7 +30,7 @@
             "ResourceType": {
                 "RowName": "Meta_Resource"
             },
-            "MiningTimeSeconds": 20,
+            "MiningTimeSeconds": 2,
             "Metadata": {
                 "bIsDeprecated": true
             }

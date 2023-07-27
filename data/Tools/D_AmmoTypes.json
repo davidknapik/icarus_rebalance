@@ -62,7 +62,7 @@
         },
         {
             "Name": "Rifle_Round",
-            "ProjectileDamage": 500,
+            "ProjectileDamage": 300,
             "ProjectileAccuracy": {
                 "X": 0.20000000298023224,
                 "Y": 0.20000000298023224
