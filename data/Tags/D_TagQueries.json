@@ -1,0 +1,4383 @@
+{
+    "RowStruct": "/Script/Icarus.TagQueries",
+    "Defaults": {
+        "Query": {
+            "TokenStreamVersion": 0,
+            "TagDictionary": [],
+            "QueryTokenStream": [],
+            "UserDescription": "",
+            "AutoDescription": ""
+        }
+    },
+    "GenerateEnum": true,
+    "Rows": [
+        {
+            "Name": "Any_Food",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Consumable.Food"
+                    },
+                    {
+                        "TagName": "NPC.Fish"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ANY( Item.Consumable.Food, NPC.Fish )"
+            }
+        },
+        {
+            "Name": "Any_Oxygen",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Consumable.Oxygen"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Consumable.Oxygen )"
+            }
+        },
+        {
+            "Name": "Any_Water",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Consumable.Water"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Consumable.Water )"
+            }
+        },
+        {
+            "Name": "Helmet",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Armor.Helmet"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Armor.Helmet )"
+            }
+        },
+        {
+            "Name": "Chest",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Armor.Chest"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Armor.Chest )"
+            }
+        },
+        {
+            "Name": "Gloves",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Armor.Gloves"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Armor.Gloves )"
+            }
+        },
+        {
+            "Name": "Pants",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Armor.Pants"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Armor.Pants )"
+            }
+        },
+        {
+            "Name": "Boots",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Armor.Boots"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Armor.Boots )"
+            }
+        },
+        {
+            "Name": "Envirosuit",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Envirosuit"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Envirosuit )"
+            }
+        },
+        {
+            "Name": "Any_Utility",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Utility"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Utility )"
+            }
+        },
+        {
+            "Name": "Any_Fuel",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Fuel"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Fuel )"
+            }
+        },
+        {
+            "Name": "Food_Raw",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Consumable.Food.Raw"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    5,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL(  ALL( Item.Consumable.Food.Raw ) )"
+            }
+        },
+        {
+            "Name": "Oxygen_Refill",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Fillable.Oxygen"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Fillable.Oxygen )"
+            }
+        },
+        {
+            "Name": "Any_Tool",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Tool"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Tool )"
+            }
+        },
+        {
+            "Name": "Any_Resource",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Resource"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Resource )"
+            }
+        },
+        {
+            "Name": "Food_Herbivorous",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GOAP.Food.Herbivore"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GOAP.Food.Herbivore )"
+            }
+        },
+        {
+            "Name": "Oxite",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Consumable.Oxygen.OxygenFillResource"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Consumable.Oxygen.OxygenFillResource )"
+            }
+        },
+        {
+            "Name": "Any_Axe",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Tool.Axe"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Tool.Axe )"
+            }
+        },
+        {
+            "Name": "Any_Tree",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Harvest.Axe"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Harvest.Axe )"
+            }
+        },
+        {
+            "Name": "Any_Pickaxe",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Tool.Pickaxe"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Tool.Pickaxe )"
+            }
+        },
+        {
+            "Name": "Any_Voxel",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Harvest.Pickaxe"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Harvest.Pickaxe )"
+            }
+        },
+        {
+            "Name": "Any_Foliage",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Harvest.Sickle"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Harvest.Sickle )"
+            }
+        },
+        {
+            "Name": "Any_NPC",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Character.NPC"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Character.NPC )"
+            }
+        },
+        {
+            "Name": "Any_Player",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Character.Player"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Character.Player )"
+            }
+        },
+        {
+            "Name": "Any_Weapon_Or_Tool",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Weapon"
+                    },
+                    {
+                        "TagName": "Item.Tool"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ANY( Item.Weapon, Item.Tool )"
+            }
+        },
+        {
+            "Name": "Any_Sickle",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Tool.Sickle"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Tool.Sickle )"
+            }
+        },
+        {
+            "Name": "Any_Building_On_Fire",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Traits.Buildable"
+                    },
+                    {
+                        "TagName": "ModifierState.OnFire"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ALL( Traits.Buildable, ModifierState.OnFire )"
+            }
+        },
+        {
+            "Name": "Any_Building_With_Snow",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Traits.Buildable"
+                    },
+                    {
+                        "TagName": "ModifierState.Snow"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ALL( Traits.Buildable, ModifierState.Snow )"
+            }
+        },
+        {
+            "Name": "Any_Projectile",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Traits.Ballistic"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Traits.Ballistic )"
+            }
+        },
+        {
+            "Name": "Any_Weapon_Tool_Projectile",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Traits.Ballistic"
+                    },
+                    {
+                        "TagName": "Item.Tool"
+                    },
+                    {
+                        "TagName": "Item.Weapon"
+                    },
+                    {
+                        "TagName": "Item.Fists"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    4,
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "AutoDescription": " ANY( Traits.Ballistic, Item.Tool, Item.Weapon, Item.Fists )"
+            }
+        },
+        {
+            "Name": "Any_Building",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Traits.Buildable"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Traits.Buildable )"
+            }
+        },
+        {
+            "Name": "Any_Armor",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Armor"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Armor )"
+            }
+        },
+        {
+            "Name": "FocusLocked",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Traits.Equippable.FocusLock"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Traits.Equippable.FocusLock )"
+            }
+        },
+        {
+            "Name": "Any_Deployable",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Traits.Deployable"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Traits.Deployable )"
+            }
+        },
+        {
+            "Name": "Any_Seed",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Seed"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Seed )"
+            }
+        },
+        {
+            "Name": "SkinningBenchSlots",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Slot.SkinningBench"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Slot.SkinningBench )"
+            }
+        },
+        {
+            "Name": "Any_Meta",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Meta"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Meta )"
+            }
+        },
+        {
+            "Name": "PassiveUpgrades",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Upgrade.Passive"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Upgrade.Passive )"
+            }
+        },
+        {
+            "Name": "VisionUpgrades",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Upgrade.Vision"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Upgrade.Vision )"
+            }
+        },
+        {
+            "Name": "General_Inventory_Slot",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Utility"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    5,
+                    1,
+                    3,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL(  NONE( Item.Utility ) )"
+            }
+        },
+        {
+            "Name": "Skin_Head",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Skin.Head"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Skin.Head )"
+            }
+        },
+        {
+            "Name": "Any_Durable",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Traits.Durable"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Traits.Durable )"
+            }
+        },
+        {
+            "Name": "NonRemovableArmourItems",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Envirosuit"
+                    },
+                    {
+                        "TagName": "Item.Skin"
+                    },
+                    {
+                        "TagName": "Item.Fists"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    3,
+                    0,
+                    1,
+                    2
+                ],
+                "AutoDescription": " ANY( Item.Envirosuit, Item.Skin, Item.Fists )"
+            }
+        },
+        {
+            "Name": "Any_Ammo",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Ammo"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Ammo )"
+            }
+        },
+        {
+            "Name": "CanCatchFire",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Traits.Flammable"
+                    },
+                    {
+                        "TagName": "ModifierState.ExtingishFire"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    5,
+                    2,
+                    2,
+                    1,
+                    0,
+                    3,
+                    1,
+                    1
+                ],
+                "AutoDescription": " ALL(  ALL( Traits.Flammable ),  NONE( ModifierState.ExtingishFire ) )"
+            }
+        },
+        {
+            "Name": "ObjectiveRadarPlace",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Objective.FlatArea.Small"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Objective.FlatArea.Small )"
+            }
+        },
+        {
+            "Name": "Player_Fists",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Fists"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Fists )"
+            }
+        },
+        {
+            "Name": "Building_Repair_Tool",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Tool.Building.Repair"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Tool.Building.Repair )"
+            }
+        },
+        {
+            "Name": "Any_Knife",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Tool.Knife"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Tool.Knife )"
+            }
+        },
+        {
+            "Name": "Any_Spear",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Weapon.Spear"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Weapon.Spear )"
+            }
+        },
+        {
+            "Name": "Any_Shovel",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Tool.Shovel"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Tool.Shovel )"
+            }
+        },
+        {
+            "Name": "Any_Bow",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Weapon.Bow"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Weapon.Bow )"
+            }
+        },
+        {
+            "Name": "Any_Firearm",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Weapon.Firearm"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Weapon.Firearm )"
+            }
+        },
+        {
+            "Name": "Any_Furnace",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Crafting.Furnace"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Crafting.Furnace )"
+            }
+        },
+        {
+            "Name": "IsRepairable",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Traits.Deployable"
+                    },
+                    {
+                        "TagName": "Traits.Buildable"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ANY( Traits.Deployable, Traits.Buildable )"
+            }
+        },
+        {
+            "Name": "Food_Cooked",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Consumable.Food.Cooked"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Consumable.Food.Cooked )"
+            }
+        },
+        {
+            "Name": "Food_Spoiled",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Consumable.Food.Spoiled"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Consumable.Food.Spoiled )"
+            }
+        },
+        {
+            "Name": "Any_Radar",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Radar"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Radar )"
+            }
+        },
+        {
+            "Name": "Any_Extractor",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Extractor"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Extractor )"
+            }
+        },
+        {
+            "Name": "Any_AnimalCorpse",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Harvest.Knife"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Harvest.Knife )"
+            }
+        },
+        {
+            "Name": "Any_Exotic",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Meta.Resource"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Meta.Resource )"
+            }
+        },
+        {
+            "Name": "Skin_Head_HairStyle",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Skin.HairStyle"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Skin.HairStyle )"
+            }
+        },
+        {
+            "Name": "Any_Ore",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Resource.Ore"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Resource.Ore )"
+            }
+        },
+        {
+            "Name": "Resource_Stone",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Resource.Stone"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Resource.Stone )"
+            }
+        },
+        {
+            "Name": "Resource_Fiber",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Resource.Fiber"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Resource.Fiber )"
+            }
+        },
+        {
+            "Name": "Resource_Sticks",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Resource.Fiber"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Resource.Fiber )"
+            }
+        },
+        {
+            "Name": "Resource_Wood",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Resource.Wood"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Resource.Wood )"
+            }
+        },
+        {
+            "Name": "Building_Stone",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Building.Stone"
+                    },
+                    {
+                        "TagName": "Traits.Buildable"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ALL( Building.Stone, Traits.Buildable )"
+            }
+        },
+        {
+            "Name": "Building_Scoria",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Traits.Buildable"
+                    },
+                    {
+                        "TagName": "Building.Scoria"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ALL( Traits.Buildable, Building.Scoria )"
+            }
+        },
+        {
+            "Name": "Building_Wood",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Traits.Buildable"
+                    },
+                    {
+                        "TagName": "Building.Wood"
+                    },
+                    {
+                        "TagName": "Building.InteriorWood"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    5,
+                    2,
+                    2,
+                    1,
+                    0,
+                    1,
+                    2,
+                    1,
+                    2
+                ],
+                "AutoDescription": " ALL(  ALL( Traits.Buildable ),  ANY( Building.Wood, Building.InteriorWood ) )"
+            }
+        },
+        {
+            "Name": "Building_Thatch",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Building.Thatch"
+                    },
+                    {
+                        "TagName": "Traits.Buildable"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ALL( Building.Thatch, Traits.Buildable )"
+            }
+        },
+        {
+            "Name": "Building_Concrete",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Building.Concrete"
+                    },
+                    {
+                        "TagName": "Traits.Buildable"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ALL( Building.Concrete, Traits.Buildable )"
+            }
+        },
+        {
+            "Name": "Projectile_Arrow",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Traits.Ballistic"
+                    },
+                    {
+                        "TagName": "Item.Ammo.Arrow"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ALL( Traits.Ballistic, Item.Ammo.Arrow )"
+            }
+        },
+        {
+            "Name": "Grenade_Frag",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Weapon.Grenade.Frag"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Weapon.Grenade.Frag )"
+            }
+        },
+        {
+            "Name": "Projectile_Bullet",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Traits.Ballistic"
+                    },
+                    {
+                        "TagName": "Item.Ammo.Bullet"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ALL( Traits.Ballistic, Item.Ammo.Bullet )"
+            }
+        },
+        {
+            "Name": "Projectile_Bolt",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Traits.Ballistic"
+                    },
+                    {
+                        "TagName": "Item.Ammo.Bolt"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ALL( Traits.Ballistic, Item.Ammo.Bolt )"
+            }
+        },
+        {
+            "Name": "Resource_Ice",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Resource.Ice"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Resource.Ice )"
+            }
+        },
+        {
+            "Name": "Icebox_Contents",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Consumable.Food"
+                    },
+                    {
+                        "TagName": "NPC.Fish"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ANY( Item.Consumable.Food, NPC.Fish )"
+            }
+        },
+        {
+            "Name": "Any_Quickbar_Equippable",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Equip.Quickbar"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Equip.Quickbar )"
+            }
+        },
+        {
+            "Name": "Any_Module_Passive",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Upgrade.Passive"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Upgrade.Passive )"
+            }
+        },
+        {
+            "Name": "Any_Module_Vision",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Upgrade.Vision"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Upgrade.Vision )"
+            }
+        },
+        {
+            "Name": "Any_NotDroppableItem",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.NotDroppable"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.NotDroppable )"
+            }
+        },
+        {
+            "Name": "Any_DeployableStorage",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Deployable.Storage"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Deployable.Storage )"
+            }
+        },
+        {
+            "Name": "Any_Hedgehog",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Deployable.Hedgehog"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Deployable.Hedgehog )"
+            }
+        },
+        {
+            "Name": "Any_LightningRod",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Deployable.LightningRod"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Deployable.LightningRod )"
+            }
+        },
+        {
+            "Name": "IsWet",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "ModifierState.Wet"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( ModifierState.Wet )"
+            }
+        },
+        {
+            "Name": "Any_Campfire",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Crafting.Campfire"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Crafting.Campfire )"
+            }
+        },
+        {
+            "Name": "T1_Voxel",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Harvest.Pickaxe.T1"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Harvest.Pickaxe.T1 )"
+            }
+        },
+        {
+            "Name": "T2_Voxel",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Harvest.Pickaxe.T2"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Harvest.Pickaxe.T2 )"
+            }
+        },
+        {
+            "Name": "T1_Pickaxe",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Tool.Pickaxe.T1"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Tool.Pickaxe.T1 )"
+            }
+        },
+        {
+            "Name": "T2_Pickaxe",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Tool.Pickaxe.T2"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Tool.Pickaxe.T2 )"
+            }
+        },
+        {
+            "Name": "Any_Firewhacker",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Tool.Firewhacker"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Tool.Firewhacker )"
+            }
+        },
+        {
+            "Name": "Charcoal",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Fuel.Charcoal"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Fuel.Charcoal )"
+            }
+        },
+        {
+            "Name": "Building_Interior_Wood",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Building.InteriorWood"
+                    },
+                    {
+                        "TagName": "Traits.Buildable"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ALL( Building.InteriorWood, Traits.Buildable )"
+            }
+        },
+        {
+            "Name": "Building_Glass",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Building.Glass"
+                    },
+                    {
+                        "TagName": "Traits.Buildable"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ALL( Building.Glass, Traits.Buildable )"
+            }
+        },
+        {
+            "Name": "Building_Iron",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Building.Iron"
+                    },
+                    {
+                        "TagName": "Traits.Buildable"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ALL( Building.Iron, Traits.Buildable )"
+            }
+        },
+        {
+            "Name": "Building_Aluminium",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Building.Aluminium"
+                    },
+                    {
+                        "TagName": "Traits.Buildable"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ALL( Building.Aluminium, Traits.Buildable )"
+            }
+        },
+        {
+            "Name": "Any_Fillable",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Traits.Fillable"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Traits.Fillable )"
+            }
+        },
+        {
+            "Name": "Is_Cold",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "ModifierState.Cold"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( ModifierState.Cold )"
+            }
+        },
+        {
+            "Name": "Is_Hot",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "ModifierState.Hot"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( ModifierState.Hot )"
+            }
+        },
+        {
+            "Name": "Dont_Record",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GameStateRecorder.DontRecord"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( GameStateRecorder.DontRecord )"
+            }
+        },
+        {
+            "Name": "Is_Suffocating",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "ModifierState.Suffocating"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( ModifierState.Suffocating )"
+            }
+        },
+        {
+            "Name": "Is_Dehydrating",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "ModifierState.Dehydrating"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( ModifierState.Dehydrating )"
+            }
+        },
+        {
+            "Name": "Is_Starving",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "ModifierState.Starving"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( ModifierState.Starving )"
+            }
+        },
+        {
+            "Name": "T1_Carcass",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Harvest.Knife.T1"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Harvest.Knife.T1 )"
+            }
+        },
+        {
+            "Name": "T2_Carcass",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Harvest.Knife.T2"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Harvest.Knife.T2 )"
+            }
+        },
+        {
+            "Name": "T1_Knife",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Tool.Knife.T1"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Tool.Knife.T1 )"
+            }
+        },
+        {
+            "Name": "T2_Knife",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Tool.Knife.T2"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Tool.Knife.T2 )"
+            }
+        },
+        {
+            "Name": "Harvest_Carcass_T1",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Harvest.Knife.T1"
+                    },
+                    {
+                        "TagName": "Item.Carcass.Empty"
+                    },
+                    {
+                        "TagName": "Item.Carcass.Skinned"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    5,
+                    2,
+                    1,
+                    1,
+                    0,
+                    3,
+                    2,
+                    1,
+                    2
+                ],
+                "AutoDescription": " ALL(  ANY( Harvest.Knife.T1 ),  NONE( Item.Carcass.Empty, Item.Carcass.Skinned ) )"
+            }
+        },
+        {
+            "Name": "Harvest_Carcass_T2",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Harvest.Knife.T2"
+                    },
+                    {
+                        "TagName": "Item.Carcass.Empty"
+                    },
+                    {
+                        "TagName": "Item.Carcass.Skinned"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    5,
+                    2,
+                    1,
+                    1,
+                    0,
+                    3,
+                    2,
+                    1,
+                    2
+                ],
+                "AutoDescription": " ALL(  ANY( Harvest.Knife.T2 ),  NONE( Item.Carcass.Empty, Item.Carcass.Skinned ) )"
+            }
+        },
+        {
+            "Name": "Harvest_Seed",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Plot"
+                    },
+                    {
+                        "TagName": "Item.Plot.Seeded"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    5,
+                    2,
+                    2,
+                    1,
+                    0,
+                    3,
+                    1,
+                    1
+                ],
+                "AutoDescription": " ALL(  ALL( Item.Plot ),  NONE( Item.Plot.Seeded ) )"
+            }
+        },
+        {
+            "Name": "Harvest_Grab",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Harvest"
+                    },
+                    {
+                        "TagName": "Item.Carcass.Empty"
+                    },
+                    {
+                        "TagName": "Harvest.Sickle.Only"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    5,
+                    2,
+                    2,
+                    1,
+                    0,
+                    3,
+                    2,
+                    1,
+                    2
+                ],
+                "AutoDescription": " ALL(  ALL( Harvest ),  NONE( Item.Carcass.Empty, Harvest.Sickle.Only ) )"
+            }
+        },
+        {
+            "Name": "Anything",
+            "Query": {
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    0
+                ],
+                "AutoDescription": " ALL( )"
+            }
+        },
+        {
+            "Name": "Near_Campfire",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "ModifierState.Campfire"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( ModifierState.Campfire )"
+            }
+        },
+        {
+            "Name": "Ice",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Resource.Ice"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Resource.Ice )"
+            }
+        },
+        {
+            "Name": "Water_Containers",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Fillable.Water"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Fillable.Water )"
+            }
+        },
+        {
+            "Name": "Fuel_Biofuel",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Fuel.Biofuel"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Fuel.Biofuel )"
+            }
+        },
+        {
+            "Name": "Any_Pistol",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Weapon.Firearm.Pistol"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Weapon.Firearm.Pistol )"
+            }
+        },
+        {
+            "Name": "Any_Rifle",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Weapon.Firearm.Rifle"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Weapon.Firearm.Rifle )"
+            }
+        },
+        {
+            "Name": "Any_Shotgun",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Weapon.Firearm.Shotgun"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Weapon.Firearm.Shotgun )"
+            }
+        },
+        {
+            "Name": "AI_Retreated",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "NPC.State.Retreated"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( NPC.State.Retreated )"
+            }
+        },
+        {
+            "Name": "Deals_Felling_Damage",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Stat.DealsFellingDamage"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Stat.DealsFellingDamage )"
+            }
+        },
+        {
+            "Name": "Food_CanCausePoisoning",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "ModifierState.Chance.FoodPoisoning"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( ModifierState.Chance.FoodPoisoning )"
+            }
+        },
+        {
+            "Name": "Carnivore_Bait",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GOAP.Food.Carnivore.Bait"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GOAP.Food.Carnivore.Bait )"
+            }
+        },
+        {
+            "Name": "Herbivore_Bait",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GOAP.Food.Herbivore.Bait"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GOAP.Food.Herbivore.Bait )"
+            }
+        },
+        {
+            "Name": "Any_Bait",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GOAP.Food.Carnivore.Bait"
+                    },
+                    {
+                        "TagName": "GOAP.Food.Herbivore.Bait"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ANY( GOAP.Food.Carnivore.Bait, GOAP.Food.Herbivore.Bait )"
+            }
+        },
+        {
+            "Name": "NPC_Carnivore",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GOAP.Behaviour.Appetite.Carnivore"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GOAP.Behaviour.Appetite.Carnivore )"
+            }
+        },
+        {
+            "Name": "NPC_Herbivore",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GOAP.Behaviour.Appetite.Herbivore"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GOAP.Behaviour.Appetite.Herbivore )"
+            }
+        },
+        {
+            "Name": "Crop_Plot",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Plot"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Plot )"
+            }
+        },
+        {
+            "Name": "Mission_Thruster",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Item.Thruster"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Item.Thruster )"
+            }
+        },
+        {
+            "Name": "Mission_Navigation",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Item.Navigation"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Item.Navigation )"
+            }
+        },
+        {
+            "Name": "Mission_Cargo",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Item.Cargo"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Item.Cargo )"
+            }
+        },
+        {
+            "Name": "Mission_Fuel",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Item.Fuel"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Item.Fuel )"
+            }
+        },
+        {
+            "Name": "Any_Backpack",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Backpack"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Backpack )"
+            }
+        },
+        {
+            "Name": "Any_Light",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Upgrade.Vision"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Upgrade.Vision )"
+            }
+        },
+        {
+            "Name": "Any_UtilityItem",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Utility"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Utility )"
+            }
+        },
+        {
+            "Name": "Any_UtilityItem_ShowBackpack",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Utility.ShowBackpack"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Utility.ShowBackpack )"
+            }
+        },
+        {
+            "Name": "NPC_Passive",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "NPC.Behaviour.Passive"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( NPC.Behaviour.Passive )"
+            }
+        },
+        {
+            "Name": "NPC_Neutral",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "NPC.Behaviour.Neutral"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( NPC.Behaviour.Neutral )"
+            }
+        },
+        {
+            "Name": "NPC_Aggressive",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "NPC.Behaviour.Agressive"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( NPC.Behaviour.Agressive )"
+            }
+        },
+        {
+            "Name": "Sulfur",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Resource.Ore.Sulfur"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Resource.Ore.Sulfur )"
+            }
+        },
+        {
+            "Name": "Any_Fertilizer",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Fertilizer"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Fertilizer )"
+            }
+        },
+        {
+            "Name": "Any_FirearmAmmo",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Ammo.Bullet"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Ammo.Bullet )"
+            }
+        },
+        {
+            "Name": "Mission_Gyroscope",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Item.Gyro"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Item.Gyro )"
+            }
+        },
+        {
+            "Name": "Battery",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Battery"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Battery )"
+            }
+        },
+        {
+            "Name": "Any_NPC_Food_Container",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Crafting.Campfire"
+                    },
+                    {
+                        "TagName": "Item.Deployable.Storage"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ANY( Item.Crafting.Campfire, Item.Deployable.Storage )"
+            }
+        },
+        {
+            "Name": "MetaConversion_Replensh_Fillable",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "MetaItem.Convert.ReplenishFillable"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( MetaItem.Convert.ReplenishFillable )"
+            }
+        },
+        {
+            "Name": "Any_WorldObject",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "WorldObject"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( WorldObject )"
+            }
+        },
+        {
+            "Name": "Mission_Egg",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Item.Egg"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( FactionMission.Item.Egg )"
+            }
+        },
+        {
+            "Name": "Any_FLOD_Tree",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Foliage.Tree"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Foliage.Tree )"
+            }
+        },
+        {
+            "Name": "Mission_Central_Scanner",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Item.CentralScanner"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Item.CentralScanner )"
+            }
+        },
+        {
+            "Name": "Any_Saddle",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Mount.Saddle"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Mount.Saddle )"
+            }
+        },
+        {
+            "Name": "Cloth_Physics",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Deployable.Door.ClothPhysics"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Deployable.Door.ClothPhysics )"
+            }
+        },
+        {
+            "Name": "Any_Attachment",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Attachment"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Attachment )"
+            }
+        },
+        {
+            "Name": "Mission_Enzymes",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Quest.Enzymes"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Quest.Enzymes )"
+            }
+        },
+        {
+            "Name": "Mission_Enzymes_Container",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Quest.EnzymeContainer"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Quest.EnzymeContainer )"
+            }
+        },
+        {
+            "Name": "Mission_PowerSource",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Quest.PowerSource"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Quest.PowerSource )"
+            }
+        },
+        {
+            "Name": "Any_Knife_Attachment",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Attachment.Melee"
+                    },
+                    {
+                        "TagName": "Item.Attachment.Knife"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ANY( Item.Attachment.Melee, Item.Attachment.Knife )"
+            }
+        },
+        {
+            "Name": "Any_Spear_Attachement",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Attachment.Melee"
+                    },
+                    {
+                        "TagName": "Item.Attachment.Spear"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ANY( Item.Attachment.Melee, Item.Attachment.Spear )"
+            }
+        },
+        {
+            "Name": "Any_Axe_Attachment",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Attachment.Melee"
+                    },
+                    {
+                        "TagName": "Item.Attachment.Axe"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ANY( Item.Attachment.Melee, Item.Attachment.Axe )"
+            }
+        },
+        {
+            "Name": "Any_Pickaxe_Attachment",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Attachment.Melee"
+                    },
+                    {
+                        "TagName": "Item.Attachment.Pickaxe"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ANY( Item.Attachment.Melee, Item.Attachment.Pickaxe )"
+            }
+        },
+        {
+            "Name": "Any_Sickle_Attachement",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Attachment.Melee"
+                    },
+                    {
+                        "TagName": "Item.Attachment.Sickle"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ANY( Item.Attachment.Melee, Item.Attachment.Sickle )"
+            }
+        },
+        {
+            "Name": "Any_Hammer_Attachment",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Attachment.Melee"
+                    },
+                    {
+                        "TagName": "Item.Attachment.Hammer"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ANY( Item.Attachment.Melee, Item.Attachment.Hammer )"
+            }
+        },
+        {
+            "Name": "Any_Glass",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Building.Glass"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Building.Glass )"
+            }
+        },
+        {
+            "Name": "Any_Melee_Weapon",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Tool.Axe"
+                    },
+                    {
+                        "TagName": "Item.Tool.Knife"
+                    },
+                    {
+                        "TagName": "Item.Tool.Pickaxe"
+                    },
+                    {
+                        "TagName": "Item.Tool.Shovel"
+                    },
+                    {
+                        "TagName": "Item.Tool.Sickle"
+                    },
+                    {
+                        "TagName": "Item.Weapon.Spear"
+                    },
+                    {
+                        "TagName": "Item.Tool.Building.Repair"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    7,
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6
+                ],
+                "AutoDescription": " ANY( Item.Tool.Axe, Item.Tool.Knife, Item.Tool.Pickaxe, Item.Tool.Shovel, Item.Tool.Sickle, Item.Weapon.Spear, Item.Tool.Building.Repair )"
+            }
+        },
+        {
+            "Name": "Attachment_Rank_1",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Attachment.Rank.1"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Attachment.Rank.1 )"
+            }
+        },
+        {
+            "Name": "Attachment_Rank_2",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Attachment.Rank.2"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Attachment.Rank.2 )"
+            }
+        },
+        {
+            "Name": "Any_Head_Attachment",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Attachment.Armor.Head"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Attachment.Armor.Head )"
+            }
+        },
+        {
+            "Name": "Any_Arms_Attachment",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Attachment.Armor.Arms"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Attachment.Armor.Arms )"
+            }
+        },
+        {
+            "Name": "Any_Body_Attachment",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Attachment.Armor.Body"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Attachment.Armor.Body )"
+            }
+        },
+        {
+            "Name": "Any_Legs_Attachment",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Attachment.Armor.Legs"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Attachment.Armor.Legs )"
+            }
+        },
+        {
+            "Name": "Any_Feet_Attachment",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Attachment.Armor.Feet"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Attachment.Armor.Feet )"
+            }
+        },
+        {
+            "Name": "Is_Bed",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Deployable.Bed"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Deployable.Bed )"
+            }
+        },
+        {
+            "Name": "Any_Bow_Attachment",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Attachment.Bow"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Attachment.Bow )"
+            }
+        },
+        {
+            "Name": "Any_Crossbow_Attachment",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Attachment.Crossbow"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Attachment.Crossbow )"
+            }
+        },
+        {
+            "Name": "Any_Pistol_Attachment",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Attachment.Pistol"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Attachment.Pistol )"
+            }
+        },
+        {
+            "Name": "Any_Rifle_Attachment",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Attachment.Rifle"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Attachment.Rifle )"
+            }
+        },
+        {
+            "Name": "Any_Shotgun_Attachment",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Attachment.Shotgun"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Attachment.Shotgun )"
+            }
+        },
+        {
+            "Name": "Any_Tame_Bed",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Deployable.TameBed"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Deployable.TameBed )"
+            }
+        },
+        {
+            "Name": "Any_Saddle_Standard",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Mount.Saddle.Standard"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Mount.Saddle.Standard )"
+            }
+        },
+        {
+            "Name": "Any_Shield",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Shield"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Shield )"
+            }
+        },
+        {
+            "Name": "Building_Clay_Brick",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Building.ClayBrick"
+                    },
+                    {
+                        "TagName": "Traits.Buildable"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ALL( Building.ClayBrick, Traits.Buildable )"
+            }
+        },
+        {
+            "Name": "Building_Scoria_Brick",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Traits.Buildable"
+                    },
+                    {
+                        "TagName": "Building.ScoriaBrick"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ALL( Traits.Buildable, Building.ScoriaBrick )"
+            }
+        },
+        {
+            "Name": "Any_Tame_Food_Container",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Deployable.Tame.Food"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Deployable.Tame.Food )"
+            }
+        },
+        {
+            "Name": "Any_Tame_Water_Container",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Deployable.Tame.Water"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Deployable.Tame.Water )"
+            }
+        },
+        {
+            "Name": "Any_Tamed_Herbivore_Food",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Seed"
+                    },
+                    {
+                        "TagName": "Item.Consumable.Food"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " ALL( Item.Seed, Item.Consumable.Food )"
+            }
+        },
+        {
+            "Name": "Sledgehammer",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Tool.Sledgehammer"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Tool.Sledgehammer )"
+            }
+        },
+        {
+            "Name": "Rock",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Harvest.Sledgehammer"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Harvest.Sledgehammer )"
+            }
+        },
+        {
+            "Name": "Any_Meta_Consumable",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Meta.Consumable"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Meta.Consumable )"
+            }
+        },
+        {
+            "Name": "Any_Throwing_Knife",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Tool.Knife"
+                    },
+                    {
+                        "TagName": "Item.Tool.Thrown"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    5,
+                    2,
+                    2,
+                    1,
+                    0,
+                    2,
+                    1,
+                    1
+                ],
+                "AutoDescription": " ALL(  ALL( Item.Tool.Knife ),  ALL( Item.Tool.Thrown ) )"
+            }
+        },
+        {
+            "Name": "Any_Melee_Knife",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Tool.Knife"
+                    },
+                    {
+                        "TagName": "Item.Tool.Thrown"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    5,
+                    2,
+                    2,
+                    1,
+                    0,
+                    3,
+                    1,
+                    1
+                ],
+                "AutoDescription": " ALL(  ALL( Item.Tool.Knife ),  NONE( Item.Tool.Thrown ) )"
+            }
+        },
+        {
+            "Name": "Any_Throwing_Spear",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Weapon.Spear"
+                    },
+                    {
+                        "TagName": "Item.Tool.Thrown"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    5,
+                    2,
+                    2,
+                    1,
+                    0,
+                    2,
+                    1,
+                    1
+                ],
+                "AutoDescription": " ALL(  ALL( Item.Weapon.Spear ),  ALL( Item.Tool.Thrown ) )"
+            }
+        },
+        {
+            "Name": "Any_Melee_Spear",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Weapon.Spear"
+                    },
+                    {
+                        "TagName": "Item.Tool.Thrown"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    5,
+                    2,
+                    2,
+                    1,
+                    0,
+                    3,
+                    1,
+                    1
+                ],
+                "AutoDescription": " ALL(  ALL( Item.Weapon.Spear ),  NONE( Item.Tool.Thrown ) )"
+            }
+        },
+        {
+            "Name": "Any_Throwing_Weapon",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Tool.Thrown"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Tool.Thrown )"
+            }
+        },
+        {
+            "Name": "Harvest_Sledgehammer",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Harvest.Sledgehammer"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Harvest.Sledgehammer )"
+            }
+        },
+        {
+            "Name": "Any_Equipable_With_Left_Hand",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Tool.Axe"
+                    },
+                    {
+                        "TagName": "Item.Tool.Firewhacker"
+                    },
+                    {
+                        "TagName": "Item.Tool.Knife"
+                    },
+                    {
+                        "TagName": "Item.Tool.Pickaxe"
+                    },
+                    {
+                        "TagName": "Item.Tool.Shovel"
+                    },
+                    {
+                        "TagName": "Item.Tool.Sickle"
+                    },
+                    {
+                        "TagName": "Item.Weapon"
+                    },
+                    {
+                        "TagName": "Item.Torch"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    8,
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                ],
+                "AutoDescription": " ANY( Item.Tool.Axe, Item.Tool.Firewhacker, Item.Tool.Knife, Item.Tool.Pickaxe, Item.Tool.Shovel, Item.Tool.Sickle, Item.Weapon, Item.Torch )"
+            }
+        },
+        {
+            "Name": "Any_Off_Hand",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Shield"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Shield )"
+            }
+        },
+        {
+            "Name": "WaterTrough",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Deployable.Tame.Water"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Deployable.Tame.Water )"
+            }
+        },
+        {
+            "Name": "Any_Workshop_Item",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Meta"
+                    },
+                    {
+                        "TagName": "Item.Meta.Resource"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    5,
+                    2,
+                    2,
+                    1,
+                    0,
+                    3,
+                    1,
+                    1
+                ],
+                "AutoDescription": " ALL(  ALL( Item.Meta ),  NONE( Item.Meta.Resource ) )"
+            }
+        },
+        {
+            "Name": "No_Exotics",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Meta.Resource"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    3,
+                    1,
+                    0
+                ],
+                "AutoDescription": " NONE( Item.Meta.Resource )"
+            }
+        },
+        {
+            "Name": "Any_Hammer",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Tool.Building"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Tool.Building )"
+            }
+        },
+        {
+            "Name": "Any_Bench",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Bench"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Bench )"
+            }
+        },
+        {
+            "Name": "Any_Grenade",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Weapon.Grenade"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Weapon.Grenade )"
+            }
+        },
+        {
+            "Name": "Any_Bandage",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Medicine.Bandage"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Medicine.Bandage )"
+            }
+        },
+        {
+            "Name": "Any_Paste",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Medicine.Paste"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Medicine.Paste )"
+            }
+        },
+        {
+            "Name": "Any_Tonic",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Medicine.Tonic"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Medicine.Tonic )"
+            }
+        },
+        {
+            "Name": "Any_EnhancementTonic",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Medicine.Tonic.Enhancement"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Medicine.Tonic.Enhancement )"
+            }
+        },
+        {
+            "Name": "Any_StatusTonic",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Medicine.Tonic.Status"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Medicine.Tonic.Status )"
+            }
+        },
+        {
+            "Name": "Any_Pill",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Medicine.Pill"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Medicine.Pill )"
+            }
+        },
+        {
+            "Name": "Any_Medicine",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Medicine"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Medicine )"
+            }
+        },
+        {
+            "Name": "Any_Scanner",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Scanner"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Scanner )"
+            }
+        },
+        {
+            "Name": "Any_Ingot",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Resource.Ingot"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Resource.Ingot )"
+            }
+        },
+        {
+            "Name": "No_Tree",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Harvest.Axe"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    3,
+                    1,
+                    0
+                ],
+                "AutoDescription": " NONE( Harvest.Axe )"
+            }
+        },
+        {
+            "Name": "No_Breakable_Rocks",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Harvest.Sledgehammer"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    3,
+                    1,
+                    0
+                ],
+                "AutoDescription": " NONE( Harvest.Sledgehammer )"
+            }
+        },
+        {
+            "Name": "Any_Fishing_Lure",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Attachment.FishingRod"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Attachment.FishingRod )"
+            }
+        },
+        {
+            "Name": "Any_Salt",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Resource.Salt"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( Item.Resource.Salt )"
+            }
+        },
+        {
+            "Name": "Any_Food_Or_Ice",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Consumable.Food"
+                    },
+                    {
+                        "TagName": "Item.Resource.Ice"
+                    },
+                    {
+                        "TagName": "NPC.Fish"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    3,
+                    0,
+                    1,
+                    2
+                ],
+                "AutoDescription": " ANY( Item.Consumable.Food, Item.Resource.Ice, NPC.Fish )"
+            }
+        },
+        {
+            "Name": "Any_Food_ExceptSpoiled",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Consumable.Food"
+                    },
+                    {
+                        "TagName": "Item.Consumable.Food.Spoiled"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    5,
+                    2,
+                    1,
+                    1,
+                    0,
+                    3,
+                    1,
+                    1
+                ],
+                "AutoDescription": " ALL(  ANY( Item.Consumable.Food ),  NONE( Item.Consumable.Food.Spoiled ) )"
+            }
+        },
+        {
+            "Name": "Any_Fish",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "NPC.Fish"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( NPC.Fish )"
+            }
+        },
+        {
+            "Name": "Harvest_Sickle_Only",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Harvest.Sickle.Only"
+                    },
+                    {
+                        "TagName": "Item.Carcass.Empty"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    5,
+                    2,
+                    2,
+                    1,
+                    0,
+                    3,
+                    1,
+                    1
+                ],
+                "AutoDescription": " ALL(  ALL( Harvest.Sickle.Only ),  NONE( Item.Carcass.Empty ) )"
+            }
+        },
+        {
+            "Name": "Any_FishingRod_Attachment",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Attachment.FishingRod"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Attachment.FishingRod )"
+            }
+        },
+        {
+            "Name": "Any_Fishing_Rod",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Tool.FishingRod"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Tool.FishingRod )"
+            }
+        },
+        {
+            "Name": "Fuel_AnimalFat",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Fuel.AnimalFat"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Fuel.AnimalFat )"
+            }
+        },
+        {
+            "Name": "Fuel_Combustible",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Item.Fuel.Combustible"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( Item.Fuel.Combustible )"
+            }
+        },
+        {
+            "Name": "Building_Emberable",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Building.Thatch"
+                    },
+                    {
+                        "TagName": "Building.Wood"
+                    },
+                    {
+                        "TagName": "Building.InteriorWood"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    3,
+                    0,
+                    1,
+                    2
+                ],
+                "AutoDescription": " ANY( Building.Thatch, Building.Wood, Building.InteriorWood )"
+            }
+        }
+    ]
+}

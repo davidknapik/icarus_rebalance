@@ -1,0 +1,228 @@
+{
+    "RowStruct": "/Script/Icarus.IcarusWeatherBiomeGroup",
+    "Defaults": {
+        "AvaliableBiomes": []
+    },
+    "Rows": [
+        {
+            "Name": "NoBiome",
+            "AvaliableBiomes": [
+                {
+                    "RowName": "NoBiome",
+                    "DataTableName": "D_Biomes"
+                }
+            ]
+        },
+        {
+            "Name": "Cave",
+            "AvaliableBiomes": [
+                {
+                    "RowName": "Cave",
+                    "DataTableName": "D_Biomes"
+                }
+            ]
+        },
+        {
+            "Name": "Olympus_Conifer",
+            "AvaliableBiomes": [
+                {
+                    "RowName": "Conifer",
+                    "DataTableName": "D_Biomes"
+                }
+            ]
+        },
+        {
+            "Name": "Olympus_Riverlands",
+            "AvaliableBiomes": [
+                {
+                    "RowName": "RiverLands",
+                    "DataTableName": "D_Biomes"
+                }
+            ]
+        },
+        {
+            "Name": "Olympus_Arctic",
+            "AvaliableBiomes": [
+                {
+                    "RowName": "Arctic",
+                    "DataTableName": "D_Biomes"
+                }
+            ]
+        },
+        {
+            "Name": "Olympus_SouthernGlacier",
+            "AvaliableBiomes": [
+                {
+                    "RowName": "SouthernGlacier",
+                    "DataTableName": "D_Biomes"
+                }
+            ]
+        },
+        {
+            "Name": "Olympus_Desert",
+            "AvaliableBiomes": [
+                {
+                    "RowName": "Desert",
+                    "DataTableName": "D_Biomes"
+                }
+            ]
+        },
+        {
+            "Name": "Olympus_DesertCanyons",
+            "AvaliableBiomes": [
+                {
+                    "RowName": "DesertCanyons",
+                    "DataTableName": "D_Biomes"
+                }
+            ]
+        },
+        {
+            "Name": "Styx_Forest",
+            "AvaliableBiomes": [
+                {
+                    "RowName": "Styx_TheGreatRiver",
+                    "DataTableName": "D_Biomes"
+                },
+                {
+                    "RowName": "Styx_VerdantTerraces",
+                    "DataTableName": "D_Biomes"
+                },
+                {
+                    "RowName": "Styx_Grove",
+                    "DataTableName": "D_Biomes"
+                },
+                {
+                    "RowName": "Styx_RingLake",
+                    "DataTableName": "D_Biomes"
+                },
+                {
+                    "RowName": "Styx_EnclosedWood",
+                    "DataTableName": "D_Biomes"
+                }
+            ]
+        },
+        {
+            "Name": "Styx_Arctic",
+            "AvaliableBiomes": [
+                {
+                    "RowName": "Styx_TheWall",
+                    "DataTableName": "D_Biomes"
+                },
+                {
+                    "RowName": "Styx_SnowyPlateau",
+                    "DataTableName": "D_Biomes"
+                },
+                {
+                    "RowName": "Styx_IceFlats",
+                    "DataTableName": "D_Biomes"
+                },
+                {
+                    "RowName": "Styx_FrozenTraverse",
+                    "DataTableName": "D_Biomes"
+                },
+                {
+                    "RowName": "Styx_AlpineValley",
+                    "DataTableName": "D_Biomes"
+                }
+            ]
+        },
+        {
+            "Name": "Styx_Desert",
+            "AvaliableBiomes": [
+                {
+                    "RowName": "Styx_DustyBarrens",
+                    "DataTableName": "D_Biomes"
+                },
+                {
+                    "RowName": "Styx_DryRidge",
+                    "DataTableName": "D_Biomes"
+                },
+                {
+                    "RowName": "Styx_Oasis",
+                    "DataTableName": "D_Biomes"
+                }
+            ]
+        },
+        {
+            "Name": "Pro_Arctic",
+            "AvaliableBiomes": [
+                {
+                    "RowName": "Pro_AlpineSteppe",
+                    "DataTableName": "D_Biomes"
+                },
+                {
+                    "RowName": "Pro_GlacialCascade",
+                    "DataTableName": "D_Biomes"
+                }
+            ]
+        },
+        {
+            "Name": "Pro_Tundra",
+            "AvaliableBiomes": [
+                {
+                    "RowName": "Pro_FrigidLowlands",
+                    "DataTableName": "D_Biomes"
+                },
+                {
+                    "RowName": "Pro_Tundra",
+                    "DataTableName": "D_Biomes"
+                }
+            ]
+        },
+        {
+            "Name": "Pro_Volcanic",
+            "AvaliableBiomes": [
+                {
+                    "RowName": "Pro_BasaltExpansion",
+                    "DataTableName": "D_Biomes"
+                },
+                {
+                    "RowName": "Pro_LavaFlows",
+                    "DataTableName": "D_Biomes"
+                }
+            ]
+        },
+        {
+            "Name": "Pro_Swamp",
+            "AvaliableBiomes": [
+                {
+                    "RowName": "Pro_Marshlands",
+                    "DataTableName": "D_Biomes"
+                },
+                {
+                    "RowName": "Pro_ShallowMire",
+                    "DataTableName": "D_Biomes"
+                },
+                {
+                    "RowName": "Pro_StillWater",
+                    "DataTableName": "D_Biomes"
+                },
+                {
+                    "RowName": "Pro_ThePillars",
+                    "DataTableName": "D_Biomes"
+                },
+                {
+                    "RowName": "Pro_Wetlands",
+                    "DataTableName": "D_Biomes"
+                }
+            ]
+        },
+        {
+            "Name": "Pro_Conifer",
+            "AvaliableBiomes": [
+                {
+                    "RowName": "Pro_GrassyPlains",
+                    "DataTableName": "D_Biomes"
+                },
+                {
+                    "RowName": "Pro_ConiferSmallA",
+                    "DataTableName": "D_Biomes"
+                },
+                {
+                    "RowName": "Pro_ConiferSmallB",
+                    "DataTableName": "D_Biomes"
+                }
+            ]
+        }
+    ]
+}
