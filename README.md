@@ -26,16 +26,19 @@ rocket == original game files from RocketWerkz
 utils == some utility files
 
 
-## How to update rocket branch
+## Updating the rocket branch
 Upon release of new icarus/Icarus/Content/Data/data.pak file
 
 Populate rocket branch with new content
 ```
 $ cd /c/Temp/icarus
+$ mkdir icarus_mod
+$ cd icarus_mod
 $ git clone --branch rocket git@github.com:davidknapik/icarus_rebalance.git
 
-# copy data.pak file delivered through steam
-$ cp /d/Steam/steamapps/common/Icarus/Icarus/Content/Data/data.pak /c/Temp/icarus/icarus_rebalance/.
+# Copy RocketWerkz data.pak file delivered through steam 
+$ cp /d/Steam/steamapps/common/Icarus/Icarus/Content/Data/data.pak /c/Temp/icarus/icarus_mod/icarus_rebalance/.
+$ cd /c/Temp/icarus/icarus_mod/icarus_rebalance
 $ /c/Temp/icarus/repack/repak.exe unpack -s "D:/BA/work/92bbbfa44df12262/Temp/Data/" data.pak -f
 $ rm data.pak
 
@@ -53,6 +56,8 @@ $ git push
 Check out master branch
 ```
 $ cd /c/Temp/icarus/icarus_mod
+$ git checkout --branch mod git@github.com:davidknapik/icarus_rebalance.git
+# or
 $ git clone --branch mod git@github.com:davidknapik/icarus_rebalance.git
 ```
 
@@ -60,15 +65,15 @@ Check out separate rocket branch directory
 (I prefer using the diff/merge across the two repo directories instead of the builtin git mergetool)
 ```
 $ cd /c/Temp/icarus
-$ mkdir rocket
-$ cd rocket
+$ mkdir icarus_rocket
+$ cd icarus_rocket
 $ git clone --branch rocket git@github.com:davidknapik/icarus_rebalance.git
 ```
 
 Verify and merge changes that are newly added into rocket branch, this is basically a manual and time intensive process as not to revert the actual modded data back to the original, while implementing new features released from RocketWerkz
 ```
 $ cd /c/Temp/icarus
-$ /c/Program\ Files/WinMerge/winmergeu.exe -r -e -u -wl rocket/icarus_rebalance/data icarus_mod/icarus_rebalance/data 
+$ /c/Program\ Files/WinMerge/winmergeu.exe -r -e -u -wl /c/Temp/icarus/icarus_rocket/icarus_rebalance/data /c/Temp/icarus/icarus_mod/icarus_rebalance/data 
 ```
 
 ## Validate json files
@@ -97,7 +102,11 @@ git push
 ## Creating modfiles.txt 
 Build a list of files that are different than the original
 ```
-$ cd /c/temp/icarus/icarus_mod/icarus_rebalance 
+$ cd /c/temp/icarus/icarus_mod/icarus_rebalance
+# make sure both branches exist
+$ git branch -a
+# Otherwise run 
+$ git checkout rocket
 $ git checkout mod
 $ git diff --name-only mod..rocket data/ > /c/Temp/icarus/modfiles.txt
 ```
@@ -105,15 +114,15 @@ $ git diff --name-only mod..rocket data/ > /c/Temp/icarus/modfiles.txt
 ## Sync changed files to staging area
 ```
 $ cd /c/Temp/icarus
-$ mkdir staging
-$ rsync -avz --files-from=modfiles.txt icarus_mod/icarus_rebalance staging/.
+$ mkdir icarus_staging
+$ rsync -avz --files-from=modfiles.txt icarus_mod/icarus_rebalance icarus_staging/.
 ```
 
 ## Using 'repack.exe' to build pak file
 ```
-$ cd /c/Temp/icarus/staging/data
-$ /c/Temp/icarus/repak/repak.exe pack --version V11 --mount-point ../../../Icarus/Content/data/ . /c/Temp/icarus/mymod.pak
-Packed 28 files to mymod.pak
+$ cd /c/Temp/icarus/icarus_staging/data
+$ /c/Temp/icarus/repak/repak.exe pack --version V11 --mount-point ../../../Icarus/Content/data/ . /c/Temp/icarus/icarus_mod.pak
+Packed 28 files to icarus_mod.pak
 ```
 
 
@@ -123,7 +132,7 @@ Packed 28 files to mymod.pak
 
 Info
 ```
-$ /c/Temp/icarus/repak/repak.exe info mymod.pak
+$ /c/Temp/icarus/repak/repak.exe info icarus_mod.pak
 
 mount point: ../../../Icarus/Content/data/
 version: V11
@@ -133,7 +142,7 @@ version major: FNameBasedCompression
 
 List
 ```
-$ /c/Temp/icarus/repak/repak.exe list mymod.pak
+$ /c/Temp/icarus/repak/repak.exe list icarus_mod.pak
 
 Alterations/D_Alterations.json
 Armour/D_ArmourSetBonus.json
@@ -169,10 +178,10 @@ World/D_OreDeposit.json
 
 Info
 ```
-$ /d/Epic\ Games/UE_4.26/Engine/Binaries/Win64/unrealpak.exe /c/temp/icarus/mymod.pak -info
+$ /d/Epic\ Games/UE_4.26/Engine/Binaries/Win64/unrealpak.exe /c/temp/icarus/icarus_mod.pak -info
 
 LogPakFile: Display: Using command line for crypto configuration
-LogPakFile: Display: Pak File: C:/temp/icarus/mymod.pak
+LogPakFile: Display: Pak File: C:/temp/icarus/icarus_mod.pak
 LogPakFile: Display:     Version: 8
 LogPakFile: Display:     IndexOffset: 8353966
 LogPakFile: Display:     IndexSize: 2358
@@ -186,18 +195,18 @@ LogPakFile: Display: Unreal pak executed in 0.021631 seconds
 
 Verify
 ```
-$ /d/Epic\ Games/UE_4.26/Engine/Binaries/Win64/unrealpak.exe /c/temp/icarus/mymod.pak -verify
+$ /d/Epic\ Games/UE_4.26/Engine/Binaries/Win64/unrealpak.exe /c/temp/icarus/icarus_mod.pak -verify
 
 LogPakFile: Display: Using command line for crypto configuration
-LogPakFile: Display: Checking pak file "C:/temp/icarus/mymod.pak". This may take a while...
-LogPakFile: Display: Pak file "C:/temp/icarus/mymod.pak" healthy, 28 files checked.
-LogPakFile: Display: Pak file "C:/temp/icarus/mymod.pak" checked in 0.02s
+LogPakFile: Display: Checking pak file "C:/temp/icarus/icarus_mod.pak". This may take a while...
+LogPakFile: Display: Pak file "C:/temp/icarus/icarus_mod.pak" healthy, 28 files checked.
+LogPakFile: Display: Pak file "C:/temp/icarus/icarus_mod.pak" checked in 0.02s
 LogPakFile: Display: Unreal pak executed in 0.020993 seconds
 ```
 
 List
 ```
-$ /d/Epic\ Games/UE_4.26/Engine/Binaries/Win64/unrealpak.exe /c/temp/icarus/mymod.pak -list
+$ /d/Epic\ Games/UE_4.26/Engine/Binaries/Win64/unrealpak.exe /c/temp/icarus/icarus_mod.pak -list
 
 LogPakFile: Display: Using command line for crypto configuration
 LogPakFile: Display: Mount point ../../../Icarus/Content/data/
@@ -235,9 +244,9 @@ LogPakFile: Display: Unreal pak executed in 0.039118 seconds
 
 # Deploy mymod.pak
 
-Copy the mod.pak file to the local icarus game directories and any dedicated server directories (if running a dedicated server)
+Copy the icarus_mod.pak file to the local icarus game directories and any dedicated server directories (if running a dedicated server)
 ```
-$ cp /c/temp/icarus/mymod.pak /d/Steam/steamapps/common/Icarus/Icarus/Content/Paks/mods/.
+$ cp /c/temp/icarus/icarus_mod.pak /d/Steam/steamapps/common/Icarus/Icarus/Content/Paks/mods/.
 
-$ scp /c/temp/icarus/mymod.pak owner@192.168.1.55:/home/owner/Games/icarus/Icarus/Content/Paks/mods/.****
+$ scp /c/temp/icarus/icarus_mod.pak owner@192.168.1.55:/home/owner/Games/icarus/Icarus/Content/Paks/mods/.
 ```
