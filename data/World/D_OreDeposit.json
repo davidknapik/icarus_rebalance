@@ -1,0 +1,173 @@
+{
+    "RowStruct": "/Script/Icarus.OreDeposit",
+    "Defaults": {
+        "ResourceType": {
+            "RowName": "None",
+            "DataTableName": "D_ItemTemplate"
+        },
+        "HighlightableRow": {
+            "RowName": "None",
+            "DataTableName": "D_Highlightable"
+        },
+        "RVTNodeMaterial_CF": "None",
+        "RVTNodeMaterial_DC": "None",
+        "NodeMaterial_CF": "None",
+        "NodeMaterial_DC": "None",
+        "RockMaterial": "None",
+        "MinOreAvailable": 1000,
+        "MaxOreAvailable": 1000,
+        "MiningTimeSeconds": 60
+    },
+    "GenerateEnum": true,
+    "Rows": [
+        {
+            "Name": "Random",
+            "MinOreAvailable": 5000,
+            "MaxOreAvailable": 5000
+        },
+        {
+            "Name": "Exotic",
+            "ResourceType": {
+                "RowName": "Meta_Resource"
+            },
+            "MiningTimeSeconds": 20,
+            "Metadata": {
+                "bIsDeprecated": true
+            }
+        },
+        {
+            "Name": "Iron",
+            "ResourceType": {
+                "RowName": "Metal_Ore"
+            },
+            "HighlightableRow": {
+                "RowName": "Deep_Mining_Ore_Deposit_Iron"
+            },
+            "RVTNodeMaterial_CF": "/Game/ASS/ENV/LND/DeepMiningOreDeposit/M_RVT_CF_DeepMiningOreDeposit_Iron_Node.M_RVT_CF_DeepMiningOreDeposit_Iron_Node",
+            "RVTNodeMaterial_DC": "/Game/ASS/ENV/LND/DeepMiningOreDeposit/M_RVT_DC_DeepMiningOreDeposit_Iron_Node.M_RVT_DC_DeepMiningOreDeposit_Iron_Node",
+            "NodeMaterial_CF": "/Game/ASS/ENV/LND/DeepMiningOreDeposit/M_CF_DeepMiningOreDeposit_Iron_Node.M_CF_DeepMiningOreDeposit_Iron_Node",
+            "NodeMaterial_DC": "/Game/ASS/ENV/LND/DeepMiningOreDeposit/M_DC_DeepMiningOreDeposit_Iron_Node.M_DC_DeepMiningOreDeposit_Iron_Node",
+            "RockMaterial": "/Game/ASS/ENV/LND/DeepMiningOreDeposit/M_DeepMiningOreDeposit_Iron_Rocks.M_DeepMiningOreDeposit_Iron_Rocks",
+            "MinOreAvailable": 4500,
+            "MaxOreAvailable": 5500,
+            "MiningTimeSeconds": 30
+        },
+        {
+            "Name": "Gold",
+            "ResourceType": {
+                "RowName": "Gold_Ore"
+            },
+            "HighlightableRow": {
+                "RowName": "Deep_Mining_Ore_Deposit_Gold"
+            },
+            "RVTNodeMaterial_CF": "/Game/ASS/ENV/LND/DeepMiningOreDeposit/M_RVT_CF_DeepMiningOreDeposit_Gold_Node.M_RVT_CF_DeepMiningOreDeposit_Gold_Node",
+            "RVTNodeMaterial_DC": "/Game/ASS/ENV/LND/DeepMiningOreDeposit/M_RVT_DC_DeepMiningOreDeposit_Gold_Node.M_RVT_DC_DeepMiningOreDeposit_Gold_Node",
+            "NodeMaterial_CF": "/Game/ASS/ENV/LND/DeepMiningOreDeposit/M_CF_DeepMiningOreDeposit_Gold_Node.M_CF_DeepMiningOreDeposit_Gold_Node",
+            "NodeMaterial_DC": "/Game/ASS/ENV/LND/DeepMiningOreDeposit/M_DC_DeepMiningOreDeposit_Gold_Node.M_DC_DeepMiningOreDeposit_Gold_Node",
+            "RockMaterial": "/Game/ASS/ENV/LND/DeepMiningOreDeposit/M_DeepMiningOreDeposit_Gold_Rocks.M_DeepMiningOreDeposit_Gold_Rocks",
+            "MinOreAvailable": 4000,
+            "MaxOreAvailable": 6000,
+            "MiningTimeSeconds": 50
+        },
+        {
+            "Name": "Copper",
+            "ResourceType": {
+                "RowName": "Copper_Ore"
+            },
+            "HighlightableRow": {
+                "RowName": "Deep_Mining_Ore_Deposit_Copper"
+            },
+            "RVTNodeMaterial_CF": "/Game/ASS/ENV/LND/DeepMiningOreDeposit/M_RVT_CF_DeepMiningOreDeposit_Copper_Node.M_RVT_CF_DeepMiningOreDeposit_Copper_Node",
+            "RVTNodeMaterial_DC": "/Game/ASS/ENV/LND/DeepMiningOreDeposit/M_RVT_DC_DeepMiningOreDeposit_Copper_Node.M_RVT_DC_DeepMiningOreDeposit_Copper_Node",
+            "NodeMaterial_CF": "/Game/ASS/ENV/LND/DeepMiningOreDeposit/M_CF_DeepMiningOreDeposit_Copper_Node.M_CF_DeepMiningOreDeposit_Copper_Node",
+            "NodeMaterial_DC": "/Game/ASS/ENV/LND/DeepMiningOreDeposit/M_DC_DeepMiningOreDeposit_Copper_Node.M_DC_DeepMiningOreDeposit_Copper_Node",
+            "RockMaterial": "/Game/ASS/ENV/LND/DeepMiningOreDeposit/M_DeepMiningOreDeposit_Copper_Rocks.M_DeepMiningOreDeposit_Copper_Rocks",
+            "MinOreAvailable": 4500,
+            "MaxOreAvailable": 5500,
+            "MiningTimeSeconds": 40
+        },
+        {
+            "Name": "Silicon",
+            "ResourceType": {
+                "RowName": "Silica"
+            },
+            "HighlightableRow": {
+                "RowName": "Deep_Mining_Ore_Deposit_Silicon"
+            },
+            "RVTNodeMaterial_CF": "/Game/ASS/ENV/LND/DeepMiningOreDeposit/M_RVT_CF_DeepMiningOreDeposit_Silica_Node.M_RVT_CF_DeepMiningOreDeposit_Silica_Node",
+            "RVTNodeMaterial_DC": "/Game/ASS/ENV/LND/DeepMiningOreDeposit/M_RVT_DC_DeepMiningOreDeposit_Silica_Node.M_RVT_DC_DeepMiningOreDeposit_Silica_Node",
+            "NodeMaterial_CF": "/Game/ASS/ENV/LND/DeepMiningOreDeposit/M_CF_DeepMiningOreDeposit_Silica_Node.M_CF_DeepMiningOreDeposit_Silica_Node",
+            "NodeMaterial_DC": "/Game/ASS/ENV/LND/DeepMiningOreDeposit/M_DC_DeepMiningOreDeposit_Silica_Node.M_DC_DeepMiningOreDeposit_Silica_Node",
+            "RockMaterial": "/Game/ASS/ENV/LND/DeepMiningOreDeposit/M_DeepMiningOreDeposit_Silica_Rocks.M_DeepMiningOreDeposit_Silica_Rocks",
+            "MinOreAvailable": 4500,
+            "MaxOreAvailable": 5500,
+            "MiningTimeSeconds": 35
+        },
+        {
+            "Name": "Coal",
+            "ResourceType": {
+                "RowName": "Coal_Ore"
+            },
+            "HighlightableRow": {
+                "RowName": "Deep_Mining_Ore_Deposit_Coal"
+            },
+            "RVTNodeMaterial_CF": "/Game/ASS/ENV/LND/DeepMiningOreDeposit/M_RVT_CF_DeepMiningOreDeposit_Coal_Node.M_RVT_CF_DeepMiningOreDeposit_Coal_Node",
+            "RVTNodeMaterial_DC": "/Game/ASS/ENV/LND/DeepMiningOreDeposit/M_RVT_DC_DeepMiningOreDeposit_Coal_Node.M_RVT_DC_DeepMiningOreDeposit_Coal_Node",
+            "NodeMaterial_CF": "/Game/ASS/ENV/LND/DeepMiningOreDeposit/M_CF_DeepMiningOreDeposit_Coal_Node.M_CF_DeepMiningOreDeposit_Coal_Node",
+            "NodeMaterial_DC": "/Game/ASS/ENV/LND/DeepMiningOreDeposit/M_DC_DeepMiningOreDeposit_Coal_Node.M_DC_DeepMiningOreDeposit_Coal_Node",
+            "RockMaterial": "/Game/ASS/ENV/LND/DeepMiningOreDeposit/M_DeepMiningOreDeposit_Coal_Rocks.M_DeepMiningOreDeposit_Coal_Rocks",
+            "MinOreAvailable": 5000,
+            "MaxOreAvailable": 6000,
+            "MiningTimeSeconds": 25
+        },
+        {
+            "Name": "Sulfur",
+            "ResourceType": {
+                "RowName": "Sulfur"
+            },
+            "HighlightableRow": {
+                "RowName": "Deep_Mining_Ore_Deposit_Sulfur"
+            },
+            "RVTNodeMaterial_CF": "/Game/ASS/ENV/LND/DeepMiningOreDeposit/M_RVT_CF_DeepMiningOreDeposit_Sulfur_Node.M_RVT_CF_DeepMiningOreDeposit_Sulfur_Node",
+            "RVTNodeMaterial_DC": "/Game/ASS/ENV/LND/DeepMiningOreDeposit/M_RVT_DC_DeepMiningOreDeposit_Sulfur_Node.M_RVT_DC_DeepMiningOreDeposit_Sulfur_Node",
+            "NodeMaterial_CF": "/Game/ASS/ENV/LND/DeepMiningOreDeposit/M_CF_DeepMiningOreDeposit_Sulfur_Node.M_CF_DeepMiningOreDeposit_Sulfur_Node",
+            "NodeMaterial_DC": "/Game/ASS/ENV/LND/DeepMiningOreDeposit/M_DC_DeepMiningOreDeposit_Sulfur_Node.M_DC_DeepMiningOreDeposit_Sulfur_Node",
+            "RockMaterial": "/Game/ASS/ENV/LND/DeepMiningOreDeposit/M_DeepMiningOreDeposit_Sulfur_Rocks.M_DeepMiningOreDeposit_Sulfur_Rocks",
+            "MinOreAvailable": 4500,
+            "MaxOreAvailable": 5500,
+            "MiningTimeSeconds": 30
+        },
+        {
+            "Name": "Aluminium",
+            "ResourceType": {
+                "RowName": "Bauxite"
+            },
+            "HighlightableRow": {
+                "RowName": "Deep_Mining_Ore_Deposit_Aluminium"
+            },
+            "RVTNodeMaterial_CF": "/Game/ASS/ENV/LND/DeepMiningOreDeposit/M_RVT_CF_DeepMiningOreDeposit_Aluminum_Node.M_RVT_CF_DeepMiningOreDeposit_Aluminum_Node",
+            "RVTNodeMaterial_DC": "/Game/ASS/ENV/LND/DeepMiningOreDeposit/M_RVT_DC_DeepMiningOreDeposit_Aluminum_Node.M_RVT_DC_DeepMiningOreDeposit_Aluminum_Node",
+            "NodeMaterial_CF": "/Game/ASS/ENV/LND/DeepMiningOreDeposit/M_CF_DeepMiningOreDeposit_Aluminum_Node.M_CF_DeepMiningOreDeposit_Aluminum_Node",
+            "NodeMaterial_DC": "/Game/ASS/ENV/LND/DeepMiningOreDeposit/M_DC_DeepMiningOreDeposit_Aluminum_Node.M_DC_DeepMiningOreDeposit_Aluminum_Node",
+            "RockMaterial": "/Game/ASS/ENV/LND/DeepMiningOreDeposit/M_DeepMiningOreDeposit_Aluminum_Rocks.M_DeepMiningOreDeposit_Aluminum_Rocks",
+            "MinOreAvailable": 4000,
+            "MaxOreAvailable": 6000,
+            "MiningTimeSeconds": 45
+        },
+        {
+            "Name": "Mission_STYX_D_Research2",
+            "ResourceType": {
+                "RowName": "Mission_STYX_D_Research2_Abyssal_Oxite"
+            },
+            "HighlightableRow": {
+                "RowName": "Deep_Mining_Ore_Deposit_Abyssal_Oxite"
+            },
+            "RVTNodeMaterial_CF": "/Game/ASS/ENV/LND/DeepMiningOreDeposit/M_RVT_CF_DeepMiningOreDeposit_Oxite_Node.M_RVT_CF_DeepMiningOreDeposit_Oxite_Node",
+            "RVTNodeMaterial_DC": "/Game/ASS/ENV/LND/DeepMiningOreDeposit/M_RVT_DC_DeepMiningOreDeposit_Oxite_Node.M_RVT_DC_DeepMiningOreDeposit_Oxite_Node",
+            "NodeMaterial_CF": "/Game/ASS/ENV/LND/DeepMiningOreDeposit/M_CF_DeepMiningOreDeposit_Oxite_Node.M_CF_DeepMiningOreDeposit_Oxite_Node",
+            "NodeMaterial_DC": "/Game/ASS/ENV/LND/DeepMiningOreDeposit/M_DC_DeepMiningOreDeposit_Oxite_Node.M_DC_DeepMiningOreDeposit_Oxite_Node",
+            "RockMaterial": "/Game/ASS/ENV/LND/DeepMiningOreDeposit/M_DeepMiningOreDeposit_Oxite_Rocks.M_DeepMiningOreDeposit_Oxite_Rocks",
+            "MiningTimeSeconds": 50
+        }
+    ]
+}

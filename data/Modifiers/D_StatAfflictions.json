@@ -1,0 +1,260 @@
+{
+    "RowStruct": "/Script/Icarus.StatAfflictions",
+    "Defaults": {
+        "AfflictionStat": {
+            "Value": "None"
+        },
+        "CriticalHitAfflictionStat": {
+            "Value": "None"
+        },
+        "ResistanceStat": {
+            "Value": "None"
+        },
+        "DurationInSeconds": 0,
+        "Modifier": {
+            "RowName": "None",
+            "DataTableName": "D_ModifierStates"
+        },
+        "LookupStat": {
+            "Value": "None"
+        }
+    },
+    "Rows": [
+        {
+            "Name": "Wound",
+            "AfflictionStat": {
+                "Value": "AttacksCauseWound_%"
+            },
+            "ResistanceStat": {
+                "Value": "WoundResistance_%"
+            },
+            "Modifier": {
+                "RowName": "Wound"
+            },
+            "LookupStat": {
+                "Value": "BaseAttacksCauseWound_%"
+            }
+        },
+        {
+            "Name": "Slow",
+            "AfflictionStat": {
+                "Value": "AttacksCauseSlow_%"
+            },
+            "ResistanceStat": {
+                "Value": "SlowResistance_%"
+            },
+            "DurationInSeconds": 5,
+            "Modifier": {
+                "RowName": "Slow"
+            },
+            "LookupStat": {
+                "Value": "BaseAttacksCauseSlow_%"
+            }
+        },
+        {
+            "Name": "Immobilise",
+            "AfflictionStat": {
+                "Value": "AttacksCauseImmobilise_%"
+            },
+            "CriticalHitAfflictionStat": {
+                "Value": "CriticalHitsCauseImmobilise_%"
+            },
+            "ResistanceStat": {
+                "Value": "ImmobiliseResistance_%"
+            },
+            "DurationInSeconds": 3,
+            "Modifier": {
+                "RowName": "Pinned"
+            },
+            "LookupStat": {
+                "Value": "BaseAttacksCauseImmobilise_%"
+            }
+        },
+        {
+            "Name": "Deep_Wound",
+            "AfflictionStat": {
+                "Value": "AttacksCauseDeepWound_%"
+            },
+            "ResistanceStat": {
+                "Value": "DeepWoundResistance_%"
+            },
+            "Modifier": {
+                "RowName": "DeepWound"
+            },
+            "LookupStat": {
+                "Value": "BaseAttacksCauseDeepWound_%"
+            }
+        },
+        {
+            "Name": "Poison",
+            "AfflictionStat": {
+                "Value": "AttacksCausePoison_%"
+            },
+            "ResistanceStat": {
+                "Value": "PoisonResistance_%"
+            },
+            "DurationInSeconds": 60,
+            "Modifier": {
+                "RowName": "Poison_DOT"
+            },
+            "LookupStat": {
+                "Value": "BaseAttacksCausePoison_%"
+            }
+        },
+        {
+            "Name": "Poison_Sting",
+            "AfflictionStat": {
+                "Value": "AttacksCausePoisonSting_%"
+            },
+            "DurationInSeconds": 30,
+            "Modifier": {
+                "RowName": "Poison_Sting"
+            }
+        },
+        {
+            "Name": "Poison_Sting_Stackable",
+            "AfflictionStat": {
+                "Value": "AttacksCausePoisonStingStackable_%"
+            },
+            "DurationInSeconds": 15,
+            "Modifier": {
+                "RowName": "Poison_Sting_Stackable"
+            }
+        },
+        {
+            "Name": "Komodo_Bite",
+            "AfflictionStat": {
+                "Value": "AttacksCauseKomodoBite_%"
+            },
+            "DurationInSeconds": 1800,
+            "Modifier": {
+                "RowName": "Komodo_Bite"
+            }
+        },
+        {
+            "Name": "Electroshock",
+            "AfflictionStat": {
+                "Value": "AttacksCauseElectroshock_%"
+            },
+            "ResistanceStat": {
+                "Value": "ElectroshockResistance_%"
+            },
+            "DurationInSeconds": 4,
+            "Modifier": {
+                "RowName": "Slowed_LarkwellTazerArrow"
+            },
+            "LookupStat": {
+                "Value": "BaseAttacksCauseElectroshock_%"
+            }
+        },
+        {
+            "Name": "Bleed",
+            "AfflictionStat": {
+                "Value": "AttacksCauseBleed_%"
+            },
+            "ResistanceStat": {
+                "Value": "BleedResistance_%"
+            },
+            "DurationInSeconds": 30,
+            "Modifier": {
+                "RowName": "DamageOverTime_Bleeding"
+            },
+            "LookupStat": {
+                "Value": "BaseAttacksCauseBleed_%"
+            }
+        },
+        {
+            "Name": "Hemorrhage",
+            "AfflictionStat": {
+                "Value": "AttacksCauseHemorrhage_%"
+            },
+            "ResistanceStat": {
+                "Value": "HemorrhageResistance_%"
+            },
+            "DurationInSeconds": 30,
+            "Modifier": {
+                "RowName": "Hemorrage"
+            },
+            "LookupStat": {
+                "Value": "BaseAttacksCauseHemorrhage_%"
+            }
+        },
+        {
+            "Name": "MinorHemorrhage",
+            "AfflictionStat": {
+                "Value": "AttacksCauseMinorHemorrhage_%"
+            },
+            "ResistanceStat": {
+                "Value": "HemorrhageResistance_%"
+            },
+            "DurationInSeconds": 10,
+            "Modifier": {
+                "RowName": "MinorHemorrhage"
+            },
+            "LookupStat": {
+                "Value": "BaseAttacksCauseMinorHemorrhage_%"
+            }
+        },
+        {
+            "Name": "LandsharkBite",
+            "AfflictionStat": {
+                "Value": "AttacksCauseLandsharkBite_%"
+            },
+            "DurationInSeconds": 10,
+            "Modifier": {
+                "RowName": "Landshark_Melee"
+            },
+            "LookupStat": {
+                "Value": "BaseAttacksCauseLandsharkBite_%"
+            }
+        },
+        {
+            "Name": "Burn",
+            "AfflictionStat": {
+                "Value": "AttacksCauseBurn_%"
+            },
+            "ResistanceStat": {
+                "Value": "BurnResistance_%"
+            },
+            "DurationInSeconds": 20,
+            "Modifier": {
+                "RowName": "Burn"
+            },
+            "LookupStat": {
+                "Value": "BaseAttacksCauseBurn_%"
+            }
+        },
+        {
+            "Name": "Freeze",
+            "AfflictionStat": {
+                "Value": "AttacksCauseFreeze_%"
+            },
+            "ResistanceStat": {
+                "Value": "FreezeResistance_%"
+            },
+            "DurationInSeconds": 20,
+            "Modifier": {
+                "RowName": "Freeze"
+            },
+            "LookupStat": {
+                "Value": "BaseAttacksCauseFreeze_%"
+            }
+        },
+        {
+            "Name": "Miasma",
+            "AfflictionStat": {
+                "Value": "AttacksCauseMiasma_%"
+            },
+            "ResistanceStat": {
+                "Value": "MiasmaResistance_%"
+            },
+            "DurationInSeconds": 20,
+            "Modifier": {
+                "RowName": "Miasma"
+            },
+            "LookupStat": {
+                "Value": "BaseAttacksCauseMiasma_%"
+            }
+        }
+    ]
+}

@@ -1,0 +1,115 @@
+{
+    "RowStruct": "/Script/Icarus.IcarusTamingData",
+    "Defaults": {
+        "Behaviour": "/Game/BP/AI/Taming/BP_TamingComponent.BP_TamingComponent_C",
+        "TameDurationInSeconds": 300,
+        "DesiredTemperatureRange": {
+            "X": 10,
+            "Y": 40
+        },
+        "DesiredShelterPercentage": 75,
+        "DesiredNutritionPercentage": 50,
+        "RequiredTamingModifiers": [],
+        "ProhibitedTamingModifiers": [],
+        "TamedAI": {
+            "RowName": "None",
+            "DataTableName": "D_AISetup"
+        },
+        "MatureCreatureType": {
+            "RowName": "None",
+            "DataTableName": "D_AISetup"
+        },
+        "JuvenileCreatureType": {
+            "RowName": "None",
+            "DataTableName": "D_AISetup"
+        },
+        "bAutomaticallySpawnJuvenileWithParent": false,
+        "PercentChanceToSpawnJuvenile": 33,
+        "MaxNearbyAutoSpawnedJuveniles": 2
+    },
+    "Rows": [
+        {
+            "Name": "Moa",
+            "TameDurationInSeconds": 900,
+            "DesiredShelterPercentage": 0,
+            "DesiredNutritionPercentage": 25,
+            "ProhibitedTamingModifiers": [
+                {
+                    "RowName": "Wet",
+                    "DataTableName": "D_ModifierStates"
+                },
+                {
+                    "RowName": "Sleepy",
+                    "DataTableName": "D_ModifierStates"
+                }
+            ],
+            "TamedAI": {
+                "RowName": "Mount_Moa"
+            },
+            "MatureCreatureType": {
+                "RowName": "Moa"
+            },
+            "JuvenileCreatureType": {
+                "RowName": "Juvenile_Moa"
+            },
+            "bAutomaticallySpawnJuvenileWithParent": true,
+            "PercentChanceToSpawnJuvenile": 75,
+            "MaxNearbyAutoSpawnedJuveniles": 5
+        },
+        {
+            "Name": "Buffalo",
+            "TameDurationInSeconds": 900,
+            "DesiredShelterPercentage": 0,
+            "DesiredNutritionPercentage": 25,
+            "ProhibitedTamingModifiers": [
+                {
+                    "RowName": "Wet",
+                    "DataTableName": "D_ModifierStates"
+                },
+                {
+                    "RowName": "Sleepy",
+                    "DataTableName": "D_ModifierStates"
+                }
+            ],
+            "TamedAI": {
+                "RowName": "Mount_Buffalo"
+            },
+            "MatureCreatureType": {
+                "RowName": "Buffalo"
+            },
+            "JuvenileCreatureType": {
+                "RowName": "Juvenile_Buffalo"
+            },
+            "bAutomaticallySpawnJuvenileWithParent": true,
+            "PercentChanceToSpawnJuvenile": 75,
+            "MaxNearbyAutoSpawnedJuveniles": 5
+        },
+        {
+            "Name": "DYN_Bear_Cub",
+            "TameDurationInSeconds": 900,
+            "DesiredShelterPercentage": 0,
+            "DesiredNutritionPercentage": 25,
+            "ProhibitedTamingModifiers": [
+                {
+                    "RowName": "Wet",
+                    "DataTableName": "D_ModifierStates"
+                },
+                {
+                    "RowName": "Sleepy",
+                    "DataTableName": "D_ModifierStates"
+                }
+            ],
+            "TamedAI": {
+                "RowName": "Bear"
+            },
+            "MatureCreatureType": {
+                "RowName": "Bear"
+            },
+            "JuvenileCreatureType": {
+                "RowName": "Juvenile_Bear_Cub"
+            },
+            "PercentChanceToSpawnJuvenile": 75,
+            "MaxNearbyAutoSpawnedJuveniles": 5
+        }
+    ]
+}

@@ -1,0 +1,3301 @@
+{
+    "RowStruct": "/Script/Icarus.BuildableData",
+    "Defaults": {
+        "Behaviour": "None",
+        "Stability": {
+            "RowName": "None",
+            "DataTableName": "D_BuildingStability"
+        },
+        "Type": {
+            "RowName": "None",
+            "DataTableName": "D_BuildingTypes"
+        },
+        "PieceType": "Floor",
+        "Variations": [],
+        "Stats": {}
+    },
+    "Rows": [
+        {
+            "Name": "Wood_Frame",
+            "Stability": {
+                "RowName": "Wood_Frame"
+            },
+            "Type": {
+                "RowName": "Wood"
+            },
+            "PieceType": "Frame",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Wood_Frame_FullFrame",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Wood_Frame_Pillar",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Wood_Frame_HalfFrame",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Wood_Floor",
+            "Stability": {
+                "RowName": "Wood_General"
+            },
+            "Type": {
+                "RowName": "Wood"
+            },
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Wood_Floor",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "Wood_Floor_TrapDoor",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Wood_Floor_TrapDoor",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Wood_Wall",
+            "Stability": {
+                "RowName": "Wood_General"
+            },
+            "Type": {
+                "RowName": "Wood"
+            },
+            "PieceType": "Wall",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Wood_Wall_Solid",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Wood_Wall_WindowFrame",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Wood_Wall_DoorFrame",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Wood_Wall_DoubleDoorL",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Wood_Wall_DoubleDoorR",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Wood_Wall_DoubleWindowR",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Wood_Wall_DoubleWindowL",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Wood_Wall_Angle",
+            "Stability": {
+                "RowName": "Wood_General"
+            },
+            "Type": {
+                "RowName": "Wood"
+            },
+            "PieceType": "Wall",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Wood_Wall_Angle_AngleLeft",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Wood_Wall_Angle_AngleRightInverted",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Wood_Wall_Angle_AngleRight",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Wood_Wall_Angle_AngleLeftInverted",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Wood_Wall_Angle_AnglePeak",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Wood_Ramp",
+            "Stability": {
+                "RowName": "Wood_General"
+            },
+            "Type": {
+                "RowName": "Wood"
+            },
+            "PieceType": "Ramp",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Wood_Ramp_Roof",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Wood_Ramp",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "Wood_Stairs",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Wood_Ramp_Stairs",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Wood_Ramp_RoofPeak",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Wood_Beam",
+            "Stability": {
+                "RowName": "Wood_Beam"
+            },
+            "Type": {
+                "RowName": "Wood"
+            },
+            "PieceType": "Frame",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Wood_Beam_VerticalBeam",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Wood_Beam_HorizontalBeam",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Wood_Beam_DiagonalBeam",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Wood_Roof_Corner",
+            "Stability": {
+                "RowName": "Wood_General"
+            },
+            "Type": {
+                "RowName": "Wood"
+            },
+            "PieceType": "Ramp",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "Wood_Roof_Corner",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Wood_Roof_Corner_Left",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "Wood_Roof_Corner",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Wood_Roof_Corner_Right",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "Wood_Roof_Corner",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Wood_Roof_Corner_InvertedRight",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "Wood_Roof_Corner",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Wood_Roof_Corner_InvertedLeft",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Wood_HalfPitch",
+            "Stability": {
+                "RowName": "Wood_General"
+            },
+            "Type": {
+                "RowName": "Wood"
+            },
+            "PieceType": "Ramp",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Wood_HalfPitch_LowerRoof",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Wood_HalfPitch_UpperRoof",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Wood_HalfPitch_LowerLeftWall",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Wood_HalfPitch_UpperLeftWall",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Wood_HalfPitch_LowerRightWall",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Wood_HalfPitch_UpperRightWall",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Wood_HalfNormal",
+            "Stability": {
+                "RowName": "Wood_General"
+            },
+            "Type": {
+                "RowName": "Wood"
+            },
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Wood_HalfNormal_HalfFloor",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Wood_HalfNormal_QuarterFloor",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Wood_HalfNormal_HalfRampRight",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Wood_HalfNormal_HalfRampLeft",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Wood_HalfNormal_HalfWallLower",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Interior_Wood_Frame",
+            "Stability": {
+                "RowName": "Interior_Wood_Frame"
+            },
+            "Type": {
+                "RowName": "Interior_Wood"
+            },
+            "PieceType": "Frame",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Interior_Wood_Frame_FullFrame",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Interior_Wood_Frame_Pillar",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Interior_Wood_Frame_HalfFrame",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Interior_Wood_Floor",
+            "Stability": {
+                "RowName": "Interior_Wood_General"
+            },
+            "Type": {
+                "RowName": "Interior_Wood"
+            },
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Interior_Wood_Floor",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "Interior_Wood_Floor_TrapDoor",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Interior_Wood_Floor_TrapDoor",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Interior_Wood_Wall",
+            "Stability": {
+                "RowName": "Interior_Wood_General"
+            },
+            "Type": {
+                "RowName": "Interior_Wood"
+            },
+            "PieceType": "Wall",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Interior_Wood_Wall_Solid",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Interior_Wood_Wall_WindowFrame",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Interior_Wood_Wall_DoorFrame",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Interior_Wood_Wall_DoubleDoorL",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Interior_Wood_Wall_DoubleDoorR",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Interior_Wood_Wall_DoubleWindowR",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Interior_Wood_Wall_DoubleWindowL",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Interior_Wood_Wall_Angle",
+            "Stability": {
+                "RowName": "Interior_Wood_General"
+            },
+            "Type": {
+                "RowName": "Interior_Wood"
+            },
+            "PieceType": "Wall",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Interior_Wood_Wall_Angle_AngleLeft",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Interior_Wood_Wall_Angle_AngleRightInverted",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Interior_Wood_Wall_Angle_AngleRight",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Interior_Wood_Wall_Angle_AngleLeftInverted",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Interior_Wood_Wall_Angle_AnglePeak",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Interior_Wood_Ramp",
+            "Stability": {
+                "RowName": "Interior_Wood_General"
+            },
+            "Type": {
+                "RowName": "Interior_Wood"
+            },
+            "PieceType": "Ramp",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Interior_Wood_Ramp",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "Interior_Wood_Stairs",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Interior_Wood_Ramp_Stairs",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Interior_Wood_Beam",
+            "Stability": {
+                "RowName": "Interior_Wood_Beam"
+            },
+            "Type": {
+                "RowName": "Interior_Wood"
+            },
+            "PieceType": "Frame",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Interior_Wood_Beam_VerticalBeam",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Interior_Wood_Beam_HorizontalBeam",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Interior_Wood_Beam_DiagonalBeam",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Interior_Wood_HalfPitch",
+            "Stability": {
+                "RowName": "Interior_Wood_General"
+            },
+            "Type": {
+                "RowName": "Interior_Wood"
+            },
+            "PieceType": "Wall",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Interior_Wood_HalfPitch_LowerLeftWall",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Interior_Wood_HalfPitch_UpperLeftWall",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Interior_Wood_HalfPitch_LowerRightWall",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Interior_Wood_HalfPitch_UpperRightWall",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Interior_Wood_HalfNormal",
+            "Stability": {
+                "RowName": "Interior_Wood_General"
+            },
+            "Type": {
+                "RowName": "Interior_Wood"
+            },
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Interior_Wood_HalfNormal_HalfFloor",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Interior_Wood_HalfNormal_QuarterFloor",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Interior_Wood_HalfNormal_HalfRampRight",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Interior_Wood_HalfNormal_HalfRampLeft",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Interior_Wood_HalfNormal_HalfWallLower",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Stone_Frame",
+            "Stability": {
+                "RowName": "Stone_Frame"
+            },
+            "Type": {
+                "RowName": "Stone"
+            },
+            "PieceType": "Frame",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Stone_Frame_FullFrame",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Stone_Frame_Pillar",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Stone_Frame_HalfFrame",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Stone_Floor",
+            "Stability": {
+                "RowName": "Stone_General"
+            },
+            "Type": {
+                "RowName": "Stone"
+            },
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Stone_Floor",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "Stone_Floor_TrapDoor",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Stone_Floor_TrapDoor",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Stone_Wall",
+            "Stability": {
+                "RowName": "Stone_General"
+            },
+            "Type": {
+                "RowName": "Stone"
+            },
+            "PieceType": "Wall",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Stone_Wall_Solid",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Stone_Wall_WindowFrame",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Stone_Wall_DoorFrame",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Stone_Wall_DoubleDoorL",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Stone_Wall_DoubleDoorR",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Stone_Wall_DoubleWindowR",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Stone_Wall_DoubleWindowL",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Stone_Wall_Angle",
+            "Stability": {
+                "RowName": "Stone_General"
+            },
+            "Type": {
+                "RowName": "Stone"
+            },
+            "PieceType": "Wall",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Stone_Wall_Angle_AngleLeft",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Stone_Wall_Angle_AngleRightInverted",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Stone_Wall_Angle_AngleRight",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Stone_Wall_Angle_AngleLeftInverted",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Stone_Wall_Angle_AnglePeak",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Stone_Ramp",
+            "Stability": {
+                "RowName": "Stone_General"
+            },
+            "Type": {
+                "RowName": "Stone"
+            },
+            "PieceType": "Ramp",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Stone_Ramp_Roof",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Stone_Ramp",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "Stone_Stairs",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Stone_Ramp_Stairs",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Stone_Ramp_RoofPeak",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Stone_Beam",
+            "Stability": {
+                "RowName": "Stone_Beam"
+            },
+            "Type": {
+                "RowName": "Stone"
+            },
+            "PieceType": "Frame",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Stone_Beam_VerticalBeam",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Stone_Beam_HorizontalBeam",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Stone_Beam_DiagonalBeam",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Stone_Roof_Corner",
+            "Stability": {
+                "RowName": "Stone_General"
+            },
+            "Type": {
+                "RowName": "Stone"
+            },
+            "PieceType": "Ramp",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "Stone_Roof_Corner",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Stone_Roof_Corner_Left",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "Stone_Roof_Corner",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Stone_Roof_Corner_Right",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "Stone_Roof_Corner",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Stone_Roof_Corner_InvertedRight",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "Stone_Roof_Corner",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Stone_Roof_Corner_InvertedLeft",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Stone_HalfPitch",
+            "Stability": {
+                "RowName": "Stone_General"
+            },
+            "Type": {
+                "RowName": "Stone"
+            },
+            "PieceType": "Ramp",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Stone_HalfPitch_LowerRoof",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Stone_HalfPitch_UpperRoof",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Stone_HalfPitch_LowerLeftWall",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Stone_HalfPitch_UpperLeftWall",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Stone_HalfPitch_LowerRightWall",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Stone_HalfPitch_UpperRightWall",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Stone_HalfNormal",
+            "Stability": {
+                "RowName": "Stone_General"
+            },
+            "Type": {
+                "RowName": "Stone"
+            },
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Stone_HalfNormal_HalfFloor",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Stone_HalfNormal_QuarterFloor",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Stone_HalfNormal_HalfRampRight",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Stone_HalfNormal_HalfRampLeft",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Stone_HalfNormal_HalfWallLower",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Concrete_Frame",
+            "Stability": {
+                "RowName": "Concrete_Frame"
+            },
+            "Type": {
+                "RowName": "Concrete"
+            },
+            "PieceType": "Frame",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Concrete_Frame_FullFrame",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Concrete_Frame_Pillar",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Concrete_Frame_HalfFrame",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Concrete_Floor",
+            "Stability": {
+                "RowName": "Concrete_General"
+            },
+            "Type": {
+                "RowName": "Concrete"
+            },
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Concrete_Floor",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "Concrete_Floor_TrapDoor",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Concrete_Floor_TrapDoor",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Concrete_Wall",
+            "Stability": {
+                "RowName": "Concrete_General"
+            },
+            "Type": {
+                "RowName": "Concrete"
+            },
+            "PieceType": "Wall",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Concrete_Wall_Solid",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Concrete_Wall_WindowFrame",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Concrete_Wall_DoorFrame",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Concrete_Wall_DoubleDoorL",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Concrete_Wall_DoubleDoorR",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Concrete_Wall_DoubleWindowR",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Concrete_Wall_DoubleWindowL",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Concrete_Wall_Angle",
+            "Stability": {
+                "RowName": "Concrete_General"
+            },
+            "Type": {
+                "RowName": "Concrete"
+            },
+            "PieceType": "Wall",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Concrete_Wall_Angle_AngleLeft",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Concrete_Wall_Angle_AngleRightInverted",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Concrete_Wall_Angle_AngleRight",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Concrete_Wall_Angle_AngleLeftInverted",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Concrete_Wall_Angle_AnglePeak",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Concrete_Ramp",
+            "Stability": {
+                "RowName": "Concrete_General"
+            },
+            "Type": {
+                "RowName": "Concrete"
+            },
+            "PieceType": "Ramp",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Concrete_Ramp_Roof",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Concrete_Ramp",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "Concrete_Stairs",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Concrete_Ramp_Stairs",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Concrete_Ramp_RoofPeak",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Concrete_Beam",
+            "Stability": {
+                "RowName": "Concrete_Beam"
+            },
+            "Type": {
+                "RowName": "Concrete"
+            },
+            "PieceType": "Frame",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Concrete_Beam_VerticalBeam",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Concrete_Beam_HorizontalBeam",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Concrete_Beam_DiagonalBeam",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Concrete_Roof_Corner",
+            "Stability": {
+                "RowName": "Concrete_General"
+            },
+            "Type": {
+                "RowName": "Concrete"
+            },
+            "PieceType": "Ramp",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "Concrete_Roof_Corner",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Concrete_Roof_Corner_Left",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "Concrete_Roof_Corner",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Concrete_Roof_Corner_Right",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "Concrete_Roof_Corner",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Concrete_Roof_Corner_InvertedRight",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "Concrete_Roof_Corner",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Concrete_Roof_Corner_InvertedLeft",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Concrete_HalfPitch",
+            "Stability": {
+                "RowName": "Concrete_General"
+            },
+            "Type": {
+                "RowName": "Concrete"
+            },
+            "PieceType": "Ramp",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Concrete_HalfPitch_LowerRoof",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Concrete_HalfPitch_UpperRoof",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Concrete_HalfPitch_LowerLeftWall",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Concrete_HalfPitch_UpperLeftWall",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Concrete_HalfPitch_LowerRightWall",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Concrete_HalfPitch_UpperRightWall",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Concrete_HalfNormal",
+            "Stability": {
+                "RowName": "Concrete_General"
+            },
+            "Type": {
+                "RowName": "Concrete"
+            },
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Concrete_HalfNormal_HalfFloor",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Concrete_HalfNormal_QuarterFloor",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Concrete_HalfNormal_HalfRampRight",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Concrete_HalfNormal_HalfRampLeft",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Concrete_HalfNormal_HalfWallLower",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Metal_Frame",
+            "PieceType": "Frame",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Metal_Frame_Frame",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Thatch_Frame",
+            "Stability": {
+                "RowName": "Thatch_Frame"
+            },
+            "Type": {
+                "RowName": "Thatch"
+            },
+            "PieceType": "Frame",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Thatch_Frame_FullFrame",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Thatch_Frame_Pillar",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Thatch_Frame_HalfFrame",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Thatch_Floor",
+            "Stability": {
+                "RowName": "Thatch_General"
+            },
+            "Type": {
+                "RowName": "Thatch"
+            },
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Thatch_Floor",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "Thatch_Floor_TrapDoor",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Thatch_Floor_TrapDoor",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Thatch_Wall",
+            "Stability": {
+                "RowName": "Thatch_General"
+            },
+            "Type": {
+                "RowName": "Thatch"
+            },
+            "PieceType": "Wall",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Thatch_Wall_Solid",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Thatch_Wall_WindowFrame",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Thatch_Wall_DoorFrame",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Thatch_Wall_DoubleDoorL",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Thatch_Wall_DoubleDoorR",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Thatch_Wall_DoubleWindowL",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Thatch_Wall_DoubleWindowR",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Thatch_Wall_Angle",
+            "Stability": {
+                "RowName": "Thatch_General"
+            },
+            "Type": {
+                "RowName": "Thatch"
+            },
+            "PieceType": "Wall",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Thatch_Wall_Angle_AngleLeft",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Thatch_Wall_Angle_AngleRightInverted",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Thatch_Wall_Angle_AngleRight",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Thatch_Wall_Angle_AngleLeftInverted",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Thatch_Wall_Angle_AnglePeak",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Thatch_Ramp",
+            "Stability": {
+                "RowName": "Thatch_General"
+            },
+            "Type": {
+                "RowName": "Thatch"
+            },
+            "PieceType": "Ramp",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Thatch_Ramp_Roof",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Thatch_Ramp",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "Thatch_Stairs",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Thatch_Ramp_Stairs",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Thatch_Ramp_RoofPeak",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Thatch_Beam",
+            "Stability": {
+                "RowName": "Thatch_Beam"
+            },
+            "Type": {
+                "RowName": "Thatch"
+            },
+            "PieceType": "Frame",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Thatch_Beam_VerticalBeam",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Thatch_Beam_HorizontalBeam",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Thatch_Beam_DiagonalBeam",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Thatch_Roof_Corner",
+            "Stability": {
+                "RowName": "Thatch_General"
+            },
+            "Type": {
+                "RowName": "Thatch"
+            },
+            "PieceType": "Ramp",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "Thatch_Roof_Corner",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Thatch_Roof_Corner_Left",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "Thatch_Roof_Corner",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Thatch_Roof_Corner_Right",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "Thatch_Roof_Corner",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Thatch_Roof_Corner_InvertedRight",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "Thatch_Roof_Corner",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Thatch_Roof_Corner_InvertedLeft",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Thatch_HalfPitch",
+            "Stability": {
+                "RowName": "Thatch_General"
+            },
+            "Type": {
+                "RowName": "Thatch"
+            },
+            "PieceType": "Ramp",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Thatch_HalfPitch_LowerRoof",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Thatch_HalfPitch_UpperRoof",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Thatch_HalfPitch_LowerLeftWall",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Thatch_HalfPitch_UpperLeftWall",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Thatch_HalfPitch_LowerRightWall",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Thatch_HalfPitch_UpperRightWall",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Thatch_HalfNormal",
+            "Stability": {
+                "RowName": "Thatch_General"
+            },
+            "Type": {
+                "RowName": "Thatch"
+            },
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Thatch_HalfNormal_HalfFloor",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Thatch_HalfNormal_QuarterFloor",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Thatch_HalfNormal_HalfRampRight",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Thatch_HalfNormal_HalfRampLeft",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Thatch_HalfNormal_HalfWallLower",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Iron_Floor",
+            "Stability": {
+                "RowName": "Iron_General"
+            },
+            "Type": {
+                "RowName": "Iron"
+            },
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Iron_Floor",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "Iron_Floor_TrapDoor",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Iron_Floor_TrapDoor",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Iron_Wall",
+            "Stability": {
+                "RowName": "Iron_General"
+            },
+            "Type": {
+                "RowName": "Iron"
+            },
+            "PieceType": "Wall",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Iron_Wall_Solid",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Iron_Wall_WindowFrame",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Iron_Wall_DoorFrame",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Iron_Wall_DoubleDoorL",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Iron_Wall_DoubleDoorR",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Iron_Wall_DoubleWindowR",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Iron_Wall_DoubleWindowL",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Iron_Wall_Angle",
+            "Stability": {
+                "RowName": "Iron_General"
+            },
+            "Type": {
+                "RowName": "Iron"
+            },
+            "PieceType": "Wall",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Iron_Wall_Angle_AngleLeft",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Iron_Wall_Angle_AngleRightInverted",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Iron_Wall_Angle_AngleRight",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Iron_Wall_Angle_AngleLeftInverted",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Iron_Wall_Angle_AnglePeak",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Iron_Ramp",
+            "Stability": {
+                "RowName": "Iron_General"
+            },
+            "Type": {
+                "RowName": "Iron"
+            },
+            "PieceType": "Ramp",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Iron_Ramp_Roof",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Iron_Ramp",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "Iron_Stairs",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Iron_Ramp_Stairs",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Iron_Ramp_RoofPeak",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Iron_Beam",
+            "Stability": {
+                "RowName": "Iron_Beam"
+            },
+            "Type": {
+                "RowName": "Iron"
+            },
+            "PieceType": "Frame",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Iron_Beam_VerticalBeam",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Iron_Beam_HorizontalBeam",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Iron_Beam_DiagonalBeam",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Iron_Roof_Corner",
+            "Stability": {
+                "RowName": "Iron_General"
+            },
+            "Type": {
+                "RowName": "Iron"
+            },
+            "PieceType": "Ramp",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "Iron_Roof_Corner",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Iron_Roof_Corner_Left",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "Iron_Roof_Corner",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Iron_Roof_Corner_Right",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "Iron_Roof_Corner",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Iron_Roof_Corner_InvertedRight",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "Iron_Roof_Corner",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Iron_Roof_Corner_InvertedLeft",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Iron_HalfPitch",
+            "Stability": {
+                "RowName": "Iron_General"
+            },
+            "Type": {
+                "RowName": "Iron"
+            },
+            "PieceType": "Ramp",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Iron_HalfPitch_LowerRoof",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Iron_HalfPitch_UpperRoof",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Iron_HalfPitch_LowerLeftWall",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Iron_HalfPitch_UpperLeftWall",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Iron_HalfPitch_LowerRightWall",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Iron_HalfPitch_UpperRightWall",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Iron_HalfNormal",
+            "Stability": {
+                "RowName": "Iron_General"
+            },
+            "Type": {
+                "RowName": "Iron"
+            },
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Iron_HalfNormal_HalfFloor",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Iron_HalfNormal_QuarterFloor",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Iron_HalfNormal_HalfRampRight",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Iron_HalfNormal_HalfRampLeft",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Iron_HalfNormal_HalfWallLower",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Glass_Wall",
+            "Stability": {
+                "RowName": "Glass_General"
+            },
+            "Type": {
+                "RowName": "Glass"
+            },
+            "PieceType": "Wall",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Glass_Wall_Solid",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Glass_Wall_WindowFrame",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Glass_Wall_DoorFrame",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Glass_Wall_DoubleDoorL",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Glass_Wall_DoubleDoorR",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Glass_Wall_DoubleWindowR",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Glass_Wall_DoubleWindowL",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Glass_Wall_Angle",
+            "Stability": {
+                "RowName": "Glass_General"
+            },
+            "Type": {
+                "RowName": "Glass"
+            },
+            "PieceType": "Wall",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Glass_Wall_Angle_AngleLeft",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Glass_Wall_Angle_AngleRightInverted",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Glass_Wall_Angle_AngleRight",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Glass_Wall_Angle_AngleLeftInverted",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Glass_Wall_Angle_AnglePeak",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Glass_Ramp",
+            "Stability": {
+                "RowName": "Glass_General"
+            },
+            "Type": {
+                "RowName": "Glass"
+            },
+            "PieceType": "Ramp",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Glass_Ramp_Roof",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Glass_Ramp_RoofPeak",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Glass_Beam",
+            "Stability": {
+                "RowName": "Glass_General"
+            },
+            "Type": {
+                "RowName": "Glass"
+            },
+            "PieceType": "Frame",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Glass_Beam_VerticalBeam",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Glass_Beam_HorizontalBeam",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Glass_Beam_DiagonalBeam",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Glass_Roof_Corner",
+            "Stability": {
+                "RowName": "Glass_General"
+            },
+            "Type": {
+                "RowName": "Glass"
+            },
+            "PieceType": "Ramp",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "Glass_Roof_Corner",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Glass_Roof_Corner_Left",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "Glass_Roof_Corner",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Glass_Roof_Corner_Right",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "Glass_Roof_Corner",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Glass_Roof_Corner_InvertedRight",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "Glass_Roof_Corner",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Glass_Roof_Corner_InvertedLeft",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Glass_HalfPitch",
+            "Stability": {
+                "RowName": "Glass_General"
+            },
+            "Type": {
+                "RowName": "Glass"
+            },
+            "PieceType": "Ramp",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Glass_HalfPitch_LowerRoof",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Glass_HalfPitch_UpperRoof",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Glass_HalfPitch_LowerLeftWall",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Glass_HalfPitch_UpperLeftWall",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Glass_HalfPitch_LowerRightWall",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Glass_HalfPitch_UpperRightWall",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Glass_HalfNormal",
+            "Stability": {
+                "RowName": "Glass_General"
+            },
+            "Type": {
+                "RowName": "Glass"
+            },
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Glass_HalfNormal_HalfFloor",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Glass_HalfNormal_QuarterFloor",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Glass_HalfNormal_HalfRampRight",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Glass_HalfNormal_HalfRampLeft",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Glass_HalfNormal_HalfWallLower",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Glass_Floor",
+            "Stability": {
+                "RowName": "Glass_General"
+            },
+            "Type": {
+                "RowName": "Glass"
+            },
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Glass_Floor",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        }
+    ]
+}

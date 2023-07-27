@@ -1,0 +1,352 @@
+{
+    "RowStruct": "/Script/Icarus.GeneratorData",
+    "Defaults": {
+        "Resource": "None",
+        "GenerationRate": 1000,
+        "GenerationRatio": 1,
+        "TransmutableItems": [],
+        "TransmutableResources": [],
+        "RequiresManualActivation": true
+    },
+    "Rows": [
+        {
+            "Name": "Basic_Oxygen_Generator",
+            "Resource": "Oxygen",
+            "GenerationRate": 75,
+            "TransmutableItems": [
+                {
+                    "RowName": "Oxite",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ]
+        },
+        {
+            "Name": "Basic_Energy_Generator",
+            "Resource": "Energy",
+            "GenerationRate": 2500,
+            "TransmutableItems": [
+                {
+                    "RowName": "Fiber",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Stick",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Wood_Refined",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Wood",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Coal_Ore",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Meta_Coal",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ]
+        },
+        {
+            "Name": "Oxidizer_Generator",
+            "Resource": "Oxygen",
+            "GenerationRate": 10,
+            "GenerationRatio": 0.10000000149011612,
+            "TransmutableItems": [
+                {
+                    "RowName": "Oxite",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ]
+        },
+        {
+            "Name": "Oxite_Dissolver_Generator",
+            "Resource": "Energy",
+            "GenerationRate": 500,
+            "TransmutableItems": [
+                {
+                    "RowName": "Sulfur",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ]
+        },
+        {
+            "Name": "Basic_Biofuel_Energy_Generator",
+            "Resource": "Energy",
+            "GenerationRate": 5000
+        },
+        {
+            "Name": "Kit_Generator_Energy_Generator",
+            "Resource": "Energy",
+            "GenerationRate": 5000,
+            "GenerationRatio": 7500,
+            "TransmutableResources": [
+                "Fuel"
+            ]
+        },
+        {
+            "Name": "Extractor_Biofuel_Generator",
+            "Resource": "Energy",
+            "GenerationRate": 1100,
+            "GenerationRatio": 200,
+            "TransmutableResources": [
+                "Fuel"
+            ]
+        },
+        {
+            "Name": "Free_Energy_Generator",
+            "Resource": "Energy",
+            "GenerationRate": 2500
+        },
+        {
+            "Name": "Free_Energy_Generator_Auto",
+            "Resource": "Energy",
+            "RequiresManualActivation": false
+        },
+        {
+            "Name": "Wood_Torch_Generator",
+            "Resource": "Energy",
+            "GenerationRate": 100,
+            "TransmutableItems": [
+                {
+                    "RowName": "Fiber",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Stick",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Wood_Refined",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Wood",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Coal_Ore",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Meta_Coal",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ]
+        },
+        {
+            "Name": "Candle_Generator",
+            "Resource": "Energy",
+            "GenerationRate": 100,
+            "GenerationRatio": 10,
+            "TransmutableItems": [
+                {
+                    "RowName": "Animal_Fat",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ]
+        },
+        {
+            "Name": "Water_Pump_Generator",
+            "Resource": "Water"
+        },
+        {
+            "Name": "Dehumidifier",
+            "Resource": "Energy",
+            "GenerationRate": 2500,
+            "TransmutableItems": [
+                {
+                    "RowName": "Charcoal",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ]
+        },
+        {
+            "Name": "Kitchen_Stove",
+            "Resource": "Energy",
+            "GenerationRate": 500,
+            "GenerationRatio": 50,
+            "TransmutableResources": [
+                "Fuel"
+            ]
+        },
+        {
+            "Name": "Pot_Belly_Stove",
+            "Resource": "Energy",
+            "GenerationRate": 2500,
+            "TransmutableItems": [
+                {
+                    "RowName": "Fiber",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Stick",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Wood_Refined",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Wood",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Coal_Ore",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Meta_Coal",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ]
+        },
+        {
+            "Name": "Rain_Reservoir",
+            "Resource": "Water",
+            "GenerationRate": 50,
+            "TransmutableItems": [
+                {
+                    "RowName": "Ice",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ],
+            "RequiresManualActivation": false
+        },
+        {
+            "Name": "Ice_Box",
+            "Resource": "Energy",
+            "GenerationRate": 1,
+            "TransmutableItems": [
+                {
+                    "RowName": "Ice",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ],
+            "RequiresManualActivation": false
+        },
+        {
+            "Name": "Biofuel_MetalOxiteDissolver",
+            "Resource": "Energy",
+            "GenerationRate": 500,
+            "GenerationRatio": 10,
+            "TransmutableResources": [
+                "Fuel"
+            ]
+        },
+        {
+            "Name": "Faction_Mission_Drill",
+            "Resource": "Energy",
+            "GenerationRate": 1,
+            "TransmutableResources": [
+                "Fuel"
+            ]
+        },
+        {
+            "Name": "Electric_Dehumidifier",
+            "Resource": "Energy",
+            "GenerationRate": 2500,
+            "TransmutableItems": [
+                {
+                    "RowName": "Charcoal",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ]
+        },
+        {
+            "Name": "SolarPanel_Generator",
+            "Resource": "Energy",
+            "GenerationRate": 5000
+        },
+        {
+            "Name": "WaterWheel_Generator",
+            "Resource": "Energy",
+            "GenerationRate": 2000
+        },
+        {
+            "Name": "Fabricator_Generator",
+            "Resource": "Energy",
+            "GenerationRate": 2500
+        },
+        {
+            "Name": "Deep_Mining_Biofuel_Drill",
+            "Resource": "Energy",
+            "GenerationRate": 1,
+            "GenerationRatio": 0.75,
+            "TransmutableResources": [
+                "Fuel"
+            ]
+        },
+        {
+            "Name": "Biofuel_Radar",
+            "Resource": "Energy",
+            "GenerationRate": 200,
+            "GenerationRatio": 20,
+            "TransmutableResources": [
+                "Fuel"
+            ]
+        },
+        {
+            "Name": "Meta_Extractor",
+            "GenerationRate": 10,
+            "TransmutableResources": [
+                "Energy"
+            ]
+        },
+        {
+            "Name": "Mission_STYX_D_Research2_Bomb",
+            "Resource": "Oxygen",
+            "GenerationRate": 10,
+            "GenerationRatio": 0.10000000149011612,
+            "TransmutableItems": [
+                {
+                    "RowName": "Mission_STYX_D_Research2_Abyssal_Oxite",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ]
+        },
+        {
+            "Name": "Aquarium_T3",
+            "Resource": "Energy",
+            "GenerationRate": 200,
+            "GenerationRatio": 250,
+            "TransmutableResources": [
+                "Fuel"
+            ]
+        },
+        {
+            "Name": "SpawnBlocker_T3",
+            "Resource": "Energy",
+            "GenerationRate": 5000,
+            "GenerationRatio": 4000,
+            "TransmutableResources": [
+                "Fuel"
+            ]
+        },
+        {
+            "Name": "WindTurbine",
+            "Resource": "Energy",
+            "GenerationRate": 3500
+        },
+        {
+            "Name": "SpawnBlocker_T2",
+            "Resource": "Energy",
+            "GenerationRate": 100,
+            "GenerationRatio": 100,
+            "TransmutableItems": [
+                {
+                    "RowName": "Spoiled_Meat",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Spoiled_Plants",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ]
+        }
+    ]
+}

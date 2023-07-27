@@ -1,0 +1,110 @@
+{
+    "RowStruct": "/Script/Icarus.WaterData",
+    "Defaults": {
+        "Provider": false,
+        "Receiver": false,
+        "AutoActivate": false,
+        "ResourceFlowRate": 1000
+    },
+    "Rows": [
+        {
+            "Name": "Pump",
+            "Provider": true
+        },
+        {
+            "Name": "Composter",
+            "Receiver": true,
+            "AutoActivate": true,
+            "ResourceFlowRate": 100
+        },
+        {
+            "Name": "Barrel",
+            "Receiver": true,
+            "AutoActivate": true
+        },
+        {
+            "Name": "Sprinkler",
+            "Receiver": true,
+            "AutoActivate": true,
+            "ResourceFlowRate": 1
+        },
+        {
+            "Name": "CropPlot",
+            "Receiver": true,
+            "AutoActivate": true,
+            "ResourceFlowRate": 15
+        },
+        {
+            "Name": "CementMixer",
+            "Receiver": true,
+            "AutoActivate": true,
+            "ResourceFlowRate": 250
+        },
+        {
+            "Name": "KitchenBench",
+            "Receiver": true,
+            "AutoActivate": true,
+            "ResourceFlowRate": 100
+        },
+        {
+            "Name": "Generic_Reciever",
+            "Receiver": true,
+            "AutoActivate": true,
+            "ResourceFlowRate": 100
+        },
+        {
+            "Name": "GlassworkingBench",
+            "Receiver": true,
+            "AutoActivate": true,
+            "ResourceFlowRate": 250
+        },
+        {
+            "Name": "MasonryBench",
+            "Receiver": true,
+            "AutoActivate": true,
+            "ResourceFlowRate": 250
+        },
+        {
+            "Name": "ElectricMasonryBench",
+            "Receiver": true,
+            "AutoActivate": true,
+            "ResourceFlowRate": 250
+        },
+        {
+            "Name": "Sink",
+            "Receiver": true,
+            "AutoActivate": true,
+            "ResourceFlowRate": 250
+        },
+        {
+            "Name": "KitchenStove",
+            "Receiver": true,
+            "AutoActivate": true,
+            "ResourceFlowRate": 100
+        },
+        {
+            "Name": "ElectricStove",
+            "Receiver": true,
+            "AutoActivate": true,
+            "ResourceFlowRate": 100
+        },
+        {
+            "Name": "Aquarium",
+            "Receiver": true,
+            "AutoActivate": true,
+            "ResourceFlowRate": 250
+        },
+        {
+            "Name": "Advanced_Aquarium",
+            "Receiver": true,
+            "AutoActivate": true,
+            "ResourceFlowRate": 500
+        },
+        {
+            "Name": "Large_Advanced_Aquarium",
+            "Receiver": true,
+            "AutoActivate": true,
+            "ResourceFlowRate": 750
+        }
+    ]
+}

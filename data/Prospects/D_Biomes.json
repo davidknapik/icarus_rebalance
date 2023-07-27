@@ -1,0 +1,634 @@
+{
+    "RowStruct": "/Script/Icarus.IcarusBiome",
+    "Defaults": {
+        "BiomeName": "None",
+        "DisplayName": "",
+        "Color": {
+            "B": 0,
+            "G": 0,
+            "R": 0,
+            "A": 0
+        },
+        "BiomeTemperatureCurve": "None",
+        "WeatherFrequency": 0,
+        "AtmosphereType": {
+            "RowName": "Arctic",
+            "DataTableName": "D_Atmospheres"
+        },
+        "Audio": {
+            "RowName": "None",
+            "DataTableName": "D_BiomeAudioData"
+        }
+    },
+    "GenerateEnum": true,
+    "Columns": [
+        {
+            "Name": "Color",
+            "Key": true
+        }
+    ],
+    "Rows": [
+        {
+            "Name": "NoBiome",
+            "BiomeName": "Default (No Biome)",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"NoBiome-DisplayName\", \"Default (No Biome)\")",
+            "Color": {
+                "A": 255
+            },
+            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/ConiferTemperatureCurve.ConiferTemperatureCurve'",
+            "AtmosphereType": {
+                "RowName": "Conifer"
+            }
+        },
+        {
+            "Name": "Cave",
+            "BiomeName": "Cave",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Cave-DisplayName\", \"Cave\")",
+            "Color": {
+                "B": 255,
+                "G": 255,
+                "R": 255,
+                "A": 255
+            },
+            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/CaveTemperatureCurve.CaveTemperatureCurve'",
+            "AtmosphereType": {
+                "RowName": "Cave"
+            },
+            "Audio": {
+                "RowName": "Cave"
+            }
+        },
+        {
+            "Name": "Conifer",
+            "BiomeName": "Forest",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Conifer-DisplayName\", \"Forest\")",
+            "Color": {
+                "B": 111,
+                "G": 255,
+                "A": 255
+            },
+            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/ConiferTemperatureCurve.ConiferTemperatureCurve'",
+            "WeatherFrequency": 5,
+            "AtmosphereType": {
+                "RowName": "Conifer"
+            },
+            "Audio": {
+                "RowName": "Conifer"
+            }
+        },
+        {
+            "Name": "Arctic",
+            "BiomeName": "Arctic",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Arctic-DisplayName\", \"Arctic\")",
+            "Color": {
+                "B": 255,
+                "G": 249,
+                "A": 255
+            },
+            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/ArcticTemperatureCurve.ArcticTemperatureCurve'",
+            "WeatherFrequency": 5,
+            "Audio": {
+                "RowName": "Arctic"
+            }
+        },
+        {
+            "Name": "Desert",
+            "BiomeName": "Desert",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Desert-DisplayName\", \"Desert\")",
+            "Color": {
+                "G": 234,
+                "R": 255,
+                "A": 255
+            },
+            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/DesertTemperatureCurve.DesertTemperatureCurve'",
+            "WeatherFrequency": 2,
+            "AtmosphereType": {
+                "RowName": "Desert"
+            },
+            "Audio": {
+                "RowName": "Desert"
+            }
+        },
+        {
+            "Name": "RiverLands",
+            "BiomeName": "River Lands",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"RiverLands-DisplayName\", \"River Lands\")",
+            "Color": {
+                "G": 150,
+                "R": 50,
+                "A": 255
+            },
+            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/ConiferTemperatureCurve.ConiferTemperatureCurve'",
+            "WeatherFrequency": 5,
+            "AtmosphereType": {
+                "RowName": "Conifer"
+            },
+            "Audio": {
+                "RowName": "Conifer"
+            }
+        },
+        {
+            "Name": "DesertCanyons",
+            "BiomeName": "Desert Canyons",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"DesertCanyons-DisplayName\", \"Desert Canyons\")",
+            "Color": {
+                "B": 50,
+                "G": 150,
+                "R": 200,
+                "A": 255
+            },
+            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/DesertTemperatureCurve.DesertTemperatureCurve'",
+            "WeatherFrequency": 2,
+            "AtmosphereType": {
+                "RowName": "Desert"
+            },
+            "Audio": {
+                "RowName": "Desert"
+            }
+        },
+        {
+            "Name": "SouthernGlacier",
+            "BiomeName": "Southern Glacier",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"SouthernGlacier-DisplayName\", \"Southern Glacier\")",
+            "Color": {
+                "B": 255,
+                "G": 255,
+                "R": 200,
+                "A": 255
+            },
+            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/ArcticTemperatureCurve.ArcticTemperatureCurve'",
+            "WeatherFrequency": 5,
+            "Audio": {
+                "RowName": "Arctic"
+            }
+        },
+        {
+            "Name": "Styx_TheWall",
+            "BiomeName": "The Wall",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Styx_TheWall-DisplayName\", \"The Wall\")",
+            "Color": {
+                "B": 255,
+                "G": 255,
+                "R": 53,
+                "A": 255
+            },
+            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/ArcticTemperatureCurve.ArcticTemperatureCurve'",
+            "WeatherFrequency": 2,
+            "Audio": {
+                "RowName": "Arctic"
+            }
+        },
+        {
+            "Name": "Styx_TheGreatRiver",
+            "BiomeName": "The Great River",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Styx_TheGreatRiver-DisplayName\", \"The Great River\")",
+            "Color": {
+                "B": 73,
+                "G": 167,
+                "A": 255
+            },
+            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/ConiferTemperatureCurve.ConiferTemperatureCurve'",
+            "WeatherFrequency": 5,
+            "AtmosphereType": {
+                "RowName": "Conifer"
+            },
+            "Audio": {
+                "RowName": "Conifer"
+            }
+        },
+        {
+            "Name": "Styx_SnowyPlateau",
+            "BiomeName": "Snowy Plateau",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Styx_SnowyPlateau-DisplayName\", \"Snowy Plateau\")",
+            "Color": {
+                "B": 219,
+                "G": 214,
+                "R": 175,
+                "A": 255
+            },
+            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/ArcticTemperatureCurve.ArcticTemperatureCurve'",
+            "WeatherFrequency": 2,
+            "Audio": {
+                "RowName": "Arctic"
+            }
+        },
+        {
+            "Name": "Styx_EnclosedWood",
+            "BiomeName": "Enclosed Wood",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Styx_EnclosedWood-DisplayName\", \"Enclosed Wood\")",
+            "Color": {
+                "G": 255,
+                "R": 38,
+                "A": 255
+            },
+            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/ConiferTemperatureCurve.ConiferTemperatureCurve'",
+            "WeatherFrequency": 5,
+            "AtmosphereType": {
+                "RowName": "Conifer"
+            },
+            "Audio": {
+                "RowName": "Conifer"
+            }
+        },
+        {
+            "Name": "Styx_Oasis",
+            "BiomeName": "Oasis",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Styx_Oasis-DisplayName\", \"Oasis\")",
+            "Color": {
+                "B": 125,
+                "G": 212,
+                "R": 234,
+                "A": 255
+            },
+            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/DesertTemperatureCurve.DesertTemperatureCurve'",
+            "WeatherFrequency": 3,
+            "AtmosphereType": {
+                "RowName": "Desert"
+            },
+            "Audio": {
+                "RowName": "Desert"
+            }
+        },
+        {
+            "Name": "Styx_DustyBarrens",
+            "BiomeName": "Dusty Barrens",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Styx_DustyBarrens-DisplayName\", \"Dusty Barrens\")",
+            "Color": {
+                "B": 39,
+                "G": 209,
+                "R": 255,
+                "A": 255
+            },
+            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/DesertTemperatureCurve.DesertTemperatureCurve'",
+            "WeatherFrequency": 3,
+            "AtmosphereType": {
+                "RowName": "Desert"
+            },
+            "Audio": {
+                "RowName": "Desert"
+            }
+        },
+        {
+            "Name": "Styx_RingLake",
+            "BiomeName": "Ring Lake",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Styx_RingLake-DisplayName\", \"Ring Lake\")",
+            "Color": {
+                "B": 154,
+                "G": 202,
+                "R": 95,
+                "A": 255
+            },
+            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/ConiferTemperatureCurve.ConiferTemperatureCurve'",
+            "WeatherFrequency": 5,
+            "AtmosphereType": {
+                "RowName": "Conifer"
+            },
+            "Audio": {
+                "RowName": "Conifer"
+            }
+        },
+        {
+            "Name": "Styx_FrozenTraverse",
+            "BiomeName": "Frozen Traverse",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Styx_FrozenTraverse-DisplayName\", \"Frozen Traverse\")",
+            "Color": {
+                "B": 251,
+                "G": 178,
+                "A": 255
+            },
+            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/ArcticTemperatureCurve.ArcticTemperatureCurve'",
+            "WeatherFrequency": 2,
+            "Audio": {
+                "RowName": "Arctic"
+            }
+        },
+        {
+            "Name": "Styx_AlpineValley",
+            "BiomeName": "Alpine Valley",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Styx_AlpineValley-DisplayName\", \"Alpine Valley\")",
+            "Color": {
+                "B": 255,
+                "G": 107,
+                "A": 255
+            },
+            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/ArcticTemperatureCurve.ArcticTemperatureCurve'",
+            "WeatherFrequency": 2,
+            "Audio": {
+                "RowName": "Arctic"
+            }
+        },
+        {
+            "Name": "Styx_Grove",
+            "BiomeName": "Grove",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Styx_Grove-DisplayName\", \"Grove\")",
+            "Color": {
+                "B": 163,
+                "G": 184,
+                "A": 255
+            },
+            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/ConiferTemperatureCurve.ConiferTemperatureCurve'",
+            "WeatherFrequency": 5,
+            "AtmosphereType": {
+                "RowName": "Conifer"
+            },
+            "Audio": {
+                "RowName": "Conifer"
+            }
+        },
+        {
+            "Name": "Styx_IceFlats",
+            "BiomeName": "Ice Flats",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Styx_IceFlats-DisplayName\", \"Ice Flats\")",
+            "Color": {
+                "B": 255,
+                "G": 255,
+                "R": 225,
+                "A": 255
+            },
+            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/ArcticTemperatureCurve.ArcticTemperatureCurve'",
+            "WeatherFrequency": 2,
+            "Audio": {
+                "RowName": "Arctic"
+            }
+        },
+        {
+            "Name": "Styx_DryRidge",
+            "BiomeName": "Dry Ridge",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Styx_DryRidge-DisplayName\", \"Dry Ridge\")",
+            "Color": {
+                "B": 33,
+                "G": 92,
+                "R": 255,
+                "A": 255
+            },
+            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/DesertTemperatureCurve.DesertTemperatureCurve'",
+            "WeatherFrequency": 3,
+            "AtmosphereType": {
+                "RowName": "Desert"
+            },
+            "Audio": {
+                "RowName": "Desert"
+            }
+        },
+        {
+            "Name": "Styx_VerdantTerraces",
+            "BiomeName": "Verdant Terraces",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Styx_VerdantTerraces-DisplayName\", \"Verdant Terraces\")",
+            "Color": {
+                "G": 255,
+                "R": 197,
+                "A": 255
+            },
+            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/ConiferTemperatureCurve.ConiferTemperatureCurve'",
+            "WeatherFrequency": 5,
+            "AtmosphereType": {
+                "RowName": "Conifer"
+            },
+            "Audio": {
+                "RowName": "Conifer"
+            }
+        },
+        {
+            "Name": "Pro_Tundra",
+            "BiomeName": "Rolling Tundra",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Pro_Tundra-DisplayName\", \"Rolling Tundra\")",
+            "Color": {
+                "G": 128,
+                "R": 128,
+                "A": 255
+            },
+            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/TundraTemperatureCurve.TundraTemperatureCurve'",
+            "WeatherFrequency": 2,
+            "Audio": {
+                "RowName": "ArcticTundra"
+            }
+        },
+        {
+            "Name": "Pro_FrigidLowlands",
+            "BiomeName": "Frigid Lowlands",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Pro_FrigidLowlands-DisplayName\", \"Frigid Lowlands\")",
+            "Color": {
+                "G": 128,
+                "R": 187,
+                "A": 255
+            },
+            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/TundraTemperatureCurve.TundraTemperatureCurve'",
+            "WeatherFrequency": 2,
+            "Audio": {
+                "RowName": "ArcticTundra"
+            }
+        },
+        {
+            "Name": "Pro_GlacialCascade",
+            "BiomeName": "Glacial Cascade",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Pro_GlacialCascade-DisplayName\", \"Glacial Cascade\")",
+            "Color": {
+                "B": 187,
+                "G": 187,
+                "A": 255
+            },
+            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/ArcticTemperatureCurve.ArcticTemperatureCurve'",
+            "WeatherFrequency": 2,
+            "Audio": {
+                "RowName": "Arctic"
+            }
+        },
+        {
+            "Name": "Pro_AlpineSteppe",
+            "BiomeName": "Alpine Steppe",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Pro_AlpineSteppe-DisplayName\", \"Alpine Steppe\")",
+            "Color": {
+                "B": 255,
+                "G": 32,
+                "A": 255
+            },
+            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/ArcticTemperatureCurve.ArcticTemperatureCurve'",
+            "WeatherFrequency": 2,
+            "Audio": {
+                "RowName": "Arctic"
+            }
+        },
+        {
+            "Name": "Pro_BasaltExpansion",
+            "BiomeName": "Basalt Expansion",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Pro_BasaltExpansion-DisplayName\", \"Basalt Expansion\")",
+            "Color": {
+                "G": 64,
+                "R": 255,
+                "A": 255
+            },
+            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/VolcanicTemperatureCurve.VolcanicTemperatureCurve'",
+            "WeatherFrequency": 2,
+            "AtmosphereType": {
+                "RowName": "Volcanic"
+            },
+            "Audio": {
+                "RowName": "Lava"
+            }
+        },
+        {
+            "Name": "Pro_LavaFlows",
+            "BiomeName": "Lava Flows",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Pro_LavaFlows-DisplayName\", \"Lava Flows\")",
+            "Color": {
+                "G": 187,
+                "R": 255,
+                "A": 255
+            },
+            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/VolcanicTemperatureCurve.VolcanicTemperatureCurve'",
+            "WeatherFrequency": 2,
+            "AtmosphereType": {
+                "RowName": "Volcanic"
+            },
+            "Audio": {
+                "RowName": "Lava"
+            }
+        },
+        {
+            "Name": "Pro_StillWater",
+            "BiomeName": "Still Water",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Pro_StillWater-DisplayName\", \"Still Water\")",
+            "Color": {
+                "B": 64,
+                "G": 255,
+                "A": 255
+            },
+            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/SwampTemperatureCurve.SwampTemperatureCurve'",
+            "WeatherFrequency": 4,
+            "AtmosphereType": {
+                "RowName": "Swamp"
+            },
+            "Audio": {
+                "RowName": "Wetlands"
+            }
+        },
+        {
+            "Name": "Pro_ThePillars",
+            "BiomeName": "The Pillars",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Pro_ThePillars-DisplayName\", \"The Pillars\")",
+            "Color": {
+                "B": 255,
+                "R": 200,
+                "A": 255
+            },
+            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/SwampTemperatureCurve.SwampTemperatureCurve'",
+            "WeatherFrequency": 4,
+            "AtmosphereType": {
+                "RowName": "Swamp"
+            },
+            "Audio": {
+                "RowName": "Wetlands"
+            }
+        },
+        {
+            "Name": "Pro_Wetlands",
+            "BiomeName": "Wetlands",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Pro_Wetlands-DisplayName\", \"Wetlands\")",
+            "Color": {
+                "B": 150,
+                "G": 255,
+                "R": 225,
+                "A": 255
+            },
+            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/SwampTemperatureCurve.SwampTemperatureCurve'",
+            "WeatherFrequency": 4,
+            "AtmosphereType": {
+                "RowName": "Swamp"
+            },
+            "Audio": {
+                "RowName": "Wetlands"
+            }
+        },
+        {
+            "Name": "Pro_Marshlands",
+            "BiomeName": "Marshlands",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Pro_Marshlands-DisplayName\", \"Marshlands\")",
+            "Color": {
+                "B": 187,
+                "G": 128,
+                "R": 64,
+                "A": 255
+            },
+            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/SwampTemperatureCurve.SwampTemperatureCurve'",
+            "WeatherFrequency": 4,
+            "AtmosphereType": {
+                "RowName": "Swamp"
+            },
+            "Audio": {
+                "RowName": "Wetlands"
+            }
+        },
+        {
+            "Name": "Pro_ShallowMire",
+            "BiomeName": "Shallow Mire",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Pro_ShallowMire-DisplayName\", \"Shallow Mire\")",
+            "Color": {
+                "G": 255,
+                "R": 64,
+                "A": 255
+            },
+            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/SwampTemperatureCurve.SwampTemperatureCurve'",
+            "WeatherFrequency": 4,
+            "AtmosphereType": {
+                "RowName": "Swamp"
+            },
+            "Audio": {
+                "RowName": "Wetlands"
+            }
+        },
+        {
+            "Name": "Pro_GrassyPlains",
+            "BiomeName": "Grassy Plains",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Pro_GrassyPlains-DisplayName\", \"Grassy Plains\")",
+            "Color": {
+                "G": 64,
+                "R": 16,
+                "A": 255
+            },
+            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/ConiferTemperatureCurve.ConiferTemperatureCurve'",
+            "WeatherFrequency": 3,
+            "AtmosphereType": {
+                "RowName": "Grasslands"
+            },
+            "Audio": {
+                "RowName": "Grasslands"
+            }
+        },
+        {
+            "Name": "Pro_ConiferSmallA",
+            "BiomeName": "Sylvan Range",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Pro_ConiferSmallA-DisplayName\", \"Sylvan Range\")",
+            "Color": {
+                "G": 128,
+                "R": 16,
+                "A": 255
+            },
+            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/ConiferTemperatureCurve.ConiferTemperatureCurve'",
+            "WeatherFrequency": 3,
+            "AtmosphereType": {
+                "RowName": "Grasslands"
+            },
+            "Audio": {
+                "RowName": "Grasslands"
+            }
+        },
+        {
+            "Name": "Pro_ConiferSmallB",
+            "BiomeName": "Wildwoods",
+            "DisplayName": "NSLOCTEXT(\"D_Biomes\", \"Pro_ConiferSmallB-DisplayName\", \"Wildwoods\")",
+            "Color": {
+                "G": 96,
+                "R": 16,
+                "A": 255
+            },
+            "BiomeTemperatureCurve": "CurveFloat'/Game/BP/Biomes/Curves/ConiferTemperatureCurve.ConiferTemperatureCurve'",
+            "WeatherFrequency": 3,
+            "AtmosphereType": {
+                "RowName": "Grasslands"
+            },
+            "Audio": {
+                "RowName": "Grasslands"
+            }
+        }
+    ]
+}
