@@ -249,7 +249,7 @@
             "InventoryID": {
                 "Value": "General"
             },
-            "StartingSlots": 500,
+            "StartingSlots": 150,
             "RemoveOnly": true
         },
         {
@@ -290,7 +290,7 @@
             "InventoryID": {
                 "Value": "General"
             },
-            "StartingSlots": 500
+            "StartingSlots": 150
         },
         {
             "Name": "DropShip_Equipment",
@@ -357,7 +357,7 @@
             "SlotTemplate": {
                 "RowName": "General_Inventory_Slot"
             },
-            "StartingSlots": 18
+            "StartingSlots": 16
         },
         {
             "Name": "Storage_Wood_Crate_Small",
@@ -385,7 +385,7 @@
             "InventoryID": {
                 "Value": "General"
             },
-            "StartingSlots": 24
+            "StartingSlots": 25
         },
         {
             "Name": "Storage_Wood_Cupboard",

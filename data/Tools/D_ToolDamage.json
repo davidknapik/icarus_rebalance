@@ -326,73 +326,73 @@
         },
         {
             "Name": "Wood_Spear",
-            "Melee_Damage": 120,
+            "Melee_Damage": 100,
             "DamageVariationPercentage": 50
         },
         {
             "Name": "Bone_Spear",
-            "Melee_Damage": 155,
+            "Melee_Damage": 110,
             "DamageVariationPercentage": 50
         },
         {
             "Name": "Caveworm_Spear",
-            "Melee_Damage": 155,
+            "Melee_Damage": 120,
             "DamageVariationPercentage": 50
         },
         {
             "Name": "Meta_Spear_Printed",
-            "Melee_Damage": 155,
+            "Melee_Damage": 140,
             "DamageVariationPercentage": 50
         },
         {
             "Name": "Metal_Spear",
-            "Melee_Damage": 175,
+            "Melee_Damage": 150,
             "DamageVariationPercentage": 50
         },
         {
             "Name": "Obsidian_Spear",
-            "Melee_Damage": 30,
-            "DamageVariationPercentage": 10
+            "Melee_Damage": 160,
+            "DamageVariationPercentage": 50
         },
         {
             "Name": "Sandworm_Spear",
-            "Melee_Damage": 190,
+            "Melee_Damage": 170,
             "DamageVariationPercentage": 50
         },
         {
             "Name": "Meta_Spear_Shengong",
-            "Melee_Damage": 260,
+            "Melee_Damage": 200,
             "DamageVariationPercentage": 50
         },
         {
             "Name": "Meta_Spear_Inaris",
-            "Melee_Damage": 275,
+            "Melee_Damage": 210,
             "DamageVariationPercentage": 50
         },
         {
             "Name": "Steel_Spear",
-            "Melee_Damage": 265,
+            "Melee_Damage": 215,
             "DamageVariationPercentage": 50
         },
         {
             "Name": "Platinum_Spear",
-            "Melee_Damage": 290,
+            "Melee_Damage": 250,
             "DamageVariationPercentage": 50
         },
         {
             "Name": "Cold_Steel_Spear",
-            "Melee_Damage": 35,
-            "DamageVariationPercentage": 5
+            "Melee_Damage": 225,
+            "DamageVariationPercentage": 50
         },
         {
             "Name": "Titanium_Spear",
-            "Melee_Damage": 375,
+            "Melee_Damage": 260,
             "DamageVariationPercentage": 50
         },
         {
             "Name": "Iron_Wood_Spear",
-            "Melee_Damage": 37,
-            "DamageVariationPercentage": 5
+            "Melee_Damage": 160,
+            "DamageVariationPercentage": 50
         },
         {
             "Name": "Carbon_Spear",
@@ -411,8 +411,8 @@
         },
         {
             "Name": "Meta_Spear_Shengong_Echo",
-            "Melee_Damage": 42,
-            "DamageVariationPercentage": 5
+            "Melee_Damage": 242,
+            "DamageVariationPercentage": 50
         },
         {
             "Name": "Player_Fist",

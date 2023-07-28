@@ -84,7 +84,8 @@
                 "(Value=\"BaseChanceToResistSprain_%\")": 50,
                 "(Value=\"BaseSprainModifierDuration_+%\")": -50,
                 "(Value=\"BaseExposureResistance_+%\")": 15,
-                "(Value=\"BaseFallDamageResistance_%\")": 25            }
+                "(Value=\"BaseFallDamageResistance_%\")": 25
+             }
         },
         {
             "Name": "Module_Consumption",
