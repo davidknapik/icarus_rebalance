@@ -29,35 +29,46 @@ utils == some utility files
 ## Updating the rocket branch
 Upon release of new icarus/Icarus/Content/Data/data.pak file
 
-Populate rocket branch with new content
+Workspace Setup
 ```
 $ cd /c/Temp/icarus
 $ mkdir icarus_mod
 $ cd icarus_mod
 $ git clone --branch rocket git@github.com:davidknapik/icarus_rebalance.git
+```
 
+Populate rocket branch with new content
+```
 # Copy RocketWerkz data.pak file delivered through steam 
 $ cp /d/Steam/steamapps/common/Icarus/Icarus/Content/Data/data.pak /c/Temp/icarus/icarus_mod/icarus_rebalance/.
 $ cd /c/Temp/icarus/icarus_mod/icarus_rebalance
-$ /c/Temp/icarus/repack/repak.exe unpack -s "D:/BA/work/92bbbfa44df12262/Temp/Data/" data.pak -f
+$ git checkout rocket
+$ rm -rf data
+$ /c/Temp/icarus/repak/repak.exe unpack -s "D:/BA/work/92bbbfa44df12262/Temp/Data/" data.pak -f
 $ rm data.pak
 
+# force unix line endings
+$ find . -type f -name '*.json' -exec dos2unix {} \;
+
 # verify changes
+$ git status
 $ git diff
 
-# commint latest RocketWerkz changes into rocket branch 
-$ git commit -m 'updated RocketWerkz files v_WXX' -a
+# commit RocketWerkz changes into rocket branch 
+$ git commit -m 'RocketWerkz WXX' -a
 
 # push changes to remote repo
 $ git push
 ```
 
 ## Merge rocket branch into mod
-Check out master branch
+
+Workspace Setup
 ```
+# Checkout mod branch
+$ cd /c/Temp/icarus
+$ mkdir icarus_mod
 $ cd /c/Temp/icarus/icarus_mod
-$ git checkout --branch mod git@github.com:davidknapik/icarus_rebalance.git
-# or
 $ git clone --branch mod git@github.com:davidknapik/icarus_rebalance.git
 ```
 
@@ -80,18 +91,31 @@ $ /c/Program\ Files/WinMerge/winmergeu.exe -r -e -u -wl /c/Temp/icarus/icarus_ro
 In case some end of line commas got messed up somewhere.
 
 Wrote a simple validate_json python script to read in files from the command line and validate the JSON
+
+Workspace Setup
 ```
+$ cd /c/Temp/Icarus
+$ mkdir icarus_utils
+# clone repo into icarus_utils
 $ cd /c/Temp/icarus/icarus_utils
 $ git clone --branch utils git@github.com:davidknapik/icarus_rebalance.git
+```
+
+```
+$ cd /c/Temp/icarus
 $ find icarus_mod -type f -name '*.json' -exec python icarus_utils/icarus_rebalance/utils/validate_json.py {} \;
 ```
 
 ## Commit merged rocket data into the 'modification' master
+The icarus_mod directory should now have the new rocketwerkz conent merged in
 ```
 $ cd /c/Temp/icarus/icarus_mod/icarus_rebalance
+
 # verify you are on the 'mod' branch
 $ git status
-$ git commit -m 'merged in RocketWerkz changes V_Wxx' -a
+
+# commit updates
+$ git commit -m 'merged Wxx updates' -a
 
 # push to repo
 git push
@@ -100,28 +124,51 @@ git push
 # Build mymod.pak
 
 ## Creating modfiles.txt 
+
+Workspace setup
+```
+$ cd /c/temp/icarus
+$ mkdir icarus_mod
+$ git clone --branch mod git@github.com:davidknapik/icarus_rebalance.git
+$ cd icarus_rebalance
+
+# verify both branches mod and rocket are availabe locally
+$ git branch
+* mod
+  rocket
+
+# if rocket is missing, use the switch command to enable
+$ git switch rocket
+
+# make sure to switch back to the 'mod' branch before continuing
+$ git switch mod
+```
+
 Build a list of files that are different than the original
 ```
 $ cd /c/temp/icarus/icarus_mod/icarus_rebalance
-# make sure both branches exist
-$ git branch -a
-# Otherwise run 
-$ git checkout rocket
-$ git checkout mod
 $ git diff --name-only mod..rocket data/ > /c/Temp/icarus/modfiles.txt
 ```
 
 ## Sync changed files to staging area
+Workspace Setup
 ```
 $ cd /c/Temp/icarus
 $ mkdir icarus_staging
+```
+
+Sync changed files (in modfiles.txt) to staging area
+```
+$ cd /c/Temp/icarus
 $ rsync -avz --files-from=modfiles.txt icarus_mod/icarus_rebalance icarus_staging/.
 ```
 
-## Using 'repack.exe' to build pak file
+## Build icarus_mod.pak file
+Using 'repak.exe' to build pak file from the icarus_staging directory
 ```
 $ cd /c/Temp/icarus/icarus_staging/data
 $ /c/Temp/icarus/repak/repak.exe pack --version V11 --mount-point ../../../Icarus/Content/data/ . /c/Temp/icarus/icarus_mod.pak
+
 Packed 28 files to icarus_mod.pak
 ```
 
