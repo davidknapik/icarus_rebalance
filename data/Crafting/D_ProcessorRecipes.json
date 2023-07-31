@@ -363,7 +363,7 @@
                         "RowName": "Bone",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 20,
+                    "Count": 5,
                     "DynamicProperties": []
                 }
             ],
@@ -3014,7 +3014,7 @@
                         "RowName": "Wood",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 5,
+                    "Count": 2,
                     "DynamicProperties": []
                 },
                 {
@@ -3030,7 +3030,7 @@
                         "RowName": "Refined_Metal",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 6,
+                    "Count": 1,
                     "DynamicProperties": []
                 },
                 {
@@ -3747,6 +3747,43 @@
                 {
                     "Element": {
                         "RowName": "Rope",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 5,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "CraftingBench"
+            }
+        },
+        {
+            "Name": "Fiber",
+            "RequiredMillijoules": 1500,
+            "RecipeSets": [
+                {
+                    "RowName": "Character",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Crafting_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Stick",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                },
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Fiber",
                         "DataTableName": "D_ItemTemplate"
                     },
                     "Count": 5,
@@ -6413,7 +6450,7 @@
                         "RowName": "Steel_Ingot",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 12,
+                    "Count": 1,
                     "DynamicProperties": []
                 },
                 {
@@ -14870,7 +14907,7 @@
                         "RowName": "Refined_Metal",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 6,
+                    "Count": 1,
                     "DynamicProperties": []
                 },
                 {
@@ -15472,7 +15509,7 @@
                         "RowName": "Carbon_Fiber",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 4,
+                    "Count": 2,
                     "DynamicProperties": []
                 },
                 {
@@ -15496,7 +15533,7 @@
                         "RowName": "Titanium_Ingot",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 4,
+                    "Count": 1,
                     "DynamicProperties": []
                 }
             ],
@@ -16364,7 +16401,7 @@
                         "RowName": "Wood",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 5,
+                    "Count": 2,
                     "DynamicProperties": []
                 },
                 {
@@ -16372,7 +16409,7 @@
                         "RowName": "Epoxy",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 4,
+                    "Count": 2,
                     "DynamicProperties": []
                 },
                 {
@@ -16380,7 +16417,7 @@
                         "RowName": "Steel_Ingot",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 6,
+                    "Count": 1,
                     "DynamicProperties": []
                 },
                 {
@@ -16388,7 +16425,7 @@
                         "RowName": "Iron_Nail",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 2,
+                    "Count": 3,
                     "DynamicProperties": []
                 }
             ],
@@ -19263,7 +19300,7 @@
                         "RowName": "Platinum_Ingot",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 12,
+                    "Count": 1,
                     "DynamicProperties": []
                 }
             ],
