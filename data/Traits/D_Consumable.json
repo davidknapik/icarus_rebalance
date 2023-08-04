@@ -419,24 +419,12 @@
             "Name": "Meta_Oxygen_Gel",
             "Stats": {
                 "(Value=\"BaseOxygenRecovery_+\")": 500
-            },
-            "Modifier": {
-                "Modifier": {
-                    "RowName": "Meta_Oxygen_Gel"
-                },
-                "ModifierLifetime": 3600
             }
         },
         {
             "Name": "Meta_Stamina_Gel",
             "Stats": {
                 "(Value=\"BaseStaminaRecovery_+\")": 500
-            },
-            "Modifier": {
-                "Modifier": {
-                    "RowName": "Meta_Stamina_Gel"
-                },
-                "ModifierLifetime": 3600
             }
         },
         {
