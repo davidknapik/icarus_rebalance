@@ -898,7 +898,7 @@
         {
             "Name": "Thatch_Beam",
             "Requirement": {
-                "RowName": "Thatch_Beam"
+                "RowName": "Thatch_Basic"
             },
             "RecipeSets": [
                 {
@@ -946,7 +946,7 @@
         {
             "Name": "Thatch_Floor",
             "Requirement": {
-                "RowName": "Thatch_Floor"
+                "RowName": "Thatch_Basic"
             },
             "RecipeSets": [
                 {
@@ -994,7 +994,7 @@
         {
             "Name": "Thatch_Wall",
             "Requirement": {
-                "RowName": "Thatch_Wall"
+                "RowName": "Thatch_Basic"
             },
             "RecipeSets": [
                 {
@@ -1042,7 +1042,7 @@
         {
             "Name": "Thatch_Halfpiece",
             "Requirement": {
-                "RowName": "Thatch_Halfpiece"
+                "RowName": "Thatch_Advanced"
             },
             "RecipeSets": [
                 {
@@ -1090,7 +1090,7 @@
         {
             "Name": "Thatch_Half_Pitch",
             "Requirement": {
-                "RowName": "Thatch_Half_Pitch"
+                "RowName": "Thatch_Advanced"
             },
             "RecipeSets": [
                 {
@@ -1138,7 +1138,7 @@
         {
             "Name": "Thatch_Wall_Angled",
             "Requirement": {
-                "RowName": "Thatch_Wall_Angle"
+                "RowName": "Thatch_Basic"
             },
             "RecipeSets": [
                 {
@@ -1186,7 +1186,7 @@
         {
             "Name": "Thatch_Ramp",
             "Requirement": {
-                "RowName": "Thatch_Ramp"
+                "RowName": "Thatch_Basic"
             },
             "RecipeSets": [
                 {
@@ -1234,7 +1234,7 @@
         {
             "Name": "Thatch_Roof_Corner",
             "Requirement": {
-                "RowName": "Thatch_Roof_Corner"
+                "RowName": "Thatch_Advanced"
             },
             "RecipeSets": [
                 {
@@ -1282,7 +1282,7 @@
         {
             "Name": "Thatch_Door",
             "Requirement": {
-                "RowName": "Thatch_Door"
+                "RowName": "Thatch_Basic"
             },
             "RecipeSets": [
                 {
@@ -1325,7 +1325,7 @@
         {
             "Name": "Thatch_Window",
             "Requirement": {
-                "RowName": "Thatch_Window"
+                "RowName": "Thatch_Trim"
             },
             "RecipeSets": [
                 {
@@ -1368,7 +1368,7 @@
         {
             "Name": "Thatch_TrapDoor",
             "Requirement": {
-                "RowName": "Thatch_TrapDoor"
+                "RowName": "Thatch_Trim"
             },
             "RecipeSets": [
                 {
@@ -1411,7 +1411,7 @@
         {
             "Name": "Thatch_Railing",
             "Requirement": {
-                "RowName": "Thatch_Railing"
+                "RowName": "Thatch_Trim"
             },
             "RecipeSets": [
                 {
@@ -1454,7 +1454,7 @@
         {
             "Name": "Thatch_Ladder",
             "Requirement": {
-                "RowName": "Thatch_Ladder"
+                "RowName": "Thatch_Trim"
             },
             "RecipeSets": [
                 {
@@ -1709,7 +1709,7 @@
         {
             "Name": "Wood_Beam",
             "Requirement": {
-                "RowName": "Wood_Beam"
+                "RowName": "Wood_Basic"
             },
             "RecipeSets": [
                 {
@@ -1757,7 +1757,7 @@
         {
             "Name": "Wood_Floor",
             "Requirement": {
-                "RowName": "Wood_Floor"
+                "RowName": "Wood_Basic"
             },
             "RecipeSets": [
                 {
@@ -1805,7 +1805,7 @@
         {
             "Name": "Wood_Wall",
             "Requirement": {
-                "RowName": "Wood_Wall"
+                "RowName": "Wood_Basic"
             },
             "RecipeSets": [
                 {
@@ -1853,7 +1853,7 @@
         {
             "Name": "Wood_Halfpiece",
             "Requirement": {
-                "RowName": "Wood_Halfpiece"
+                "RowName": "Wood_Advanced"
             },
             "RecipeSets": [
                 {
@@ -1901,7 +1901,7 @@
         {
             "Name": "Wood_Half_Pitch",
             "Requirement": {
-                "RowName": "Wood_Half_Pitch"
+                "RowName": "Wood_Advanced"
             },
             "RecipeSets": [
                 {
@@ -1949,7 +1949,7 @@
         {
             "Name": "Wood_Wall_Angled",
             "Requirement": {
-                "RowName": "Wood_Wall_Angled"
+                "RowName": "Wood_Basic"
             },
             "RecipeSets": [
                 {
@@ -1997,7 +1997,7 @@
         {
             "Name": "Wood_Ramp",
             "Requirement": {
-                "RowName": "Wood_Ramp"
+                "RowName": "Wood_Basic"
             },
             "RecipeSets": [
                 {
@@ -2045,7 +2045,7 @@
         {
             "Name": "Wood_Roof_Corner",
             "Requirement": {
-                "RowName": "Wood_Roof_Corner"
+                "RowName": "Wood_Advanced"
             },
             "RecipeSets": [
                 {
@@ -2093,7 +2093,7 @@
         {
             "Name": "Wood_Railing",
             "Requirement": {
-                "RowName": "Wood_Railing"
+                "RowName": "Wood_Trim"
             },
             "RecipeSets": [
                 {
@@ -2144,7 +2144,7 @@
         {
             "Name": "Wood_Door",
             "Requirement": {
-                "RowName": "Wood_Door"
+                "RowName": "Wood_Basic"
             },
             "RecipeSets": [
                 {
@@ -2195,7 +2195,7 @@
         {
             "Name": "Wood_Window",
             "Requirement": {
-                "RowName": "Wood_Window"
+                "RowName": "Wood_Trim"
             },
             "RecipeSets": [
                 {
@@ -2246,7 +2246,7 @@
         {
             "Name": "Wood_TrapDoor",
             "Requirement": {
-                "RowName": "Wood_TrapDoor"
+                "RowName": "Wood_Trim"
             },
             "RecipeSets": [
                 {
@@ -2297,7 +2297,7 @@
         {
             "Name": "Wood_Ladder",
             "Requirement": {
-                "RowName": "Wood_Ladder"
+                "RowName": "Wood_Trim"
             },
             "RecipeSets": [
                 {
@@ -2765,6 +2765,14 @@
                 {
                     "RowName": "Anvil_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T3",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T4",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "ResourceCostMultipliers": [
@@ -2829,6 +2837,14 @@
                 {
                     "RowName": "Anvil_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T3",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T4",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "ResourceCostMultipliers": [
@@ -2888,6 +2904,14 @@
                 {
                     "RowName": "Anvil_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T3",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T4",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "ResourceCostMultipliers": [
@@ -2945,6 +2969,14 @@
                 {
                     "RowName": "Anvil_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T3",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T4",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "ResourceCostMultipliers": [
@@ -3000,6 +3032,14 @@
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T3",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T4",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -3065,6 +3105,14 @@
                 {
                     "RowName": "Anvil_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T3",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T4",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -3115,6 +3163,14 @@
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T3",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T4",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -3267,6 +3323,17 @@
                 {
                     "RowName": "Crafting_Bench",
                     "DataTableName": "D_RecipeSets"
+                },                {
+                    "RowName": "Anvil_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T3",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T4",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "ResourceCostMultipliers": [
@@ -3323,6 +3390,17 @@
             "RecipeSets": [
                 {
                     "RowName": "Crafting_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },                {
+                    "RowName": "Anvil_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T3",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T4",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -3482,6 +3560,14 @@
                 {
                     "RowName": "Anvil_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T3",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T4",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "ResourceCostMultipliers": [
@@ -3547,6 +3633,14 @@
                 {
                     "RowName": "Anvil_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T3",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T4",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -3591,6 +3685,14 @@
                 {
                     "RowName": "Anvil_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T3",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T4",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -3634,6 +3736,14 @@
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T3",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T4",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -4320,12 +4430,16 @@
         {
             "Name": "Stone_Frame",
             "Requirement": {
-                "RowName": "Stone_Frame"
+                "RowName": "Stone_Basic"
             },
             "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Masonry_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Masonry_Bench_T3",
                     "DataTableName": "D_RecipeSets"
                 },
                 {
@@ -4389,12 +4503,16 @@
         {
             "Name": "Stone_Beam",
             "Requirement": {
-                "RowName": "Stone_Beam"
+                "RowName": "Stone_Basic"
             },
             "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Masonry_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Masonry_Bench_T3",
                     "DataTableName": "D_RecipeSets"
                 },
                 {
@@ -4458,12 +4576,16 @@
         {
             "Name": "Stone_Floor",
             "Requirement": {
-                "RowName": "Stone_Floor"
+                "RowName": "Stone_Basic"
             },
             "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Masonry_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Masonry_Bench_T3",
                     "DataTableName": "D_RecipeSets"
                 },
                 {
@@ -4527,12 +4649,16 @@
         {
             "Name": "Stone_Wall",
             "Requirement": {
-                "RowName": "Stone_Wall"
+                "RowName": "Stone_Basic"
             },
             "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Masonry_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Masonry_Bench_T3",
                     "DataTableName": "D_RecipeSets"
                 },
                 {
@@ -4596,12 +4722,16 @@
         {
             "Name": "Stone_Halfpiece",
             "Requirement": {
-                "RowName": "Stone_Halfpiece"
+                "RowName": "Stone_Advanced"
             },
             "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Masonry_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Masonry_Bench_T3",
                     "DataTableName": "D_RecipeSets"
                 },
                 {
@@ -4665,12 +4795,16 @@
         {
             "Name": "Stone_Half_Pitch",
             "Requirement": {
-                "RowName": "Stone_Half_Pitch"
+                "RowName": "Stone_Advanced"
             },
             "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Masonry_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Masonry_Bench_T3",
                     "DataTableName": "D_RecipeSets"
                 },
                 {
@@ -4734,12 +4868,16 @@
         {
             "Name": "Stone_Wall_Angled",
             "Requirement": {
-                "RowName": "Stone_Wall_Angled"
+                "RowName": "Stone_Basic"
             },
             "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Masonry_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Masonry_Bench_T3",
                     "DataTableName": "D_RecipeSets"
                 },
                 {
@@ -4803,12 +4941,16 @@
         {
             "Name": "Stone_Ramp",
             "Requirement": {
-                "RowName": "Stone_Ramp"
+                "RowName": "Stone_Basic"
             },
             "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Masonry_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Masonry_Bench_T3",
                     "DataTableName": "D_RecipeSets"
                 },
                 {
@@ -4872,12 +5014,16 @@
         {
             "Name": "Stone_Roof_Corner",
             "Requirement": {
-                "RowName": "Stone_Roof_Corner"
+                "RowName": "Stone_Advanced"
             },
             "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
                     "RowName": "Masonry_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Masonry_Bench_T3",
                     "DataTableName": "D_RecipeSets"
                 },
                 {
@@ -4941,14 +5087,10 @@
         {
             "Name": "Reinforced_Door",
             "Requirement": {
-                "RowName": "Reinforced_Door"
+                "RowName": "Stone_Trim"
             },
             "RequiredMillijoules": 5000,
             "RecipeSets": [
-                {
-                    "RowName": "Crafting_Bench",
-                    "DataTableName": "D_RecipeSets"
-                },
                 {
                     "RowName": "Carpentry_Bench",
                     "DataTableName": "D_RecipeSets"
@@ -5003,20 +5145,16 @@
                 }
             ],
             "Audio": {
-                "RowName": "CraftingBench"
+                "RowName": "CarpentryBench"
             }
         },
         {
             "Name": "Reinforced_Window",
             "Requirement": {
-                "RowName": "Reinforced_Window"
+                "RowName": "Stone_Trim"
             },
             "RequiredMillijoules": 5000,
             "RecipeSets": [
-                {
-                    "RowName": "Crafting_Bench",
-                    "DataTableName": "D_RecipeSets"
-                },
                 {
                     "RowName": "Carpentry_Bench",
                     "DataTableName": "D_RecipeSets"
@@ -5071,20 +5209,16 @@
                 }
             ],
             "Audio": {
-                "RowName": "CraftingBench"
+                "RowName": "CarpentryBench"
             }
         },
         {
             "Name": "Reinforced_TrapDoor",
             "Requirement": {
-                "RowName": "Reinforced_TrapDoor"
+                "RowName": "Stone_Trim"
             },
             "RequiredMillijoules": 5000,
             "RecipeSets": [
-                {
-                    "RowName": "Crafting_Bench",
-                    "DataTableName": "D_RecipeSets"
-                },
                 {
                     "RowName": "Carpentry_Bench",
                     "DataTableName": "D_RecipeSets"
@@ -5139,20 +5273,16 @@
                 }
             ],
             "Audio": {
-                "RowName": "CraftingBench"
+                "RowName": "CarpentryBench"
             }
         },
         {
             "Name": "Reinforced_Ladder",
             "Requirement": {
-                "RowName": "Reinforced_Ladder"
+                "RowName": "Stone_Trim"
             },
             "RequiredMillijoules": 5000,
             "RecipeSets": [
-                {
-                    "RowName": "Crafting_Bench",
-                    "DataTableName": "D_RecipeSets"
-                },
                 {
                     "RowName": "Carpentry_Bench",
                     "DataTableName": "D_RecipeSets"
@@ -5199,7 +5329,7 @@
                 }
             ],
             "Audio": {
-                "RowName": "CraftingBench"
+                "RowName": "CarpentryBench"
             }
         },
         {
@@ -6486,7 +6616,7 @@
             },
             "RecipeSets": [
                 {
-                    "RowName": "Fabricator",
+                    "RowName": "Anvil_Bench_T4",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -6550,7 +6680,7 @@
             },
             "RecipeSets": [
                 {
-                    "RowName": "Fabricator",
+                    "RowName": "Anvil_Bench_T4",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -6737,7 +6867,11 @@
             "RequiredMillijoules": 250,
             "RecipeSets": [
                 {
-                    "RowName": "Machining_Bench",
+                    "RowName": "Anvil_Bench_T3",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T4",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -6794,7 +6928,11 @@
             "RequiredMillijoules": 250,
             "RecipeSets": [
                 {
-                    "RowName": "Machining_Bench",
+                    "RowName": "Anvil_Bench_T3",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T4",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -7037,7 +7175,11 @@
             },
             "RecipeSets": [
                 {
-                    "RowName": "Machining_Bench",
+                    "RowName": "Anvil_Bench_T3",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T4",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -7094,7 +7236,11 @@
             "RequiredMillijoules": 3750,
             "RecipeSets": [
                 {
-                    "RowName": "Machining_Bench",
+                    "RowName": "Anvil_Bench_T3",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T4",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -7151,7 +7297,7 @@
             "RequiredMillijoules": 3750,
             "RecipeSets": [
                 {
-                    "RowName": "Fabricator",
+                    "RowName": "Anvil_Bench_T4",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -7203,7 +7349,7 @@
         {
             "Name": "Concrete_Frame",
             "Requirement": {
-                "RowName": "Concrete_Frame"
+                "RowName": "Concrete_Basic"
             },
             "RequiredMillijoules": 7500,
             "RecipeSets": [
@@ -7264,7 +7410,7 @@
         {
             "Name": "Concrete_Beam",
             "Requirement": {
-                "RowName": "Concrete_Beam"
+                "RowName": "Concrete_Basic"
             },
             "RequiredMillijoules": 7500,
             "RecipeSets": [
@@ -7325,7 +7471,7 @@
         {
             "Name": "Concrete_Floor",
             "Requirement": {
-                "RowName": "Concrete_Floor"
+                "RowName": "Concrete_Basic"
             },
             "RequiredMillijoules": 7500,
             "RecipeSets": [
@@ -7386,7 +7532,7 @@
         {
             "Name": "Concrete_Wall",
             "Requirement": {
-                "RowName": "Concrete_Wall"
+                "RowName": "Concrete_Basic"
             },
             "RequiredMillijoules": 7500,
             "RecipeSets": [
@@ -7447,7 +7593,7 @@
         {
             "Name": "Concrete_Halfpiece",
             "Requirement": {
-                "RowName": "Concrete_Halfpiece"
+                "RowName": "Concrete_Advanced"
             },
             "RequiredMillijoules": 7500,
             "RecipeSets": [
@@ -7508,7 +7654,7 @@
         {
             "Name": "Concrete_Half_Pitch",
             "Requirement": {
-                "RowName": "Concrete_Halfpitch"
+                "RowName": "Concrete_Advanced"
             },
             "RequiredMillijoules": 7500,
             "RecipeSets": [
@@ -7569,7 +7715,7 @@
         {
             "Name": "Concrete_Wall_Angled",
             "Requirement": {
-                "RowName": "Concrete_Wall_Angled"
+                "RowName": "Concrete_Basic"
             },
             "RequiredMillijoules": 7500,
             "RecipeSets": [
@@ -7630,7 +7776,7 @@
         {
             "Name": "Concrete_Ramp",
             "Requirement": {
-                "RowName": "Concrete_Ramp"
+                "RowName": "Concrete_Basic"
             },
             "RequiredMillijoules": 7500,
             "RecipeSets": [
@@ -7691,7 +7837,7 @@
         {
             "Name": "Concrete_Roof_Corner",
             "Requirement": {
-                "RowName": "Concrete_Roof_Corner"
+                "RowName": "Concrete_Advanced"
             },
             "RequiredMillijoules": 7500,
             "RecipeSets": [
@@ -7752,7 +7898,7 @@
         {
             "Name": "Concrete_Window",
             "Requirement": {
-                "RowName": "Concrete_Window"
+                "RowName": "Glass_Trim"
             },
             "RecipeSets": [
                 {
@@ -7803,7 +7949,7 @@
         {
             "Name": "Concrete_TrapDoor",
             "Requirement": {
-                "RowName": "Concrete_TrapDoor"
+                "RowName": "Concrete_Trim"
             },
             "RequiredMillijoules": 7500,
             "RecipeSets": [
@@ -7863,7 +8009,11 @@
             },
             "RecipeSets": [
                 {
-                    "RowName": "Machining_Bench",
+                    "RowName": "Anvil_Bench_T3",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T4",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -8589,7 +8739,7 @@
             "RequiredMillijoules": 250,
             "RecipeSets": [
                 {
-                    "RowName": "Fabricator",
+                    "RowName": "Anvil_Bench_T4",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -9294,7 +9444,7 @@
         {
             "Name": "Wood_Floor_CarpentryBench",
             "Requirement": {
-                "RowName": "Wood_Floor"
+                "RowName": "Wood_Basic"
             },
             "RecipeSets": [
                 {
@@ -9346,7 +9496,7 @@
         {
             "Name": "Wood_Wall_CarpentryBench",
             "Requirement": {
-                "RowName": "Wood_Wall"
+                "RowName": "Wood_Basic"
             },
             "RecipeSets": [
                 {
@@ -9398,7 +9548,7 @@
         {
             "Name": "Wood_Wall_Angled_CarpentryBench",
             "Requirement": {
-                "RowName": "Wood_Wall_Angled"
+                "RowName": "Wood_Basic"
             },
             "RecipeSets": [
                 {
@@ -9450,7 +9600,7 @@
         {
             "Name": "Wood_Ramp_CarpentryBench",
             "Requirement": {
-                "RowName": "Wood_Ramp"
+                "RowName": "Wood_Basic"
             },
             "RecipeSets": [
                 {
@@ -9552,7 +9702,7 @@
         {
             "Name": "Interior_Wood_Floor",
             "Requirement": {
-                "RowName": "Interior_Wood_Floor"
+                "RowName": "Interior_Wood_Basic"
             },
             "RecipeSets": [
                 {
@@ -9604,7 +9754,7 @@
         {
             "Name": "Interior_Wood_Wall",
             "Requirement": {
-                "RowName": "Interior_Wood_Wall"
+                "RowName": "Interior_Wood_Basic"
             },
             "RecipeSets": [
                 {
@@ -9656,7 +9806,7 @@
         {
             "Name": "Interior_Wood_Halfpiece",
             "Requirement": {
-                "RowName": "Interior_Wood_Halfpiece"
+                "RowName": "Interior_Wood_Advanced"
             },
             "RecipeSets": [
                 {
@@ -9708,7 +9858,7 @@
         {
             "Name": "Interior_Wood_Half_Pitch",
             "Requirement": {
-                "RowName": "Interior_Wood_Half_Pitch"
+                "RowName": "Interior_Wood_Advanced"
             },
             "RecipeSets": [
                 {
@@ -9760,7 +9910,7 @@
         {
             "Name": "Interior_Wood_Wall_Angled",
             "Requirement": {
-                "RowName": "Interior_Wood_Wall_Angled"
+                "RowName": "Interior_Wood_Basic"
             },
             "RecipeSets": [
                 {
@@ -9812,7 +9962,7 @@
         {
             "Name": "Interior_Wood_Ramp",
             "Requirement": {
-                "RowName": "Interior_Wood_Ramp"
+                "RowName": "Interior_Wood_Basic"
             },
             "RecipeSets": [
                 {
@@ -9864,7 +10014,7 @@
         {
             "Name": "Interior_Wood_Railing",
             "Requirement": {
-                "RowName": "Interior_Wood_Railing"
+                "RowName": "Interior_Wood_Trim"
             },
             "RecipeSets": [
                 {
@@ -9916,7 +10066,7 @@
         {
             "Name": "Interior_Wood_Door",
             "Requirement": {
-                "RowName": "Interior_Wood_Door"
+                "RowName": "Interior_Wood_Basic"
             },
             "RecipeSets": [
                 {
@@ -9971,7 +10121,7 @@
         {
             "Name": "Interior_Wood_TrapDoor",
             "Requirement": {
-                "RowName": "Interior_Wood_TrapDoor"
+                "RowName": "Interior_Wood_Trim"
             },
             "RecipeSets": [
                 {
@@ -10792,7 +10942,7 @@
             },
             "RecipeSets": [
                 {
-                    "RowName": "Fabricator",
+                    "RowName": "Anvil_Bench_T4",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -10848,7 +10998,7 @@
             },
             "RecipeSets": [
                 {
-                    "RowName": "Fabricator",
+                    "RowName": "Anvil_Bench_T4",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -13088,7 +13238,7 @@
         {
             "Name": "Interior_Wood_Beam",
             "Requirement": {
-                "RowName": "Interior_Wood_Beam"
+                "RowName": "Interior_Wood_Basic"
             },
             "RecipeSets": [
                 {
@@ -13135,7 +13285,7 @@
         {
             "Name": "Interior_Wood_Ladder",
             "Requirement": {
-                "RowName": "Interior_Wood_Ladder"
+                "RowName": "Interior_Wood_Trim"
             },
             "RecipeSets": [
                 {
@@ -13737,7 +13887,7 @@
             },
             "RecipeSets": [
                 {
-                    "RowName": "Fabricator",
+                    "RowName": "Anvil_Bench_T4",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -13804,7 +13954,7 @@
             },
             "RecipeSets": [
                 {
-                    "RowName": "Fabricator",
+                    "RowName": "Anvil_Bench_T4",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -14212,7 +14362,7 @@
         {
             "Name": "Iron_Beam",
             "Requirement": {
-                "RowName": "Iron_Beam"
+                "RowName": "Iron_Basic"
             },
             "RecipeSets": [
                 {
@@ -14268,7 +14418,7 @@
         {
             "Name": "Iron_Floor",
             "Requirement": {
-                "RowName": "Iron_Floor"
+                "RowName": "Iron_Basic"
             },
             "RecipeSets": [
                 {
@@ -14324,7 +14474,7 @@
         {
             "Name": "Iron_Wall",
             "Requirement": {
-                "RowName": "Iron_Wall"
+                "RowName": "Iron_Basic"
             },
             "RecipeSets": [
                 {
@@ -14380,7 +14530,7 @@
         {
             "Name": "Iron_Halfpiece",
             "Requirement": {
-                "RowName": "Iron_Halfpiece"
+                "RowName": "Iron_Advanced"
             },
             "RecipeSets": [
                 {
@@ -14436,7 +14586,7 @@
         {
             "Name": "Iron_Half_Pitch",
             "Requirement": {
-                "RowName": "Iron_Half_Pitch"
+                "RowName": "Iron_Advanced"
             },
             "RecipeSets": [
                 {
@@ -14492,7 +14642,7 @@
         {
             "Name": "Iron_Wall_Angled",
             "Requirement": {
-                "RowName": "Iron_Wall_Angled"
+                "RowName": "Iron_Basic"
             },
             "RecipeSets": [
                 {
@@ -14548,7 +14698,7 @@
         {
             "Name": "Iron_Ramp",
             "Requirement": {
-                "RowName": "Iron_Ramp"
+                "RowName": "Iron_Basic"
             },
             "RecipeSets": [
                 {
@@ -14604,7 +14754,7 @@
         {
             "Name": "Iron_Roof_Corner",
             "Requirement": {
-                "RowName": "Iron_Roof_Corner"
+                "RowName": "Iron_Advanced"
             },
             "RecipeSets": [
                 {
@@ -14660,7 +14810,7 @@
         {
             "Name": "Iron_Door",
             "Requirement": {
-                "RowName": "Iron_Door"
+                "RowName": "Iron_Basic"
             },
             "RecipeSets": [
                 {
@@ -14711,7 +14861,7 @@
         {
             "Name": "Iron_TrapDoor",
             "Requirement": {
-                "RowName": "Iron_TrapDoor"
+                "RowName": "Iron_Trim"
             },
             "RecipeSets": [
                 {
@@ -14762,7 +14912,7 @@
         {
             "Name": "Iron_Window",
             "Requirement": {
-                "RowName": "Iron_Window"
+                "RowName": "Iron_Trim"
             },
             "RecipeSets": [
                 {
@@ -14813,7 +14963,7 @@
         {
             "Name": "Iron_Ladder",
             "Requirement": {
-                "RowName": "Iron_Ladder"
+                "RowName": "Iron_Trim"
             },
             "RecipeSets": [
                 {
@@ -14928,6 +15078,14 @@
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T3",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T4",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -15055,7 +15213,7 @@
         {
             "Name": "Glass_Wall",
             "Requirement": {
-                "RowName": "Glass_Wall"
+                "RowName": "Glass_Basic"
             },
             "RecipeSets": [
                 {
@@ -15111,7 +15269,7 @@
         {
             "Name": "Glass_Halfpiece",
             "Requirement": {
-                "RowName": "Glass_Wall"
+                "RowName": "Glass_Advanced"
             },
             "RecipeSets": [
                 {
@@ -15167,7 +15325,7 @@
         {
             "Name": "Glass_Half_Pitch",
             "Requirement": {
-                "RowName": "Glass_Wall"
+                "RowName": "Glass_Advanced"
             },
             "RecipeSets": [
                 {
@@ -15223,7 +15381,7 @@
         {
             "Name": "Glass_Wall_Angled",
             "Requirement": {
-                "RowName": "Glass_Wall_Angled"
+                "RowName": "Glass_Basic"
             },
             "RecipeSets": [
                 {
@@ -15279,7 +15437,7 @@
         {
             "Name": "Glass_Ramp",
             "Requirement": {
-                "RowName": "Glass_Ramp"
+                "RowName": "Glass_Basic"
             },
             "RecipeSets": [
                 {
@@ -15335,7 +15493,7 @@
         {
             "Name": "Glass_Roof_Corner",
             "Requirement": {
-                "RowName": "Glass_Roof_Corner"
+                "RowName": "Glass_Advanced"
             },
             "RecipeSets": [
                 {
@@ -15391,7 +15549,7 @@
         {
             "Name": "Glass_Beam",
             "Requirement": {
-                "RowName": "Glass_Beam"
+                "RowName": "Glass_Basic"
             },
             "RecipeSets": [
                 {
@@ -15439,7 +15597,7 @@
         {
             "Name": "Glass_Door",
             "Requirement": {
-                "RowName": "Glass_Door"
+                "RowName": "Glass_Basic"
             },
             "RecipeSets": [
                 {
@@ -15490,7 +15648,7 @@
         {
             "Name": "Glass_Window",
             "Requirement": {
-                "RowName": "Glass_Window"
+                "RowName": "Glass_Trim"
             },
             "RecipeSets": [
                 {
@@ -15545,7 +15703,7 @@
             },
             "RecipeSets": [
                 {
-                    "RowName": "Fabricator",
+                    "RowName": "Anvil_Bench_T4",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -15610,7 +15768,7 @@
             "RequiredMillijoules": 250,
             "RecipeSets": [
                 {
-                    "RowName": "Fabricator",
+                    "RowName": "Anvil_Bench_T4",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -15666,7 +15824,7 @@
             },
             "RecipeSets": [
                 {
-                    "RowName": "Fabricator",
+                    "RowName": "Anvil_Bench_T4",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -16267,6 +16425,100 @@
             }
         },
         {
+            "Name": "Steel_Bloom3",
+            "Requirement": {
+                "RowName": "Steel_Bloom"
+            },
+            "RecipeSets": [
+                {
+                    "RowName": "Mortar_And_Pestle",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Material_Processor",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Metal_Ore",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 6,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Charcoal",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 20,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Steel_Bloom",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 5,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "MortarPestle"
+            }
+        },
+        {
+            "Name": "Steel_Bloom4",
+            "Requirement": {
+                "RowName": "Steel_Bloom"
+            },
+            "RecipeSets": [
+                {
+                    "RowName": "Mortar_And_Pestle",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Material_Processor",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Refined_Metal",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 3,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Charcoal",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 20,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Steel_Bloom",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "MortarPestle"
+            }
+        },
+        {
             "Name": "Steel_Ingot",
             "RequiredMillijoules": 15000,
             "RecipeSets": [
@@ -16315,6 +16567,14 @@
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T3",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T4",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -16380,6 +16640,14 @@
                 {
                     "RowName": "Anvil_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T3",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T4",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "ResourceCostMultipliers": [
@@ -16438,6 +16706,14 @@
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T3",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T4",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -18169,6 +18445,14 @@
                 {
                     "RowName": "Anvil_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T3",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T4",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -18200,6 +18484,14 @@
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T3",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T4",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -18268,6 +18560,14 @@
                 {
                     "RowName": "Anvil_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T3",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T4",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -18318,6 +18618,14 @@
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T3",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T4",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -18481,7 +18789,7 @@
                         "RowName": "Steel_Ingot",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 10,
+                    "Count": 1,
                     "DynamicProperties": []
                 }
             ],
@@ -18491,7 +18799,7 @@
                         "RowName": "Steel_Rebar",
                         "DataTableName": "D_ItemTemplate"
                     },
-                    "Count": 100,
+                    "Count": 10,
                     "DynamicProperties": []
                 }
             ],
@@ -18550,7 +18858,11 @@
             "RequiredMillijoules": 250,
             "RecipeSets": [
                 {
-                    "RowName": "Machining_Bench",
+                    "RowName": "Anvil_Bench_T3",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T4",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -18594,7 +18906,7 @@
             "RequiredMillijoules": 250,
             "RecipeSets": [
                 {
-                    "RowName": "Fabricator",
+                    "RowName": "Anvil_Bench_T4",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -19320,7 +19632,11 @@
             },
             "RecipeSets": [
                 {
-                    "RowName": "Machining_Bench",
+                    "RowName": "Anvil_Bench_T3",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T4",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -19376,7 +19692,11 @@
             },
             "RecipeSets": [
                 {
-                    "RowName": "Machining_Bench",
+                    "RowName": "Anvil_Bench_T3",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T4",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -19432,7 +19752,11 @@
             },
             "RecipeSets": [
                 {
-                    "RowName": "Machining_Bench",
+                    "RowName": "Anvil_Bench_T3",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T4",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -19483,7 +19807,11 @@
             },
             "RecipeSets": [
                 {
-                    "RowName": "Machining_Bench",
+                    "RowName": "Anvil_Bench_T3",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T4",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -19542,7 +19870,7 @@
             },
             "RecipeSets": [
                 {
-                    "RowName": "Fabricator",
+                    "RowName": "Anvil_Bench_T4",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -19576,7 +19904,7 @@
                         "RowName": "Titanium_Ingot",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 4,
+                    "Count": 2,
                     "DynamicProperties": []
                 }
             ],
@@ -19601,7 +19929,11 @@
             },
             "RecipeSets": [
                 {
-                    "RowName": "Machining_Bench",
+                    "RowName": "Anvil_Bench_T3",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T4",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -20224,12 +20556,16 @@
         {
             "Name": "Reinforced_Railing",
             "Requirement": {
-                "RowName": "Reinforced_Railing"
+                "RowName": "Stone_Trim"
             },
             "RequiredMillijoules": 5000,
             "RecipeSets": [
                 {
-                    "RowName": "Crafting_Bench",
+                    "RowName": "Carpentry_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Carpentry_Bench_T4",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -20270,13 +20606,13 @@
                 }
             ],
             "Audio": {
-                "RowName": "CraftingBench"
+                "RowName": "CarpentryBench"
             }
         },
         {
             "Name": "Iron_Railing",
             "Requirement": {
-                "RowName": "Iron_Railing"
+                "RowName": "Iron_Trim"
             },
             "RecipeSets": [
                 {
@@ -20327,7 +20663,7 @@
         {
             "Name": "Concrete_Railing",
             "Requirement": {
-                "RowName": "Concrete_Railing"
+                "RowName": "Concrete_Trim"
             },
             "RecipeSets": [
                 {
@@ -20639,7 +20975,7 @@
                         "RowName": "Fur",
                         "DataTableName": "D_ItemTemplate"
                     },
-                    "Count": 12,
+                    "Count": 16,
                     "DynamicProperties": []
                 },
                 {
@@ -20898,7 +21234,7 @@
                         "RowName": "Ammo_Casing",
                         "DataTableName": "D_ItemsStatic"
                     },
-                    "Count": 5,
+                    "Count": 20,
                     "DynamicProperties": []
                 },
                 {
@@ -20932,7 +21268,7 @@
                         "RowName": "Ammo_Shell_Buckshot",
                         "DataTableName": "D_ItemTemplate"
                     },
-                    "Count": 5,
+                    "Count": 20,
                     "DynamicProperties": []
                 }
             ],
@@ -22556,10 +22892,6 @@
             },
             "RecipeSets": [
                 {
-                    "RowName": "Machining_Bench",
-                    "DataTableName": "D_RecipeSets"
-                },
-                {
                     "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
                 }
@@ -22610,10 +22942,6 @@
                 "RowName": "SplineTool_Water"
             },
             "RecipeSets": [
-                {
-                    "RowName": "Machining_Bench",
-                    "DataTableName": "D_RecipeSets"
-                },
                 {
                     "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
@@ -24473,10 +24801,6 @@
             },
             "RequiredMillijoules": 10000,
             "RecipeSets": [
-                {
-                    "RowName": "Machining_Bench",
-                    "DataTableName": "D_RecipeSets"
-                },
                 {
                     "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
@@ -27695,6 +28019,14 @@
                 {
                     "RowName": "Anvil_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T3",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T4",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -27896,7 +28228,7 @@
         {
             "Name": "Glass_Floor",
             "Requirement": {
-                "RowName": "Glass_Floor"
+                "RowName": "Glass_Basic"
             },
             "RecipeSets": [
                 {
@@ -29395,6 +29727,14 @@
                 {
                     "RowName": "Anvil_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T3",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T4",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "ResourceCostMultipliers": [
@@ -29459,6 +29799,14 @@
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T3",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T4",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -33264,7 +33612,15 @@
             },
             "RecipeSets": [
                 {
-                    "RowName": "Crafting_Bench",
+                    "RowName": "Anvil_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T3",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T4",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -33305,7 +33661,7 @@
                 }
             ],
             "Audio": {
-                "RowName": "CraftingBench"
+                "RowName": "AnvilBench"
             }
         },
         {
@@ -33460,7 +33816,7 @@
         {
             "Name": "Wood_Railing_Gate",
             "Requirement": {
-                "RowName": "Wood_Railing"
+                "RowName": "Wood_Trim"
             },
             "RecipeSets": [
                 {
@@ -33691,6 +34047,14 @@
                 {
                     "RowName": "Anvil_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T3",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T4",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "ResourceCostMultipliers": [
@@ -33754,7 +34118,7 @@
             "RequiredMillijoules": 1250,
             "RecipeSets": [
                 {
-                    "RowName": "Fabricator",
+                    "RowName": "Anvil_Bench_T4",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -33821,6 +34185,14 @@
                 {
                     "RowName": "Anvil_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T3",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T4",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "ResourceCostMultipliers": [
@@ -33884,7 +34256,11 @@
             "RequiredMillijoules": 1250,
             "RecipeSets": [
                 {
-                    "RowName": "Machining_Bench",
+                    "RowName": "Anvil_Bench_T3",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T4",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -34067,6 +34443,14 @@
                 {
                     "RowName": "Anvil_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T3",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T4",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "ResourceCostMultipliers": [
@@ -34236,6 +34620,14 @@
                 {
                     "RowName": "Anvil_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T3",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T4",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "ResourceCostMultipliers": [
@@ -34293,6 +34685,14 @@
                 {
                     "RowName": "Anvil_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T3",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T4",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "ResourceCostMultipliers": [
@@ -34347,7 +34747,11 @@
             },
             "RecipeSets": [
                 {
-                    "RowName": "Machining_Bench",
+                    "RowName": "Anvil_Bench_T3",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T4",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -34404,7 +34808,11 @@
             "RequiredMillijoules": 3750,
             "RecipeSets": [
                 {
-                    "RowName": "Machining_Bench",
+                    "RowName": "Anvil_Bench_T3",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T4",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -34461,7 +34869,7 @@
             "RequiredMillijoules": 3750,
             "RecipeSets": [
                 {
-                    "RowName": "Fabricator",
+                    "RowName": "Anvil_Bench_T4",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -34517,7 +34925,7 @@
             },
             "RecipeSets": [
                 {
-                    "RowName": "Fabricator",
+                    "RowName": "Anvil_Bench_T4",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -34699,7 +35107,11 @@
             "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
-                    "RowName": "Machining_Bench",
+                    "RowName": "Anvil_Bench_T3",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T4",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -34772,7 +35184,7 @@
             "RequiredMillijoules": 10000,
             "RecipeSets": [
                 {
-                    "RowName": "Fabricator",
+                    "RowName": "Anvil_Bench_T4",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -35611,10 +36023,6 @@
             },
             "RequiredMillijoules": 10000,
             "RecipeSets": [
-                {
-                    "RowName": "Machining_Bench",
-                    "DataTableName": "D_RecipeSets"
-                },
                 {
                     "RowName": "Fabricator",
                     "DataTableName": "D_RecipeSets"
@@ -41439,7 +41847,7 @@
                 }
             ],
             "Audio": {
-                "RowName": "CraftingBench"
+                "RowName": "Default"
             }
         },
         {
@@ -41450,6 +41858,14 @@
             "RecipeSets": [
                 {
                     "RowName": "Anvil_Bench",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T3",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T4",
                     "DataTableName": "D_RecipeSets"
                 }
             ],
@@ -46074,6 +46490,14 @@
                 {
                     "RowName": "Anvil_Bench",
                     "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T3",
+                    "DataTableName": "D_RecipeSets"
+                },
+                {
+                    "RowName": "Anvil_Bench_T4",
+                    "DataTableName": "D_RecipeSets"
                 }
             ],
             "Inputs": [
@@ -46114,6 +46538,194 @@
             ],
             "Audio": {
                 "RowName": "AnvilBench"
+            }
+        },
+        {
+            "Name": "Anvil_Bench_T3",
+            "Requirement": {
+                "RowName": "Anvil_Bench_T3"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Refined_Metal",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 5,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Stone",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 50,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Epoxy",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 8,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Steel_Ingot",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 5,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Anvil_Bench_T3",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "MachiningBench"
+            }
+        },
+        {
+            "Name": "Anvil_Bench_T4",
+            "Requirement": {
+                "RowName": "Anvil_Bench_T4"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Titanium_Plate",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 5,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Electronics",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 8,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Concrete_Mix",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 15,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Steel_Screw",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 18,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Glass",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 5,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Anvil_Bench_T4",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "MachiningBench"
+            }
+        },
+        {
+            "Name": "Masonry_Bench_T3",
+            "Requirement": {
+                "RowName": "Masonry_Bench_T3"
+            },
+            "RequiredMillijoules": 10000,
+            "RecipeSets": [
+                {
+                    "RowName": "Machining_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ],
+            "Inputs": [
+                {
+                    "Element": {
+                        "RowName": "Wood_Refined",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 25,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Epoxy",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 15,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Iron_Nail",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 80,
+                    "DynamicProperties": []
+                },
+                {
+                    "Element": {
+                        "RowName": "Stone",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Count": 150,
+                    "DynamicProperties": []
+                }
+            ],
+            "Outputs": [
+                {
+                    "Element": {
+                        "RowName": "Masonry_Bench_T3",
+                        "DataTableName": "D_ItemTemplate"
+                    },
+                    "Count": 1,
+                    "DynamicProperties": []
+                }
+            ],
+            "Audio": {
+                "RowName": "MachiningBench"
             }
         }
     ]
